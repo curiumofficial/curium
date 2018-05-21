@@ -1,6 +1,6 @@
 Mac OS X Build Instructions and Notes
 ====================================
-This guide will show you how to build curiumd (headless client) for OSX.
+This guide will show you how to build curiumnd (headless client) for OSX.
 
 Notes
 -----
@@ -42,14 +42,14 @@ Instructions: Homebrew
         
         Note: On High Sierra (or when libzmq cannot be found), libzmq should be replaced with zeromq
 
-### Building `curiumd`
+### Building `curiumnd`
 
 1. Clone the github tree to get the source code and go into the directory.
 
         git clone https://github.com/curiumproject/Curium.git
         cd Curium
 
-2.  Build curiumd:
+2.  Build curiumnd:
         
         chmod +x share/genbuild.sh autogen.sh 
         ./autogen.sh
@@ -62,7 +62,7 @@ Instructions: Homebrew
 
         make check
 
-4.  (Optional) You can also install curiumd to your path:
+4.  (Optional) You can also install curiumnd to your path:
 
         make install
 
@@ -74,7 +74,7 @@ Download Qt Creator from http://www.qt.io/download/. Download the "community edi
 1. Make sure you installed everything through homebrew mentioned above
 2. Do a proper ./configure --with-gui=qt5 --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "curium-qt" as project name, enter src/qt as location
+4. Enter "curiumn-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."
@@ -84,11 +84,11 @@ Download Qt Creator from http://www.qt.io/download/. Download the "community edi
 
 Creating a release build
 ------------------------
-You can ignore this section if you are building `curiumd` for your own use.
+You can ignore this section if you are building `curiumnd` for your own use.
 
-curiumd/curium-cli binaries are not included in the curium-Qt.app bundle.
+curiumnd/curiumn-cli binaries are not included in the curium-Qt.app bundle.
 
-If you are building `curiumd` or `curium-qt` for others, your build machine should be set up
+If you are building `curiumnd` or `curiumn-qt` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -97,16 +97,16 @@ All dependencies should be compiled with these flags:
  -arch x86_64
  -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
 
-Once dependencies are compiled, see release-process.md for how the Curium-Qt.app
+Once dependencies are compiled, see release-process.md for how the Curiumn-Qt.app
 bundle is packaged and signed to create the .dmg disk image that is distributed.
 
 Running
 -------
 
-It's now available at `./curiumd`, provided that you are still in the `src`
+It's now available at `./curiumnd`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./curiumd` to get the filename where it should be put, or just try these
+Run `./curiumnd` to get the filename where it should be put, or just try these
 commands:
 
     echo -e "rpcuser=curiumrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Curium/curium.conf"
@@ -121,9 +121,9 @@ you can monitor its process by looking at the debug.log file, like this:
 Other commands:
 -------
 
-    ./curiumd -daemon # to start the curium daemon.
-    ./curium-cli --help  # for a list of command-line options.
-    ./curium-cli help    # When the daemon is running, to get a list of RPC commands
+    ./curiumnd -daemon # to start the curium daemon.
+    ./curiumn-cli --help  # for a list of command-line options.
+    ./curiumn-cli help    # When the daemon is running, to get a list of RPC commands
     
 Troubleshooting:<a name="trouble"></a>
 ---------
@@ -189,15 +189,15 @@ Then we begin the build process:
 ```./configure```
 ```make```
 
-You have the choice to build the GUI Curium wallet as a Mac OSX app, described in “How to build the Curium-Qt App”. If, for whatever reason, you prefer to use the command line tools, continue with “Command line tools”.
+You have the choice to build the GUI Curium wallet as a Mac OSX app, described in “How to build the Curiumn-Qt App”. If, for whatever reason, you prefer to use the command line tools, continue with “Command line tools”.
 
-### How to build the Curium-Qt App:
+### How to build the Curiumn-Qt App:
 
 After make is finished, you can create an App bundle inside a disk image with:
 
 ```make deploy```
 
-Once this is done, you’ll find Curium-Qt.dmg inside your Curium folder. Open and install the wallet like any typical Mac app.
+Once this is done, you’ll find Curiumn-Qt.dmg inside your Curium folder. Open and install the wallet like any typical Mac app.
 
 ### Command line tools
 
@@ -207,8 +207,8 @@ Once the build is complete, switch into the src/qt subdirectory:
 
 And there you have your wallet – you can start it by running:
 
-```./curium-qt```
+```./curiumn-qt```
 
 You can move the wallet app to another more permanent location. If you have not moved it and want to start your wallet in the future, open Terminal and run this command:
 
-~/Downloads/Curium/src/qt/curium-qt
+~/Downloads/Curium/src/qt/curiumn-qt

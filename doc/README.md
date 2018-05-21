@@ -13,16 +13,16 @@ The following are some helpful notes on how to run Curium on your native platfor
 
 Unpack the files into a directory and run:
 
-- bin/32/curium-qt (GUI, 32-bit) or bin/32/curiumd (headless, 32-bit)
-- bin/64/curium-qt (GUI, 64-bit) or bin/64/curiumd (headless, 64-bit)
+- bin/32/curiumn-qt (GUI, 32-bit) or bin/32/curiumnd (headless, 32-bit)
+- bin/64/curiumn-qt (GUI, 64-bit) or bin/64/curiumnd (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run curium-qt.exe.
+Unpack the files into a directory, and then run curiumn-qt.exe.
 
 ### OSX
 
-Drag Curium-Qt to your applications folder, and then run Curium-Qt.
+Drag Curiumn-Qt to your applications folder, and then run Curiumn-Qt.
 
 ### Need Help?
 

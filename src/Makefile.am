@@ -66,11 +66,11 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += curiumd
+  bin_PROGRAMS += curiumnd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += curium-cli curium-tx
+  bin_PROGRAMS += curiumn-cli curium-tx
 endif
 
 .PHONY: FORCE
@@ -190,7 +190,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between curiumd and curium-qt
+# server: shared between curiumnd and curiumn-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -236,7 +236,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between curiumd and curium-qt, but only linked
+# wallet: shared between curiumnd and curiumn-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -332,7 +332,7 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
   libzerocoin/Params.cpp \
   libzerocoin/SerialNumberSignatureOfKnowledge.cpp
 
-# common: shared between curiumd, and curium-qt and non-server tools
+# common: shared between curiumnd, and curiumn-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   accumulators.cpp \
@@ -392,7 +392,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between curium-cli and curium-qt
+# cli: shared between curiumn-cli and curiumn-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -402,7 +402,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-curiumd_LDADD = \
+curiumnd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -414,26 +414,26 @@ curiumd_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-curiumd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+curiumnd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-curiumd_LDADD += libbitcoin_wallet.a
+curiumnd_LDADD += libbitcoin_wallet.a
 endif
-curiumd_SOURCES = curiumd.cpp
+curiumnd_SOURCES = curiumnd.cpp
 #
 
 if TARGET_WINDOWS
-curiumd_SOURCES += curiumd-res.rc
+curiumnd_SOURCES += curiumnd-res.rc
 endif
 
-curiumd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-curiumd_CPPFLAGS = $(BITCOIN_INCLUDES)
-curiumd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+curiumnd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+curiumnd_CPPFLAGS = $(BITCOIN_INCLUDES)
+curiumnd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# curium-cli binary #
-curium_cli_LDADD = \
+# curiumn-cli binary #
+curiumn_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
@@ -441,10 +441,10 @@ curium_cli_LDADD = \
   $(CRYPTO_LIBS) \
   $(EVENT_LIBS)
 
-curium_cli_SOURCES = \
-  curium-cli.cpp
+curiumn_cli_SOURCES = \
+  curiumn-cli.cpp
 
-curium_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+curiumn_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 #
 
 # curium-tx binary #
@@ -464,9 +464,9 @@ curium_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 curium_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-curium_cli_SOURCES += curium-cli-res.rc
+curiumn_cli_SOURCES += curiumn-cli-res.rc
 endif
-curium_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+curiumn_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

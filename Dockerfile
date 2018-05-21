@@ -19,5 +19,5 @@ RUN echo "rpcuser=$RPC_USER\nrpcpassword=$RPC_PASSWORD" > /root/.curium/curium.c
 EXPOSE 8332 8333 18332 18333
 
 WORKDIR /curium-1.1.0/bin
-CMD ["/curium-1.1.0/bin/curiumd"]
+CMD ["/curium-1.1.0/bin/curiumnd"]
 

@@ -1,5 +1,5 @@
 [Protocol]
-exec=curium-qt '%u'
+exec=curiumn-qt '%u'
 protocol=curium
 input=none
 output=none

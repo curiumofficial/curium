@@ -695,13 +695,13 @@ QWidget#PrivacyDialog QLabel {
 border:0px solid #000;
 }
 
-QWidget#PrivacyDialog QLabel#zPHRLabel {
+QWidget#PrivacyDialog QLabel#zCRULabel {
 font-size:14px;
 color:#ffffff;
 background-color:#00CD8D;
 }
 
-QWidget#PrivacyDialog QLabel#oPHRLabel {
+QWidget#PrivacyDialog QLabel#oCRULabel {
 font-size:14px;
 color:#ffffff;
 background-color:#00CD8D;
@@ -748,8 +748,8 @@ width:1px;
 
 /**************************** SETTINGS MENU *********************************************/
 
-/* Encrypt Wallet and Change Passphrase Dialog */
-QDialog#AskPassphraseDialog QLabel#passLabel1, QDialog#AskPassphraseDialog QLabel#passLabel2, QDialog#AskPassphraseDialog QLabel#passLabel3 {
+/* Encrypt Wallet and Change Passcruase Dialog */
+QDialog#AskPasscruaseDialog QLabel#passLabel1, QDialog#AskPasscruaseDialog QLabel#passLabel2, QDialog#AskPasscruaseDialog QLabel#passLabel3 {
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:170px;
 min-height:33px; /* base width of 25px for QLineEdit, plus padding and border */
@@ -849,12 +849,12 @@ QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScroll
 border:0;
 }
 
-/* About Phore Dialog */
-QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Phore Contents */
+/* About Curium Dialog */
+QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Curium Contents */
 margin-left:10px;
 }
 
-QDialog#AboutDialog QLabel#label_2 { /* Margin for About Phore text */
+QDialog#AboutDialog QLabel#label_2 { /* Margin for About Curium text */
 margin-right:10px;
 }
 
@@ -878,7 +878,7 @@ font-weight:normal;
 min-height:30px;
 }
 
-QWidget .QFrame#frame .QLabel#label_5 { /* PHR Balances Label */
+QWidget .QFrame#frame .QLabel#label_5 { /* CRU Balances Label */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 min-width:160px;
 background-color:transparent;
@@ -1015,7 +1015,7 @@ margin-right:5px;
 padding-right:5px;
 }
 
-QWidget .QFrame#frame_4 .QLabel#labelzBalanceText { /* Available zPHR Label */
+QWidget .QFrame#frame_4 .QLabel#labelzBalanceText { /* Available zCRU Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 background-color:#00CD8D;
@@ -1027,7 +1027,7 @@ font-size:14px;
 /* min-height:35px; */
 }
 
-QWidget .QFrame#frame_4 .QLabel#labelzBalance { /* Available zPHR Balance */
+QWidget .QFrame#frame_4 .QLabel#labelzBalance { /* Available zCRU Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 font-weight:bold;
@@ -1035,7 +1035,7 @@ color:#00CD8D;
 margin-left:0px;
 }
 
-QWidget .QFrame#frame_4 .QLabel#labelzBalanceUnconfirmedText { /* Unconfirmed zPHR Label */
+QWidget .QFrame#frame_4 .QLabel#labelzBalanceUnconfirmedText { /* Unconfirmed zCRU Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 background-color:#00CD8D;
@@ -1047,7 +1047,7 @@ font-size:14px;
 /* min-height:35px; */
 }
 
-QWidget .QFrame#frame_4 .QLabel#labelzBalanceUnconfirmed { /* Unconfirmed zPHR Balance */
+QWidget .QFrame#frame_4 .QLabel#labelzBalanceUnconfirmed { /* Unconfirmed zCRU Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 font-weight:bold;
@@ -1055,7 +1055,7 @@ color:#00CD8D;
 margin-left:0px;
 }
 
-QWidget .QFrame#frame_4 .QLabel#labelzBalanceMatureText { /* Mature zPHR Label */
+QWidget .QFrame#frame_4 .QLabel#labelzBalanceMatureText { /* Mature zCRU Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 background-color:#00CD8D;
@@ -1067,7 +1067,7 @@ font-size:14px;
 /* min-height:35px; */
 }
 
-QWidget .QFrame#frame_4 .QLabel#labelzBalanceMature { /* Mature zPHR Balance */
+QWidget .QFrame#frame_4 .QLabel#labelzBalanceMature { /* Mature zCRU Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 font-weight:bold;
@@ -1075,7 +1075,7 @@ color:#00CD8D;
 margin-left:0px;
 }
 
-QWidget .QFrame#frame_4 .QLabel#labelzBalanceImmatureText { /* Immature zPHR Label */
+QWidget .QFrame#frame_4 .QLabel#labelzBalanceImmatureText { /* Immature zCRU Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 background-color:#00CD8D;
@@ -1087,7 +1087,7 @@ font-size:14px;
 /* min-height:35px; */
 }
 
-QWidget .QFrame#frame_4 .QLabel#labelzBalanceImmature { /* Immature zPHR Balance */
+QWidget .QFrame#frame_4 .QLabel#labelzBalanceImmature { /* Immature zCRU Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 font-weight:bold;
@@ -1106,7 +1106,7 @@ margin-right:5px;
 padding-right:5px;
 }
 
-QWidget .QFrame#frame_3 .QLabel#labelBalanceTextz { /* Available PHR Label */
+QWidget .QFrame#frame_3 .QLabel#labelBalanceTextz { /* Available CRU Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 background-color:#00CD8D;
@@ -1118,7 +1118,7 @@ font-size:14px;
 /* min-height:35px; */
 }
 
-QWidget .QFrame#frame_3 .QLabel#labelBalancez { /* Available PHR Balance */
+QWidget .QFrame#frame_3 .QLabel#labelBalancez { /* Available CRU Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 font-weight:bold;
@@ -1126,7 +1126,7 @@ color:#00CD8D;
 margin-left:0px;
 }
 
-QWidget .QFrame#frame_3 .QLabel#labelzBalanceTextz { /* Available zPHR Label */
+QWidget .QFrame#frame_3 .QLabel#labelzBalanceTextz { /* Available zCRU Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 background-color:#00CD8D;
@@ -1138,7 +1138,7 @@ font-size:14px;
 /* min-height:35px; */
 }
 
-QWidget .QFrame#frame_3 .QLabel#labelzBalancez { /* Available zPHR Balance */
+QWidget .QFrame#frame_3 .QLabel#labelzBalancez { /* Available zCRU Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 font-weight:bold;
@@ -1146,7 +1146,7 @@ color:#00CD8D;
 margin-left:0px;
 }
 
-QWidget .QFrame#frame_3 .QLabel#labelLockedBalanceText { /* Available zPHR Label */
+QWidget .QFrame#frame_3 .QLabel#labelLockedBalanceText { /* Available zCRU Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 background-color:#00CD8D;
@@ -1158,7 +1158,7 @@ font-size:14px;
 /* min-height:35px; */
 }
 
-QWidget .QFrame#frame_3 .QLabel#labelLockedBalance { /* Available zPHR Balance */
+QWidget .QFrame#frame_3 .QLabel#labelLockedBalance { /* Available zCRU Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 font-weight:normal;
@@ -1166,7 +1166,7 @@ color:#00CD8D;
 margin-left:0px;
 }
 
-QWidget .QFrame#frame_3 .QLabel#labelUnLockedBalanceText { /* Available zPHR Label */
+QWidget .QFrame#frame_3 .QLabel#labelUnLockedBalanceText { /* Available zCRU Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 background-color:#00CD8D;
@@ -1178,7 +1178,7 @@ font-size:14px;
 /* min-height:35px; */
 }
 
-QWidget .QFrame#frame_3 .QLabel#labelUnLockedBalance { /* Available zPHR Balance */
+QWidget .QFrame#frame_3 .QLabel#labelUnLockedBalance { /* Available zCRU Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12px;
 font-weight:normal;
@@ -1214,7 +1214,7 @@ min-height:100px;
 margin-right:20px;
 margin-left:0;
 margin-top:0;
-background-image: url(':/images/phore_logo_horizontal');
+background-image: url(':/images/curium_logo_horizontal');
 background-repeat:none;
 }
 

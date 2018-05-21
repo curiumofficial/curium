@@ -62,12 +62,12 @@
         <translation>받는 주소</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>이 주소들은 전송할 Phore 주소입니다. 송금하기 전 항상 금액과 전송할 주소를 확인해주세요.</translation>
+        <source>These are your Curium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>이 주소들은 전송할 Curium 주소입니다. 송금하기 전 항상 금액과 전송할 주소를 확인해주세요.</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>이 주소들은 전송 받을 Phore 주소입니다. 각 트랜잭션별로 새로운 입금 주소를 사용하는 것이 좋습니다.</translation>
+        <source>These are your Curium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>이 주소들은 전송 받을 Curium 주소입니다. 각 트랜잭션별로 새로운 입금 주소를 사용하는 것이 좋습니다.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -114,21 +114,21 @@
     </message>
 </context>
 <context>
-    <name>AskPassphraseDialog</name>
+    <name>AskPasscruaseDialog</name>
     <message>
-        <source>Passphrase Dialog</source>
+        <source>Passcruase Dialog</source>
         <translation>암호 대화상자</translation>
     </message>
     <message>
-        <source>Enter passphrase</source>
+        <source>Enter passcruase</source>
         <translation>암호 입력</translation>
     </message>
     <message>
-        <source>New passphrase</source>
+        <source>New passcruase</source>
         <translation>새로운 암호</translation>
     </message>
     <message>
-        <source>Repeat new passphrase</source>
+        <source>Repeat new passcruase</source>
         <translation>새로운 암호 확인</translation>
     </message>
     <message>
@@ -140,7 +140,7 @@
         <translation>익명화 및 스테이킹 전용</translation>
     </message>
     <message>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passcruase to the wallet.&lt;br/&gt;Please use a passcruase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>지갑에 새로운 암호를 입력해주세요. &lt;br/&gt;&lt;b&gt;10자리 이상의 임의의 문자&lt;/b&gt; 또는, &lt;b&gt;8개 이상의 단어&lt;/b&gt;로 구성된 암호를 입력해주세요.</translation>
     </message>
     <message>
@@ -148,7 +148,7 @@
         <translation>지갑 암호화</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <source>This operation needs your wallet passcruase to unlock the wallet.</source>
         <translation>이 작업은 지갑의 암호를 풀어 지갑을 잠금해제를 진행해야 합니다.</translation>
     </message>
     <message>
@@ -156,7 +156,7 @@
         <translation>지갑 잠금해제</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passcruase to decrypt the wallet.</source>
         <translation>이 작업은 지갑 암호화 해제를 하셔야 가능합니다.</translation>
     </message>
     <message>
@@ -164,11 +164,11 @@
         <translation>지갑 암호화 해제</translation>
     </message>
     <message>
-        <source>Change passphrase</source>
+        <source>Change passcruase</source>
         <translation>암호 변경</translation>
     </message>
     <message>
-        <source>Enter the old and new passphrase to the wallet.</source>
+        <source>Enter the old and new passcruase to the wallet.</source>
         <translation>지갑에 사용할 이전 암호와 새로운 암호를 입력해주세요.</translation>
     </message>
     <message>
@@ -176,16 +176,16 @@
         <translation>지갑 암호화 확인</translation>
     </message>
     <message>
-        <source>Phore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
-        <translation>Phore는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 PHRs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <source>Curium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
+        <translation>Curium는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 CRUs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>지갑을 암호화 하시겠습니까?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PHR&lt;/b&gt;!</source>
-        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 PHR를 잃게 됩니다&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passcruase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
+        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 CRU를 잃게 됩니다&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -204,7 +204,7 @@
         <translation>내부 오류로 인해 지갑 암호화에 실패했습니다. 지갑이 암호화되지 않았습니다.</translation>
     </message>
     <message>
-        <source>The supplied passphrases do not match.</source>
+        <source>The supplied passcruases do not match.</source>
         <translation>암호가 일치하지 않습니다.</translation>
     </message>
     <message>
@@ -212,7 +212,7 @@
         <translation>지갑 잠금해제 실패</translation>
     </message>
     <message>
-        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <source>The passcruase entered for the wallet decryption was incorrect.</source>
         <translation>입력한 지갑 암호가 올바르지 않습니다.</translation>
     </message>
     <message>
@@ -220,7 +220,7 @@
         <translation>지갑 암호화 해제 실패</translation>
     </message>
     <message>
-        <source>Wallet passphrase was successfully changed.</source>
+        <source>Wallet passcruase was successfully changed.</source>
         <translation>지갑 암호가 변경되었습니다.</translation>
     </message>
     <message>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 암호화</translation>
     </message>
     <message>
-        <source>Enter a Phore Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>BIP 38을 사용하여 암호화 할 Phore 주소를 입력하십시오. 중간 입력창에 암호를 입력하십시오. 암호화를 누르면 암호화된 개인 키가 계산됩니다.</translation>
+        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passcruase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>BIP 38을 사용하여 암호화 할 Curium 주소를 입력하십시오. 중간 입력창에 암호를 입력하십시오. 암호화를 누르면 암호화된 개인 키가 계산됩니다.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>주소:</translation>
     </message>
     <message>
-        <source>The Phore address to sign the message with</source>
-        <translation>메세지를 서명하기 위한 Phore 주소</translation>
+        <source>The Curium address to sign the message with</source>
+        <translation>메세지를 서명하기 위한 Curium 주소</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -267,7 +267,7 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passphrase: </source>
+        <source>Passcruase: </source>
         <translation>암호:</translation>
     </message>
     <message>
@@ -279,8 +279,8 @@
         <translation>현재 서명을 시스템 클립 보드에 복사</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>이 Phore 주소를 소유하고 있다는 것을 증명하기 위해 메세지에 서명하십시오</translation>
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>이 Curium 주소를 소유하고 있다는 것을 증명하기 위해 메세지에 서명하십시오</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,16 +299,16 @@
         <translation>&amp;BIP 38 암호화 해제</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passcruase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
         <translation>BIP 38 암호화 된 개인 키를 입력하십시오. 중간 입력창에 암호를 입력하십시오. 키를 암호해제 후 '주소 가져오기'를 클릭하면 개인 키가 지갑에 추가됩니다.</translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>메세지에 서명된 Phore 주소</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>메세지에 서명된 Curium 주소</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
-        <translation>메세지가 지정된 Phore 주소로 서명되었는지 확인해주세요</translation>
+        <source>Verify the message to ensure it was signed with the specified Curium address</source>
+        <translation>메세지가 지정된 Curium 주소로 서명되었는지 확인해주세요</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -331,7 +331,7 @@
         <translation>"키 암호해제"를 클릭하여 키를 입력해주세요.</translation>
     </message>
     <message>
-        <source>The entered passphrase is invalid. </source>
+        <source>The entered passcruase is invalid. </source>
         <translation>입력한 암호 문구가 잘못되었습니다.</translation>
     </message>
     <message>
@@ -363,7 +363,7 @@
         <translation>암호해제에 실패하였습니다.</translation>
     </message>
     <message>
-        <source>Please check the key and passphrase and try again.</source>
+        <source>Please check the key and passcruase and try again.</source>
         <translation>키와 암호를 확인하고 다시 시도해주세요.</translation>
     </message>
     <message>
@@ -470,11 +470,11 @@
         <translation>다른 위치에 지갑 백업</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passcruase...</source>
         <translation>&amp;암호 변경...</translation>
     </message>
     <message>
-        <source>Change the passphrase used for wallet encryption</source>
+        <source>Change the passcruase used for wallet encryption</source>
         <translation>지갑 암호화에 사용되는 암호 변경</translation>
     </message>
     <message>
@@ -602,24 +602,24 @@
         <translation>탭 도구 모음</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Curium Core</source>
+        <translation>Curium Core</translation>
     </message>
     <message>
-        <source>Send coins to a Phore address</source>
-        <translation>Phore 주소로 전송하기</translation>
+        <source>Send coins to a Curium address</source>
+        <translation>Curium 주소로 전송하기</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and phore: URIs)</source>
-        <translation>결제 요청 (QR 코드 및 phore: URI 생성)</translation>
+        <source>Request payments (generates QR codes and curium: URIs)</source>
+        <translation>결제 요청 (QR 코드 및 curium: URI 생성)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
         <translation>&amp;프라이버시</translation>
     </message>
     <message>
-        <source>Privacy Action for zPHR and Obfuscation</source>
-        <translation>zPHR와 난독화를 위한 프라이버스 작업</translation>
+        <source>Privacy Action for zCRU and Obfuscation</source>
+        <translation>zCRU와 난독화를 위한 프라이버스 작업</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -630,31 +630,31 @@
         <translation>마스터노드 검색</translation>
     </message>
     <message>
-        <source>&amp;About Phore Core</source>
-        <translation>Phore Core &amp;정보</translation>
+        <source>&amp;About Curium Core</source>
+        <translation>Curium Core &amp;정보</translation>
     </message>
     <message>
-        <source>Show information about Phore Core</source>
-        <translation>Phore Core에 대한 정보 표시</translation>
+        <source>Show information about Curium Core</source>
+        <translation>Curium Core에 대한 정보 표시</translation>
     </message>
     <message>
-        <source>Modify configuration options for Phore</source>
-        <translation>Phore에 대한 구성 옵션 수정</translation>
+        <source>Modify configuration options for Curium</source>
+        <translation>Curium에 대한 구성 옵션 수정</translation>
     </message>
     <message>
-        <source>Sign messages with your Phore addresses to prove you own them</source>
-        <translation>Phore 주소로 메시지에 서명하여 소유하고 있음을 증명하십시오.</translation>
+        <source>Sign messages with your Curium addresses to prove you own them</source>
+        <translation>Curium 주소로 메시지에 서명하여 소유하고 있음을 증명하십시오.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Phore addresses</source>
-        <translation>메시지가 지정된 Phore 주소로 서명되었는지 확인합니다.</translation>
+        <source>Verify messages to ensure they were signed with specified Curium addresses</source>
+        <translation>메시지가 지정된 Curium 주소로 서명되었는지 확인합니다.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
         <translation>&amp;BIP38 도구</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passphrase</source>
+        <source>Encrypt and decrypt private keys using a passcruase</source>
         <translation>암호를 사용하여 개인 키 암호화 및 암호해제</translation>
     </message>
     <message>
@@ -678,8 +678,8 @@
         <translation>마스터노드 구성 파일 열기</translation>
     </message>
     <message>
-        <source>Open a Phore: URI or payment request</source>
-        <translation>Phore: URI 또는 ​​결제 요청 열기</translation>
+        <source>Open a Curium: URI or payment request</source>
+        <translation>Curium: URI 또는 ​​결제 요청 열기</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -690,16 +690,16 @@
         <translation>블록 탐색 창</translation>
     </message>
     <message>
-        <source>Show the Phore Core help message to get a list with possible Phore command-line options</source>
-        <translation>Phore Core 도움말 메세지를 표시하여 사용 가능한 Phore 명령행 옵션 목록 표시</translation>
+        <source>Show the Curium Core help message to get a list with possible Curium command-line options</source>
+        <translation>Curium Core 도움말 메세지를 표시하여 사용 가능한 Curium 명령행 옵션 목록 표시</translation>
     </message>
     <message>
-        <source>Phore Core client</source>
-        <translation>Phore Core 클라이언트</translation>
+        <source>Curium Core client</source>
+        <translation>Curium Core 클라이언트</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Phore network</source>
-        <translation><numerusform>%n 개 Phore 네트웍에 연결</numerusform></translation>
+        <source>%n active connection(s) to Curium network</source>
+        <translation><numerusform>%n 개 Curium 네트웍에 연결</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -853,8 +853,8 @@ Address: %4
         <translation>텍스트라벨</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (phore.conf).</source>
-        <translation>모든 트랜잭션이 표시되지는 않습니다. 모든 트랜잭션을 보려면 구성 파일 (phore.conf)에 txindex = 1을 설정해야합니다.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (curium.conf).</source>
+        <translation>모든 트랜잭션이 표시되지는 않습니다. 모든 트랜잭션을 보려면 구성 파일 (curium.conf)에 txindex = 1을 설정해야합니다.</translation>
     </message>
 </context>
 <context>
@@ -1142,8 +1142,8 @@ Address: %4
         <translation>보내는 주소 수정</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Phore address.</source>
-        <translation>입력된 주소 "%1"는 올바른 Phore 주소가 아닙니다.</translation>
+        <source>The entered address "%1" is not a valid Curium address.</source>
+        <translation>입력된 주소 "%1"는 올바른 Curium 주소가 아닙니다.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1188,16 +1188,16 @@ Address: %4
         <translation>버전</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Curium Core</source>
+        <translation>Curium Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Phore Core</source>
-        <translation>Phore Core 정보</translation>
+        <source>About Curium Core</source>
+        <translation>Curium Core 정보</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1243,16 +1243,16 @@ Address: %4
         <translation>환영합니다</translation>
     </message>
     <message>
-        <source>Welcome to Phore Core.</source>
-        <translation>Phore Core에 오신 것을 환영합니다.</translation>
+        <source>Welcome to Curium Core.</source>
+        <translation>Curium Core에 오신 것을 환영합니다.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Phore Core will store its data.</source>
-        <translation>이 프로그램이 처음 실행되었으므로 Phore Core가 데이터를 저장할 위치를 선택할 수 있습니다.</translation>
+        <source>As this is the first time the program is launched, you can choose where Curium Core will store its data.</source>
+        <translation>이 프로그램이 처음 실행되었으므로 Curium Core가 데이터를 저장할 위치를 선택할 수 있습니다.</translation>
     </message>
     <message>
-        <source>Phore Core will download and store a copy of the Phore block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Phore Core는 Phore 블록체인을 다운로드하여 저장합니다. 최소 %1GB의 데이터가 디렉토리에 저장되며 시간이 지날수록 증가합니다. 또한 지갑도 해당 디렉토리에 저장됩니다.</translation>
+        <source>Curium Core will download and store a copy of the Curium block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Curium Core는 Curium 블록체인을 다운로드하여 저장합니다. 최소 %1GB의 데이터가 디렉토리에 저장되며 시간이 지날수록 증가합니다. 또한 지갑도 해당 디렉토리에 저장됩니다.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1263,8 +1263,8 @@ Address: %4
         <translation>사용자 지정 데이터 디렉토리 사용:</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Curium Core</source>
+        <translation>Curium Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1405,12 +1405,12 @@ Address: %4
         <translation>보낼 주소 입력</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Phore addresses after it matures.
-To Add: enter percentage to give and Phore address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Curium addresses after it matures.
+To Add: enter percentage to give and Curium address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>다중전송을 사용하면 성취 한 뒤 다른 Phore 주소 목록에 최대 100% 스테이크 또는 마스터노드 보상을 자동으로 보낼 수 있습니다.
-추가하려면 : 부여 할 백분율과 다중전송 벡터에 추가 할 Phore 주소를 입력하십시오.
+        <translation>다중전송을 사용하면 성취 한 뒤 다른 Curium 주소 목록에 최대 100% 스테이크 또는 마스터노드 보상을 자동으로 보낼 수 있습니다.
+추가하려면 : 부여 할 백분율과 다중전송 벡터에 추가 할 Curium 주소를 입력하십시오.
 삭제하려면 삭제할 주소를 입력하고 삭제를 누릅니다.
 활성화를 클릭하지 않으면 다중전송이 활성화되지 않습니다.</translation>
     </message>
@@ -1548,48 +1548,48 @@ Please check the address and try again.</source>
         <translation>익명화 레벨을 선택해주세요.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PHR</source>
-        <translation>2개의 개별 마스터노드를 이용하여 최대 10000 PHR 를 섞을 수 있습니다.</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CRU</source>
+        <translation>2개의 개별 마스터노드를 이용하여 최대 10000 CRU 를 섞을 수 있습니다.</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PHR</source>
-        <translation>8개의 개별 마스터노드를 이용하여 최대 10000 PHR 를 섞을 수 있습니다.</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CRU</source>
+        <translation>8개의 개별 마스터노드를 이용하여 최대 10000 CRU 를 섞을 수 있습니다.</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>16개의 개별 마스터노드를 사용</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PHR to anonymize 10000 PHR</source>
-        <translation>이 옵션은 가장 빠르게 전송되며 10000 PHR 익명화에 약 ~0.025 PHR의 비용이 들어갑니다.</translation>
+        <source>This option is the quickest and will cost about ~0.025 CRU to anonymize 10000 CRU</source>
+        <translation>이 옵션은 가장 빠르게 전송되며 10000 CRU 익명화에 약 ~0.025 CRU의 비용이 들어갑니다.</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PHR to anonymize 10000 PHR</source>
-        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 PHR 익명화에 약 0.05 PHR의 비용이 들어갑니다.</translation>
+        <source>This option is moderately fast and will cost about 0.05 CRU to anonymize 10000 CRU</source>
+        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 CRU 익명화에 약 0.05 CRU의 비용이 들어갑니다.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>이것은 가장 느리고 안전한 옵션입니다. 최고 익명성을 사용하면 비용이 발생합니다.</translation>
     </message>
     <message>
-        <source>0.1 PHR per 10000 PHR you anonymize.</source>
-        <translation>10000 PHR 익명화에 0.1 PHR 가 듭니다.</translation>
+        <source>0.1 CRU per 10000 CRU you anonymize.</source>
+        <translation>10000 CRU 익명화에 0.1 CRU 가 듭니다.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>난독화 구성</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Phore's configuration screen.</source>
-        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 2 rounds) Phore의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Curium's configuration screen.</source>
+        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 2 rounds) Curium의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Phore's configuration screen.</source>
-        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 8 rounds) Phore의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Curium's configuration screen.</source>
+        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 8 rounds) Curium의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Phore's configuration screen.</source>
-        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 16 rounds) Phore의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Curium's configuration screen.</source>
+        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 16 rounds) Curium의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
     </message>
 </context>
 <context>
@@ -1650,8 +1650,8 @@ Please check the address and try again.</source>
         <translation>확인되지 않은 변경사항을 사용하지 않도록 설정하면 해당 트랜잭션에 하나 이상의 컨펌이 진행되야&lt;br/&gt;트랜잭션에 변경사항을 적용할 수 있습니다.&lt;br/&gt;또한 이것은 잔액 계산 방식에도 영향을 줍니다.</translation>
     </message>
     <message>
-        <source>Automatically open the Phore client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>라우터에서 Phore 클라이언트 포트를 자동으로 엽니다. 이 기능은 라우터가 UPnP를 지원하고 활성화 된 경우에만 사용할 수 있습니다.</translation>
+        <source>Automatically open the Curium client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>라우터에서 Curium 클라이언트 포트를 자동으로 엽니다. 이 기능은 라우터가 UPnP를 지원하고 활성화 된 경우에만 사용할 수 있습니다.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1670,12 +1670,12 @@ Please check the address and try again.</source>
         <translation>전문적</translation>
     </message>
     <message>
-        <source>Automatically start Phore after logging in to the system.</source>
-        <translation>시스템 로그인 후 Phore을 자동으로 시작합니다.</translation>
+        <source>Automatically start Curium after logging in to the system.</source>
+        <translation>시스템 로그인 후 Curium을 자동으로 시작합니다.</translation>
     </message>
     <message>
-        <source>&amp;Start Phore on system login</source>
-        <translation>&amp;시스템 로그인시 Phore 시작</translation>
+        <source>&amp;Start Curium on system login</source>
+        <translation>&amp;시스템 로그인시 Curium 시작</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1702,38 +1702,38 @@ Please check the address and try again.</source>
         <translation>&amp;네트워크</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Phore.</source>
-        <translation>사용자 인터페이스 언어를 설정할 수 있습니다. 이 설정은 Phore을 다시 시작한 후에 적용됩니다.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Curium.</source>
+        <translation>사용자 인터페이스 언어를 설정할 수 있습니다. 이 설정은 Curium을 다시 시작한 후에 적용됩니다.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/phore-project/phore-project-translations</source>
+https://www.transifex.com/curium-project/curium-project-translations</source>
         <translation>지원 언어가 없거나 번역이 불완전한가요? 번역을 도와주세요 :
-https://www.transifex.com/phore-project/phore-project-translations</translation>
+https://www.transifex.com/curium-project/curium-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>&amp;UPnp를 사용하여 포트 매핑</translation>
     </message>
     <message>
-        <source>Percentage of incoming PHR which get automatically converted to zPHR via Zerocoin Protocol (min: 10%)</source>
-        <translation>PHR수신시 자동변환 zPHR 퍼센트 (최소값:10%)</translation>
+        <source>Percentage of incoming CRU which get automatically converted to zCRU via Zerocoin Protocol (min: 10%)</source>
+        <translation>CRU수신시 자동변환 zCRU 퍼센트 (최소값:10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPHR</source>
-        <translation>자동 변환되는 zPHR 퍼센트</translation>
+        <source>Percentage of autominted zCRU</source>
+        <translation>자동 변환되는 zCRU 퍼센트</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PHR for this denomination is available</source>
-        <translation>이 디노미네이션의 PHR가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough CRU for this denomination is available</source>
+        <translation>이 디노미네이션의 CRU가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
     </message>
     <message>
-        <source>Preferred Automint zPHR Denomination</source>
-        <translation>선호하는 자동생성 zPHR 디노미네이션 </translation>
+        <source>Preferred Automint zCRU Denomination</source>
+        <translation>선호하는 자동생성 zCRU 디노미네이션 </translation>
     </message>
     <message>
-        <source>Connect to the Phore network through a SOCKS5 proxy.</source>
-        <translation>SOCKS5 프록시를 통해 Phore 네트워크에 연결해주세요.</translation>
+        <source>Connect to the Curium network through a SOCKS5 proxy.</source>
+        <translation>SOCKS5 프록시를 통해 Curium 네트워크에 연결해주세요.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1863,8 +1863,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>Form</translation>
     </message>
     <message>
-        <source>PHR Balances</source>
-        <translation>PHR 잔액</translation>
+        <source>CRU Balances</source>
+        <translation>CRU 잔액</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1891,8 +1891,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>아직 완료되지 않은 스테이크 및 마스터노드 보상</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Phore network after a connection is established, but this process has not completed yet.</source>
-        <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 Phore 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Curium network after a connection is established, but this process has not completed yet.</source>
+        <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 Curium 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1931,12 +1931,12 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>전체 잔액 (대기중 코인 포함)</translation>
     </message>
     <message>
-        <source>PHR:</source>
-        <translation>PHR:</translation>
+        <source>CRU:</source>
+        <translation>CRU:</translation>
     </message>
     <message>
-        <source>zPHR:</source>
-        <translation>zPHR:</translation>
+        <source>zCRU:</source>
+        <translation>zCRU:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1978,12 +1978,12 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>잘못된 결제 주소 %1</translation>
     </message>
     <message>
-        <source>Cannot start phore: click-to-pay handler</source>
-        <translation>Phore을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
+        <source>Cannot start curium: click-to-pay handler</source>
+        <translation>Curium을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Phore address or malformed URI parameters.</source>
-        <translation>URI를 분석할 수 없습니다! 이는 잘못된 Phore 주소 또는 URI 매개변수 손상으로 인해 발생할 수 있습니다.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Curium address or malformed URI parameters.</source>
+        <translation>URI를 분석할 수 없습니다! 이는 잘못된 Curium 주소 또는 URI 매개변수 손상으로 인해 발생할 수 있습니다.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2064,24 +2064,24 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>PHR which were anonymized via Zerocin Protocol</source>
-        <translation>제로코인 프로토콜을 통해 익명화된 PHR</translation>
+        <source>CRU which were anonymized via Zerocin Protocol</source>
+        <translation>제로코인 프로토콜을 통해 익명화된 CRU</translation>
     </message>
     <message>
-        <source>Zerocoin PHR (zPHR)</source>
-        <translation>제로코인 PHR (zPHR)</translation>
+        <source>Zerocoin CRU (zCRU)</source>
+        <translation>제로코인 CRU (zCRU)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
         <translation>제로코인 관리:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Phore network after a connection is established, but this process has not completed yet.</source>
-        <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 Phore 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Curium network after a connection is established, but this process has not completed yet.</source>
+        <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 Curium 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
     </message>
     <message>
-        <source>Enter an amount of Phr to convert to zPhr</source>
-        <translation>zPHR로 변환할 PHR 수량을 입력하세요.</translation>
+        <source>Enter an amount of Cru to convert to zCru</source>
+        <translation>zCRU로 변환할 CRU 수량을 입력하세요.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2092,16 +2092,16 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPHR</source>
-        <translation>zPHR</translation>
+        <source>zCRU</source>
+        <translation>zCRU</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>생성 가능한 수량 :</translation>
     </message>
     <message>
-        <source>0.000 000 00 PHR</source>
-        <translation>0.000 000 00 PHR</translation>
+        <source>0.000 000 00 CRU</source>
+        <translation>0.000 000 00 CRU</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2136,12 +2136,12 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>마지막 발행 이후 상태나 메세지</translation>
     </message>
     <message>
-        <source>zPhr Control</source>
-        <translation>zPHR 설정</translation>
+        <source>zCru Control</source>
+        <translation>zCRU 설정</translation>
     </message>
     <message>
-        <source>zPhr Selected:</source>
-        <translation>선택한 zPHR : </translation>
+        <source>zCru Selected:</source>
+        <translation>선택한 zCRU : </translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2160,8 +2160,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>가능한 잔액:</translation>
     </message>
     <message>
-        <source>0 zPHR</source>
-        <translation>0 zPHR</translation>
+        <source>0 zCRU</source>
+        <translation>0 zCRU</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2180,8 +2180,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>지불 &amp;대상:</translation>
     </message>
     <message>
-        <source>The Phore address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>PHR를 전송할 Phore 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
+        <source>The Curium address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>CRU를 전송할 Curium 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2380,11 +2380,11 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>금액 복사</translation>
     </message>
     <message>
-        <source>Zerocoin functionality is not enabled on the Phore network yet.</source>
-        <translation>제로 코인 기능 상태가 Phore 네트워크 상에서 이루어지지 않습니다.</translation>
+        <source>Zerocoin functionality is not enabled on the Curium network yet.</source>
+        <translation>제로 코인 기능 상태가 Curium 네트워크 상에서 이루어지지 않습니다.</translation>
     </message>
     <message>
-        <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
+        <source>Error: Your wallet is locked. Please enter the wallet passcruase first.</source>
         <translation>Error : 지갑이 잠겨있습니다. 먼저 지갑을 열어주세요.</translation>
     </message>
     <message>
@@ -2400,8 +2400,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>성공적으로 발행됨</translation>
     </message>
     <message>
-        <source> zPHR in </source>
-        <translation> zPHR in </translation>
+        <source> zCRU in </source>
+        <translation> zCRU in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2434,8 +2434,8 @@ Please be patient...</source>
         <translation>주소를 입력하지 않아, 신규 주소를 생성합니다.</translation>
     </message>
     <message>
-        <source>Invalid Phore Address</source>
-        <translation>잘못된 Phore 주소</translation>
+        <source>Invalid Curium Address</source>
+        <translation>잘못된 Curium 주소</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2478,8 +2478,8 @@ Please be patient...</source>
         <translation>제로코인 송금 실패 상태 =</translation>
     </message>
     <message>
-        <source>zPhr Spend #: </source>
-        <translation>zPhr 송금 #: </translation>
+        <source>zCru Spend #: </source>
+        <translation>zCru 송금 #: </translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2502,8 +2502,8 @@ Please be patient...</source>
         <translation>주소:</translation>
     </message>
     <message>
-        <source>zPhr Mint</source>
-        <translation>zPHR 생성</translation>
+        <source>zCru Mint</source>
+        <translation>zCRU 생성</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -2525,8 +2525,8 @@ Please be patient...</source>
         <translation>금액</translation>
     </message>
     <message>
-        <source>Enter a Phore address (e.g. %1)</source>
-        <translation>Phore 주소를 입력하세요 (예 %1)</translation>
+        <source>Enter a Curium address (e.g. %1)</source>
+        <translation>Curium 주소를 입력하세요 (예 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2663,8 +2663,8 @@ Please be patient...</source>
         <translation>블록체인</translation>
     </message>
     <message>
-        <source>Open the Phore debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>현재 데이터 디렉토리에서 Phore 디버그 로그 파일을 엽니다. 로그 파일이 클 경우, 약간의 시간이 걸릴 수 있습니다.</translation>
+        <source>Open the Curium debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>현재 데이터 디렉토리에서 Curium 디버그 로그 파일을 엽니다. 로그 파일이 클 경우, 약간의 시간이 걸릴 수 있습니다.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2832,8 +2832,8 @@ Please be patient...</source>
         <translation>출력:</translation>
     </message>
     <message>
-        <source>Welcome to the Phore RPC console.</source>
-        <translation>Phore RPC 콘솔에 오신 것을 환영합니다.</translation>
+        <source>Welcome to the Curium RPC console.</source>
+        <translation>Curium RPC 콘솔에 오신 것을 환영합니다.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2903,12 +2903,12 @@ Please be patient...</source>
         <translation>새로운 수신 주소와 연결할 선택적 라벨.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Phore network.</source>
-        <translation>요청이 열릴 때 표시되는 결제 요청에 첨부할 선택적 메세지 입니다. 참고: Phore 네트워크를 통한 결제는 메세지가 전송되지 않습니다.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Curium network.</source>
+        <translation>요청이 열릴 때 표시되는 결제 요청에 첨부할 선택적 메세지 입니다. 참고: Curium 네트워크를 통한 결제는 메세지가 전송되지 않습니다.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Phore network.</source>
-        <translation>요청이 열릴 때 표시되는 결제 요청에 첨부할 선택적 메세지 입니다.&lt;br&gt;참고: Phore 네트워크를 통한 결제는 메세지가 전송되지 않습니다.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Curium network.</source>
+        <translation>요청이 열릴 때 표시되는 결제 요청에 첨부할 선택적 메세지 입니다.&lt;br&gt;참고: Curium 네트워크를 통한 결제는 메세지가 전송되지 않습니다.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3132,8 +3132,8 @@ Please be patient...</source>
         <translation>UTXO 크기:</translation>
     </message>
     <message>
-        <source>0 PHR</source>
-        <translation>0 PHR</translation>
+        <source>0 CRU</source>
+        <translation>0 CRU</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3184,16 +3184,16 @@ Please be patient...</source>
         <translation>코인 자동으로 선택됨</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPHRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPHRs in fee,&lt;br /&gt;while "at least" pays 1000 uPHRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uPHRs로 설정되고,&lt;br /&gt;1000 uPHRs 안에는 최소 "킬로바이트당" 250 uPHRs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uCRUs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCRUs in fee,&lt;br /&gt;while "at least" pays 1000 uCRUs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uCRUs로 설정되고,&lt;br /&gt;1000 uCRUs 안에는 최소 "킬로바이트당" 250 uCRUs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPHRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPHRs in fee,&lt;br /&gt;while "total at least" pays 1000 uPHRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uPHRs로 설정되고,&lt;br /&gt;1000 uPHRs 안에는 전체에서 최소 "킬로바이트당" 250 uPHRs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uCRUs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCRUs in fee,&lt;br /&gt;while "total at least" pays 1000 uCRUs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uCRUs로 설정되고,&lt;br /&gt;1000 uCRUs 안에는 전체에서 최소 "킬로바이트당" 250 uCRUs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Phore transactions than the network can process.</source>
-        <translation>블록의 공간보다 트랜잭션량이 적으면 최소 수수료만 지불하면 됩니다.&lt;br /&gt;하지만 Phore 트랜잭션 수가 많으면 미확인된 트랜잭션로 네트워크가 처리할 수도 있습니다.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Curium transactions than the network can process.</source>
+        <translation>블록의 공간보다 트랜잭션량이 적으면 최소 수수료만 지불하면 됩니다.&lt;br /&gt;하지만 Curium 트랜잭션 수가 많으면 미확인된 트랜잭션로 네트워크가 처리할 수도 있습니다.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3240,8 +3240,8 @@ Please be patient...</source>
         <translation>&amp;받는 사람 추가</translation>
     </message>
     <message>
-        <source>Anonymized PHR</source>
-        <translation>익명화 PHR</translation>
+        <source>Anonymized CRU</source>
+        <translation>익명화 CRU</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3300,8 +3300,8 @@ Please be patient...</source>
         <translation>익명 자금</translation>
     </message>
     <message>
-        <source>Warning: Invalid Phore address</source>
-        <translation>경고: 잘못된 Phore 주소</translation>
+        <source>Warning: Invalid Curium address</source>
+        <translation>경고: 잘못된 Curium 주소</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3407,8 +3407,8 @@ Please be patient...</source>
         <translation>지불 &amp;대상:</translation>
     </message>
     <message>
-        <source>The Phore address to send the payment to</source>
-        <translation>전송할 Phore 주소</translation>
+        <source>The Curium address to send the payment to</source>
+        <translation>전송할 Curium 주소</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3447,8 +3447,8 @@ Please be patient...</source>
         <translation>메세지:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Phore: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Phore network.</source>
-        <translation>참조용으로 트랜잭션과 함께 기록되는 Phore : URI에 첨부된 메세지입니다. 참고: 이 메세지는 Phore 네트워크를 통해 전송되지 않습니다.</translation>
+        <source>A message that was attached to the Curium: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Curium network.</source>
+        <translation>참조용으로 트랜잭션과 함께 기록되는 Curium : URI에 첨부된 메세지입니다. 참고: 이 메세지는 Curium 네트워크를 통해 전송되지 않습니다.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3474,8 +3474,8 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Phore Core is shutting down...</source>
-        <translation>Phore Core가 종료됩니다...</translation>
+        <source>Curium Core is shutting down...</source>
+        <translation>Curium Core가 종료됩니다...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3497,8 +3497,8 @@ Please be patient...</source>
         <translation>자신의 주소로 메세지에 서명할 수 있습니다. 피싱 공격으로 사용자를 속일 수 있으므로 서명에 주의해주세요. 동의하는 바에 한하여 서명하십시오.</translation>
     </message>
     <message>
-        <source>The Phore address to sign the message with</source>
-        <translation>메세지를 서명하기 위한 Phore 주소</translation>
+        <source>The Curium address to sign the message with</source>
+        <translation>메세지를 서명하기 위한 Curium 주소</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3529,16 +3529,16 @@ Please be patient...</source>
         <translation>현재 서명을 시스템 클립 보드에 복사</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>이 Phore 주소를 소유하고 있다는 것을 증명하기 위해 메세지에 서명하십시오</translation>
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>이 Curium 주소를 소유하고 있다는 것을 증명하기 위해 메세지에 서명하십시오</translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>메세지에 서명된 Phore 주소</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>메세지에 서명된 Curium 주소</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
-        <translation>메세지가 지정된 Phore 주소로 서명되었는지 확인해주세요</translation>
+        <source>Verify the message to ensure it was signed with the specified Curium address</source>
+        <translation>메세지가 지정된 Curium 주소로 서명되었는지 확인해주세요</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3624,8 +3624,8 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Curium Core</source>
+        <translation>Curium Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3640,8 +3640,8 @@ Please be patient...</source>
         <translation>Dash Core 개발자</translation>
     </message>
     <message>
-        <source>The Phore Core developers</source>
-        <translation>Phore Core 개발자</translation>
+        <source>The Curium Core developers</source>
+        <translation>Curium Core 개발자</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3961,32 +3961,32 @@ Please be patient...</source>
         <translation>난독화</translation>
     </message>
     <message>
-        <source>Converted Phr to zPhr</source>
-        <translation>zPHR로 변환된 PHR</translation>
+        <source>Converted Cru to zCru</source>
+        <translation>zCRU로 변환된 CRU</translation>
     </message>
     <message>
-        <source>Spent zPhr</source>
-        <translation>전송된 zPHR</translation>
+        <source>Spent zCru</source>
+        <translation>전송된 zCRU</translation>
     </message>
     <message>
-        <source>Received Phr from zPhr</source>
-        <translation>zPHR로 전송받은 PHR</translation>
+        <source>Received Cru from zCru</source>
+        <translation>zCRU로 전송받은 CRU</translation>
     </message>
     <message>
-        <source>Minted Change as zPhr from zPhr Spend</source>
-        <translation>zPHR 전송후 남은 잔돈 zPHR 생성됨</translation>
+        <source>Minted Change as zCru from zCru Spend</source>
+        <translation>zCRU 전송후 남은 잔돈 zCRU 생성됨</translation>
     </message>
     <message>
-        <source>Converted zPhr to Phr</source>
-        <translation>zPhr에서 Phr로 변환됨</translation>
+        <source>Converted zCru to Cru</source>
+        <translation>zCru에서 Cru로 변환됨</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>읽기 전용</translation>
     </message>
     <message>
-        <source>zPhr Accumulator</source>
-        <translation>zPhr 누산기</translation>
+        <source>zCru Accumulator</source>
+        <translation>zCru 누산기</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4096,8 +4096,8 @@ Please be patient...</source>
         <translation>마스터노드 보상 </translation>
     </message>
     <message>
-        <source>Received Phr from zPhr</source>
-        <translation>zPHR로 전송받은 PHR</translation>
+        <source>Received Cru from zCru</source>
+        <translation>zCRU로 전송받은 CRU</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4108,8 +4108,8 @@ Please be patient...</source>
         <translation>제로코인 전송</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPhr</source>
-        <translation>제로코인 전송, 잔돈은 zPHR</translation>
+        <source>Zerocoin Spend, Change in zCru</source>
+        <translation>제로코인 전송, 잔돈은 zCRU</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4233,8 +4233,8 @@ Please be patient...</source>
         <translation>코인 전송 </translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 PHR.</source>
-        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 PHR로 제한됩니다.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 CRU.</source>
+        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 CRU로 제한됩니다.</translation>
     </message>
 </context>
 <context>
@@ -4277,10 +4277,10 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>ZPhrControlDialog</name>
+    <name>ZCruControlDialog</name>
     <message>
-        <source>Select zPhr to Spend</source>
-        <translation>전송할 zPHR 선택</translation>
+        <source>Select zCru to Spend</source>
+        <translation>전송할 zCRU 선택</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4291,8 +4291,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPhr</source>
-        <translation>zPhr</translation>
+        <source>zCru</source>
+        <translation>zCru</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4304,7 +4304,7 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>phore-core</name>
+    <name>curium-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = tx 메타 데이터 유지 예 : 계정 소유자 및 지불 요청 정보, 2 = tx 메타 데이터 삭제)</translation>
@@ -4334,8 +4334,8 @@ Please be patient...</source>
         <translation>계산된 누산기 체크포인트는 블록 인덱스에 의해 기록되는 것이 아닙니다.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Phore Core is probably already running.</source>
-        <translation>        &lt;translation&gt;잠겨진 데이터 디렉토리 %s 를 가져올 수 없습니다. Phore Core는 이미 실행 중입니다.</translation>
+        <source>Cannot obtain a lock on data directory %s. Curium Core is probably already running.</source>
+        <translation>        &lt;translation&gt;잠겨진 데이터 디렉토리 %s 를 가져올 수 없습니다. Curium Core는 이미 실행 중입니다.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4354,8 +4354,8 @@ Please be patient...</source>
         <translation>지갑의 모든 트랜잭션들을 삭제하고 오직 블록체인을 통한 트랜잭션 부분들만 복구합니다 -시작 시 다시 스캔</translation>
     </message>
     <message>
-        <source>Disable all Phore specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Phore의 모든 특정 기능들을 비활성화합니다(마스터노드, 난독화, SwiftTX, Budgeting) (0-1, 기본값: %u)</translation>
+        <source>Disable all Curium specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Curium의 모든 특정 기능들을 비활성화합니다(마스터노드, 난독화, SwiftTX, Budgeting) (0-1, 기본값: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -4394,12 +4394,12 @@ Please be patient...</source>
         <translation>최고 블록이 변경될 경우 명령을 실행하십시오 (명령 내 %s 는 블록 해시로 대체 되었습니다)</translation>
     </message>
     <message>
-        <source>Fees (in PHR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>이것보다 작은 수수료 (PHR/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in CRU/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>이것보다 작은 수수료 (CRU/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PHR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>이것보다 작은 수수료 (PHR/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in CRU/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>이것보다 작은 수수료 (CRU/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4494,44 +4494,44 @@ Please be patient...</source>
         <translation>이 제품은 OpenSSL이 개발한 Open SSL 툴킷 &lt;https://www.openssl.org/&gt; 에서 사용하기 위한 프로젝트 소프트웨어, Eric Young이 개발한 암호화 소프트웨어, Thomas Bernard가 개발한 UPnP 소프트웨어가 포함되어 있습니다.</translation>
     </message>
     <message>
-        <source>To use phored, or the -server option to phore-qt, you must set an rpcpassword in the configuration file:
+        <source>To use curiumnd, or the -server option to curiumn-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=phorerpc
+rpcuser=curiumrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Phore Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Curium Alert" admin@foo.com
 </source>
-        <translation>Phored 또는 Phore-qt에 대한 -server 옵션 파일을 사용하려면 configuration 파일에서 rpcpassword를 설정해야 합니다:
+        <translation>Curiumd 또는 Curium-qt에 대한 -server 옵션 파일을 사용하려면 configuration 파일에서 rpcpassword를 설정해야 합니다:
 %s
 다음 무작위 암호를 사용하는 것을 추천합니다:
-rpcuser=Phorepc
+rpcuser=Curiumpc
 rpcpassword=%s
 (이 비밀번호는 기억할 필요가 없습니다)
 유저 이름과 비밀번호는 반드시 달라야 합니다.
 파일이 존재하지 않는다면 작성자만 읽기 가능한 권한으로 파일을 생성하십시오.
 또한 문제 발생 알림을 받을려면 alertnotify를 설정하는 것을 추천합니다.
-예시: alertnotify=echo %%s | mail -s "Phore Alert" admin@foo.com
+예시: alertnotify=echo %%s | mail -s "Curium Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Phore Core is probably already running.</source>
-        <translation>이 컴퓨터를 %s 로 지정하는것은 불가능합니다. Phore Core는 이미 실행 중입니다.</translation>
+        <source>Unable to bind to %s on this computer. Curium Core is probably already running.</source>
+        <translation>이 컴퓨터를 %s 로 지정하는것은 불가능합니다. Curium Core는 이미 실행 중입니다.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>이 트랜잭션를 위해 난독화 표기된 충분한 금액을 찾을 수 없습니다.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PHR.</source>
-        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 PHR과 일치하지 않음.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 CRU.</source>
+        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 CRU과 일치하지 않음.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 PHR.</source>
-        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 PHR와 같지 않음</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 CRU.</source>
+        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 CRU와 같지 않음</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4546,8 +4546,8 @@ rpcpassword=%s
         <translation>경고 : -paytxfee가 매우 높게 설정되었습니다! 이것은 전송할 경우 지불 할 트랜잭션 수수료입니다.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Phore Core will not work properly.</source>
-        <translation>경고: 컴퓨터의 날짜와 시간이 올바르게 설정되어 있는지 확인해 주세요! 만일 시계가 잘못되어 있다면 Phore 코어는 정상적으로 작동하지 않을 수 있습니다.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Curium Core will not work properly.</source>
+        <translation>경고: 컴퓨터의 날짜와 시간이 올바르게 설정되어 있는지 확인해 주세요! 만일 시계가 잘못되어 있다면 Curium 코어는 정상적으로 작동하지 않을 수 있습니다.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4702,8 +4702,8 @@ rpcpassword=%s
         <translation>Copyright (C) 2014-%i The Dash Core 개발자들</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Phore Core Developers</source>
-        <translation>Copyright (C) 2015-%i The Phore Core 개발자</translation>
+        <source>Copyright (C) 2015-%i The Curium Core Developers</source>
+        <translation>Copyright (C) 2015-%i The Curium Core 개발자</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4782,8 +4782,8 @@ rpcpassword=%s
         <translation>wallet.dat을 불러오는 중 오류가 발생했습니다: 지갑 손상됨</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Phore Core</source>
-        <translation>wallet.dat를 로드하는 중 오류가 발생했습니다. 지갑에 최신 버전의 Phore 코어가 필요합니다.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Curium Core</source>
+        <translation>wallet.dat를 로드하는 중 오류가 발생했습니다. 지갑에 최신 버전의 Curium 코어가 필요합니다.</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4834,8 +4834,8 @@ rpcpassword=%s
         <translation>블록을 받아오는데 실패했습니다.</translation>
     </message>
     <message>
-        <source>Fee (in PHR/kB) to add to transactions you send (default: %s)</source>
-        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (PHR/kB) (기본값: %s)</translation>
+        <source>Fee (in CRU/kB) to add to transactions you send (default: %s)</source>
+        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (CRU/kB) (기본값: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4894,8 +4894,8 @@ rpcpassword=%s
         <translation>정보</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Phore Core is shutting down.</source>
-        <translation>초기화 정확성 검사에 실패 했습니다. Phore Core가 종료됩니다.</translation>
+        <source>Initialization sanity check failed. Curium Core is shutting down.</source>
+        <translation>초기화 정확성 검사에 실패 했습니다. Curium Core가 종료됩니다.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5570,8 +5570,8 @@ rpcpassword=%s
         <translation>지갑이 잠겼습니다.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Phore Core to complete</source>
-        <translation>지갑을 다시 작성해야 합니다: 완료하려면 Phore 코어를 재시작해야 합니다</translation>
+        <source>Wallet needed to be rewritten: restart Curium Core to complete</source>
+        <translation>지갑을 다시 작성해야 합니다: 완료하려면 Curium 코어를 재시작해야 합니다</translation>
     </message>
     <message>
         <source>Wallet options:</source>

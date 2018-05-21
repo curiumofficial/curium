@@ -1,31 +1,31 @@
 #!/bin/bash
 #
-#  curiumd The Curium core server.
+#  curiumnd The Curium core server.
 #
 #
 # chkconfig: 345 80 20
-# description: curiumd
-# processname: curiumd
+# description: curiumnd
+# processname: curiumnd
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/curiumd, see below
-if [ -f /etc/sysconfig/curiumd ]; then
-        . /etc/sysconfig/curiumd
+# you can override defaults in /etc/sysconfig/curiumnd, see below
+if [ -f /etc/sysconfig/curiumnd ]; then
+        . /etc/sysconfig/curiumnd
 fi
 
 RETVAL=0
 
-prog=curiumd
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/curiumd
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/curiumd}
+prog=curiumnd
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/curiumnd
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/curiumnd}
 
-# curiumd defaults to /usr/bin/curiumd, override with BITCOIND_BIN
-bitcoind=${BITCOIND_BIN-/usr/bin/curiumd}
+# curiumnd defaults to /usr/bin/curiumnd, override with BITCOIND_BIN
+bitcoind=${BITCOIND_BIN-/usr/bin/curiumnd}
 
-# curiumd opts default to -disablewallet, override with BITCOIND_OPTS
+# curiumnd opts default to -disablewallet, override with BITCOIND_OPTS
 bitcoind_opts=${BITCOIND_OPTS}
 
 start() {

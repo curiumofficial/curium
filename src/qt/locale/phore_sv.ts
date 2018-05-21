@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina Phore adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your Curium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina Curium adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina Phore adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your Curium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina Curium adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -106,25 +106,25 @@
     </message>
 </context>
 <context>
-    <name>AskPassphraseDialog</name>
+    <name>AskPasscruaseDialog</name>
     <message>
-        <source>Passphrase Dialog</source>
+        <source>Passcruase Dialog</source>
         <translation>Lösenfras Dialog</translation>
     </message>
     <message>
-        <source>Enter passphrase</source>
+        <source>Enter passcruase</source>
         <translation>Fyll i lösenfras</translation>
     </message>
     <message>
-        <source>New passphrase</source>
+        <source>New passcruase</source>
         <translation>Ny lösenfras</translation>
     </message>
     <message>
-        <source>Repeat new passphrase</source>
+        <source>Repeat new passcruase</source>
         <translation>Repetera ny lösenfras</translation>
     </message>
     <message>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passcruase to the wallet.&lt;br/&gt;Please use a passcruase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Skriv in den nya lösenfrasen för plånboken.&lt;br/&gt;Var vänlig använd en lösenfras bestående av &lt;b&gt;tio eller mer slumpmässiga bokstäver&lt;/b&gt;, eller &lt;b&gt;åtta eller flera ord &lt;/b&gt;.</translation>
     </message>
     <message>
@@ -132,7 +132,7 @@
         <translation>Kryptera Plånbok</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <source>This operation needs your wallet passcruase to unlock the wallet.</source>
         <translation>Den här processen kräver din plånboks lösenfras för att låsa upp plånboken</translation>
     </message>
     <message>
@@ -140,7 +140,7 @@
         <translation>lås upp plånbok</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passcruase to decrypt the wallet.</source>
         <translation>Den här processen kräver din plånboks lösenfras för att avkryptera plånboken</translation>
     </message>
     <message>
@@ -148,11 +148,11 @@
         <translation>Avkryptera plånbok</translation>
     </message>
     <message>
-        <source>Change passphrase</source>
+        <source>Change passcruase</source>
         <translation>Ändra lösenfras</translation>
     </message>
     <message>
-        <source>Enter the old and new passphrase to the wallet.</source>
+        <source>Enter the old and new passcruase to the wallet.</source>
         <translation>Skriv in den gamla och den nya lösenfrasen för plånboken.</translation>
     </message>
     <message>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>Phore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
-        <translation>Phore kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina PHRs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>Curium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
+        <translation>Curium kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina CRUs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PHR&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA PHR&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passcruase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA CRU&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -188,7 +188,7 @@
         <translation>Plånboks kryptering misslyckades på grund av ett internt fel. Din plånbok blev inte krypterad.</translation>
     </message>
     <message>
-        <source>The supplied passphrases do not match.</source>
+        <source>The supplied passcruases do not match.</source>
         <translation>Den tillhandahållna lösenfrasen stämmer inte överens.</translation>
     </message>
     <message>
@@ -196,7 +196,7 @@
         <translation>Plånboks upplåsning misslyckades</translation>
     </message>
     <message>
-        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <source>The passcruase entered for the wallet decryption was incorrect.</source>
         <translation>Den givna lösenfrasen för plånbokens avkryptering var fel</translation>
     </message>
     <message>
@@ -204,7 +204,7 @@
         <translation>plånboks avkryptering misslyckades</translation>
     </message>
     <message>
-        <source>Wallet passphrase was successfully changed.</source>
+        <source>Wallet passcruase was successfully changed.</source>
         <translation>Ändring av plånbokens lösefras lyckades </translation>
     </message>
     <message>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a Phore Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Ange en Phore adress som du vill kryptera med BIP 38.
+        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passcruase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Ange en Curium adress som du vill kryptera med BIP 38.
 Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The Phore address to sign the message with</source>
-        <translation>Phore adressen för signera meddelandet med</translation>
+        <source>The Curium address to sign the message with</source>
+        <translation>Curium adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -252,7 +252,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passphrase: </source>
+        <source>Passcruase: </source>
         <translation>Lösenfras:</translation>
     </message>
     <message>
@@ -264,8 +264,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Phore adress</translation>
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Curium adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -284,16 +284,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>&amp;BIP 38 Avkryptera</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passcruase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
         <translation>Ange BIP 38 krypterade privata nyckeln. Ange lösenfrasen i med mittersta boxen. Tryck på krypetra nyckel för att beräkna den privata nyckeln. Efter att nyckeln är avkrypterad, Tryck på 'Importera Adress' kommer att lägga till denna privata nyckel till plånboken.</translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>Phore adressen meddelandet blev signerat med</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>Curium adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Phore adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Curium address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Curium adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -316,7 +316,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Tryck "Avkryptera Nyckel" för att beräkna nyckel</translation>
     </message>
     <message>
-        <source>The entered passphrase is invalid. </source>
+        <source>The entered passcruase is invalid. </source>
         <translation>Den angivna lösenfrasen är felaktig</translation>
     </message>
     <message>
@@ -348,7 +348,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Avkryptering misslyckades</translation>
     </message>
     <message>
-        <source>Please check the key and passphrase and try again.</source>
+        <source>Please check the key and passcruase and try again.</source>
         <translation>Var vänlig och kontrollera nyckeln och lösenfrasen och pröva igen.</translation>
     </message>
     <message>
@@ -455,11 +455,11 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Säkerhetskopiera din plånbok till en annan plats</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passcruase...</source>
         <translation>Ändra lösenfras</translation>
     </message>
     <message>
-        <source>Change the passphrase used for wallet encryption</source>
+        <source>Change the passcruase used for wallet encryption</source>
         <translation>Ändra lösenfrasen som används för kryptering av plånbok</translation>
     </message>
     <message>
@@ -583,16 +583,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Kärna</translation>
+        <source>Curium Core</source>
+        <translation>Curium Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a Phore address</source>
-        <translation>Skicka mynt till en Phore adress</translation>
+        <source>Send coins to a Curium address</source>
+        <translation>Skicka mynt till en Curium adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and phore: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och phore: URls)</translation>
+        <source>Request payments (generates QR codes and curium: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och curium: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,36 +603,36 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Phore Core</source>
-        <translation>Om Phore Kärnan</translation>
+        <source>&amp;About Curium Core</source>
+        <translation>Om Curium Kärnan</translation>
     </message>
     <message>
-        <source>Show information about Phore Core</source>
-        <translation>Visa information om Phore Kärnan</translation>
+        <source>Show information about Curium Core</source>
+        <translation>Visa information om Curium Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for Phore</source>
-        <translation>Ändra konfigurationsval för Phore</translation>
+        <source>Modify configuration options for Curium</source>
+        <translation>Ändra konfigurationsval för Curium</translation>
     </message>
     <message>
-        <source>Sign messages with your Phore addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Phore adress för att visa att du äger dem</translation>
+        <source>Sign messages with your Curium addresses to prove you own them</source>
+        <translation>Signera meddelanden med din Curium adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Phore addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Phore adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified Curium addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Curium adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
         <translation>BIP38 Verktyg</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passphrase</source>
+        <source>Encrypt and decrypt private keys using a passcruase</source>
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>Phore Core client</source>
-        <translation>Phore kärn klient</translation>
+        <source>Curium Core client</source>
+        <translation>Curium kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -837,15 +837,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Kärna</translation>
+        <source>Curium Core</source>
+        <translation>Curium Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Kärna</translation>
+        <source>Curium Core</source>
+        <translation>Curium Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1157,8 +1157,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Phore address to sign the message with</source>
-        <translation>Phore adressen för signera meddelandet med</translation>
+        <source>The Curium address to sign the message with</source>
+        <translation>Curium adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1181,16 +1181,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Phore adress</translation>
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Curium adress</translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>Phore adressen meddelandet blev signerat med</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>Curium adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Phore adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Curium address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Curium adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1232,8 +1232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Kärna</translation>
+        <source>Curium Core</source>
+        <translation>Curium Kärna</translation>
     </message>
     </context>
 <context>
@@ -1416,10 +1416,10 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     </context>
 <context>
-    <name>ZPhrControlDialog</name>
+    <name>ZCruControlDialog</name>
     </context>
 <context>
-    <name>phore-core</name>
+    <name>curium-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

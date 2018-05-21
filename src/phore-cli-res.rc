@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Curium"
-            VALUE "FileDescription",    "Curium-cli (OSS RPC client for Curium)"
+            VALUE "FileDescription",    "Curiumn-cli (OSS RPC client for Curium)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "curium-cli"
+            VALUE "InternalName",       "curiumn-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "curium-cli.exe"
-            VALUE "ProductName",        "Curium-cli"
+            VALUE "OriginalFilename",   "curiumn-cli.exe"
+            VALUE "ProductName",        "Curiumn-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between curium-cli and curiumd)
+ * CBaseChainParams defines the base parameters (shared between curiumn-cli and curiumnd)
  * of a given instance of the Curium system.
  */
 class CBaseChainParams

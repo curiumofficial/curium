@@ -22,7 +22,7 @@ make
 make install # optional
 ```
 
-This will build curium-qt as well if the dependencies are met.
+This will build curiumn-qt as well if the dependencies are met.
 
 Dependencies
 ---------------------
@@ -83,7 +83,7 @@ Optional:
 Dependencies for the GUI: Ubuntu & Debian
 -----------------------------------------
 
-If you want to build Curium-Qt, make sure that the required packages for Qt development
+If you want to build Curiumn-Qt, make sure that the required packages for Qt development
 are installed. Qt 5 is necessary to build the GUI.
 If both Qt 4 and Qt 5 are installed, Qt 5 will be used.
 To build without GUI pass `--without-gui`.
@@ -96,12 +96,12 @@ libqrencode (optional) can be installed with:
 
     sudo apt-get install libqrencode-dev
 
-Once these are installed, they will be found by configure and a curium-qt executable will be
+Once these are installed, they will be found by configure and a curiumn-qt executable will be
 built by default.
 
 Notes
 -----
-The release is built with GCC and then "strip curiumd" to strip the debug
+The release is built with GCC and then "strip curiumnd" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 
@@ -190,7 +190,7 @@ Hardening enables the following features:
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
 
-    	scanelf -e ./curiumd
+    	scanelf -e ./curiumnd
 
     The output should contain:
      TYPE
@@ -204,7 +204,7 @@ Hardening enables the following features:
     executable without the non-executable stack protection.
 
     To verify that the stack is non-executable after compiling use:
-    `scanelf -e ./curiumd`
+    `scanelf -e ./curiumnd`
 
     the output should contain:
 	STK/REL/PTL

@@ -56,7 +56,7 @@ Value getinfo(const Array& params, bool fHelp)
             "  \"version\": xxxxx,           (numeric) the server version\n"
             "  \"protocolversion\": xxxxx,   (numeric) the protocol version\n"
             "  \"walletversion\": xxxxx,     (numeric) the wallet version\n"
-            "  \"balance\": xxxxxxx,         (numeric) the total phore balance of the wallet (excluding zerocoins)\n"
+            "  \"balance\": xxxxxxx,         (numeric) the total curium balance of the wallet (excluding zerocoins)\n"
             "  \"zerocoinbalance\": xxxxxxx, (numeric) the total zerocoin balance of the wallet\n"
             "  \"blocks\": xxxxxx,           (numeric) the current number of blocks processed in the server\n"
             "  \"timeoffset\": xxxxx,        (numeric) the time offset\n"
@@ -65,23 +65,23 @@ Value getinfo(const Array& params, bool fHelp)
             "  \"difficulty\": xxxxxx,       (numeric) the current difficulty\n"
             "  \"testnet\": true|false,      (boolean) if the server is using testnet or not\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zPHRsupply\" :\n"
+            "  \"zCRUsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zPHR denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zPHR denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zPHR denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zPHR denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zPHR denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zPHR denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zPHR denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zPHR denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zPHR denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zCRU denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zCRU denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zCRU denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zCRU denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zCRU denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zCRU denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zCRU denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zCRU denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zCRU denominations\n"
             "  }\n"
             "  \"keypoololdest\": xxxxxx,    (numeric) the timestamp (seconds since GMT epoch) of the oldest pre-generated key in the key pool\n"
             "  \"keypoolsize\": xxxx,        (numeric) how many new keys are pre-generated\n"
             "  \"unlocked_until\": ttt,      (numeric) the timestamp in seconds since epoch (midnight Jan 1 1970 GMT) that the wallet is unlocked for transfers, or 0 if the wallet is locked\n"
-            "  \"paytxfee\": x.xxxx,         (numeric) the transaction fee set in phore/kb\n"
-            "  \"relayfee\": x.xxxx,         (numeric) minimum relay fee for non-free transactions in phore/kb\n"
+            "  \"paytxfee\": x.xxxx,         (numeric) the transaction fee set in curium/kb\n"
+            "  \"relayfee\": x.xxxx,         (numeric) minimum relay fee for non-free transactions in curium/kb\n"
             "  \"staking status\": true|false,  (boolean) if the wallet is staking or not\n"
             "  \"errors\": \"...\"           (string) any error messages\n"
             "}\n"
@@ -108,12 +108,12 @@ Value getinfo(const Array& params, bool fHelp)
     obj.push_back(Pair("difficulty", (double)GetDifficulty()));
     obj.push_back(Pair("testnet", Params().TestnetToBeDeprecatedFieldRPC()));
     obj.push_back(Pair("moneysupply",ValueFromAmount(chainActive.Tip()->nMoneySupply)));
-    Object zphrObj;
+    Object zcruObj;
     for (auto denom : libzerocoin::zerocoinDenomList) {
-        zphrObj.push_back(Pair(to_string(denom), ValueFromAmount(chainActive.Tip()->mapZerocoinSupply.at(denom) * (denom*COIN))));
+        zcruObj.push_back(Pair(to_string(denom), ValueFromAmount(chainActive.Tip()->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
-    zphrObj.emplace_back(Pair("total", ValueFromAmount(chainActive.Tip()->GetZerocoinSupply())));
-    obj.emplace_back(Pair("zPHRsupply", zphrObj));
+    zcruObj.emplace_back(Pair("total", ValueFromAmount(chainActive.Tip()->GetZerocoinSupply())));
+    obj.emplace_back(Pair("zCRUsupply", zcruObj));
     
 #ifdef ENABLE_WALLET
     if (pwalletMain) {
@@ -294,21 +294,21 @@ Value spork(const Array& params, bool fHelp)
         "spork <name> [<value>]\n"
         "<name> is the corresponding spork name, or 'show' to show all current spork settings, active to show which sporks are active"
         "<value> is a epoch datetime to enable or disable spork" +
-        HelpRequiringPassphrase());
+        HelpRequiringPasscruase());
 }
 
 Value validateaddress(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
-            "validateaddress \"phoreaddress\"\n"
-            "\nReturn information about the given phore address.\n"
+            "validateaddress \"curiumaddress\"\n"
+            "\nReturn information about the given curium address.\n"
             "\nArguments:\n"
-            "1. \"phoreaddress\"     (string, required) The phore address to validate\n"
+            "1. \"curiumaddress\"     (string, required) The curium address to validate\n"
             "\nResult:\n"
             "{\n"
             "  \"isvalid\" : true|false,         (boolean) If the address is valid or not. If not, this is the only property returned.\n"
-            "  \"address\" : \"phoreaddress\", (string) The phore address validated\n"
+            "  \"address\" : \"curiumaddress\", (string) The curium address validated\n"
             "  \"ismine\" : true|false,          (boolean) If the address is yours or not\n"
             "  \"isscript\" : true|false,        (boolean) If the key is a script\n"
             "  \"pubkey\" : \"publickeyhex\",    (string) The hex value of the raw public key\n"
@@ -365,7 +365,7 @@ CScript _createmultisig_redeemScript(const Array& params)
     for (unsigned int i = 0; i < keys.size(); i++) {
         const std::string& ks = keys[i].get_str();
 #ifdef ENABLE_WALLET
-        // Case 1: Phore address and we have full public key:
+        // Case 1: Curium address and we have full public key:
         CBitcoinAddress address(ks);
         if (pwalletMain && address.IsValid()) {
             CKeyID keyID;
@@ -411,9 +411,9 @@ Value createmultisig(const Array& params, bool fHelp)
 
                      "\nArguments:\n"
                      "1. nrequired      (numeric, required) The number of required signatures out of the n keys or addresses.\n"
-                     "2. \"keys\"       (string, required) A json array of keys which are phore addresses or hex-encoded public keys\n"
+                     "2. \"keys\"       (string, required) A json array of keys which are curium addresses or hex-encoded public keys\n"
                      "     [\n"
-                     "       \"key\"    (string) phore address or hex-encoded public key\n"
+                     "       \"key\"    (string) curium address or hex-encoded public key\n"
                      "       ,...\n"
                      "     ]\n"
 
@@ -446,17 +446,17 @@ Value verifymessage(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 3)
         throw runtime_error(
-            "verifymessage \"phoreaddress\" \"signature\" \"message\"\n"
+            "verifymessage \"curiumaddress\" \"signature\" \"message\"\n"
             "\nVerify a signed message\n"
             "\nArguments:\n"
-            "1. \"phoreaddress\"  (string, required) The phore address to use for the signature.\n"
+            "1. \"curiumaddress\"  (string, required) The curium address to use for the signature.\n"
             "2. \"signature\"       (string, required) The signature provided by the signer in base 64 encoding (see signmessage).\n"
             "3. \"message\"         (string, required) The message that was signed.\n"
             "\nResult:\n"
             "true|false   (boolean) If the signature is verified or not.\n"
             "\nExamples:\n"
             "\nUnlock the wallet for 30 seconds\n" +
-            HelpExampleCli("walletpassphrase", "\"mypassphrase\" 30") +
+            HelpExampleCli("walletpasscruase", "\"mypasscruase\" 30") +
             "\nCreate the signature\n" + HelpExampleCli("signmessage", "\"1D1ZrZNe3JUo7ZycKEYQQiQAWd9y54F4XZ\" \"my message\"") +
             "\nVerify the signature\n" + HelpExampleCli("verifymessage", "\"1D1ZrZNe3JUo7ZycKEYQQiQAWd9y54F4XZ\" \"signature\" \"my message\"") +
             "\nAs json rpc\n" + HelpExampleRpc("verifymessage", "\"1D1ZrZNe3JUo7ZycKEYQQiQAWd9y54F4XZ\", \"signature\", \"my message\""));

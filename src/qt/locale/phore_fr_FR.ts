@@ -106,62 +106,62 @@
     </message>
 </context>
 <context>
-    <name>AskPassphraseDialog</name>
+    <name>AskPasscruaseDialog</name>
     <message>
-        <source>Enter passphrase</source>
-        <translation>Entrer la phrase secrète</translation>
+        <source>Enter passcruase</source>
+        <translation>Entrer la cruase secrète</translation>
     </message>
     <message>
-        <source>New passphrase</source>
-        <translation>Nouvelle phrase secrète</translation>
+        <source>New passcruase</source>
+        <translation>Nouvelle cruase secrète</translation>
     </message>
     <message>
-        <source>Repeat new passphrase</source>
-        <translation>Confirmer la nouvelle phrase secrète</translation>
+        <source>Repeat new passcruase</source>
+        <translation>Confirmer la nouvelle cruase secrète</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
         <translation>Crypter le portefeuille</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Cette opération requiert votre phrase secrète pour déverrouiller votre portefeuille.</translation>
+        <source>This operation needs your wallet passcruase to unlock the wallet.</source>
+        <translation>Cette opération requiert votre cruase secrète pour déverrouiller votre portefeuille.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
         <translation>Déverrouiller le portefeuille</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Cette opération nécessite votre phrase secrète de portefeuille pour décrypter le portefeuille </translation>
+        <source>This operation needs your wallet passcruase to decrypt the wallet.</source>
+        <translation>Cette opération nécessite votre cruase secrète de portefeuille pour décrypter le portefeuille </translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
         <translation>Décrypter le portefeuille</translation>
     </message>
     <message>
-        <source>Change passphrase</source>
-        <translation>Changer la phrase secrète</translation>
+        <source>Change passcruase</source>
+        <translation>Changer la cruase secrète</translation>
     </message>
     <message>
-        <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Entrer l'ancienne et la nouvelle phrase secrète dans le portefeuille</translation>
+        <source>Enter the old and new passcruase to the wallet.</source>
+        <translation>Entrer l'ancienne et la nouvelle cruase secrète dans le portefeuille</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>Phore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
-        <translation>Phore va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos PHRs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>Curium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
+        <translation>Curium va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos CRUs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Êtes-vous sûr de vouloir crypter votre portefeuille?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PHR&lt;/b&gt;!</source>
-        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS PHR&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passcruase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
+        <translation>Attention : si vous cryptez votre portefeuille et perdez votre cruase secrète, vous &lt;b&gt;PERDREZ TOUS VOS CRU&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -176,24 +176,24 @@
         <translation>Le cryptage du portefeuille a échoué en raison d'une erreur interne. Votre portefeuille n'a pas été crypté.</translation>
     </message>
     <message>
-        <source>The supplied passphrases do not match.</source>
-        <translation>Les phrases secrètes fournies ne correspondent pas.</translation>
+        <source>The supplied passcruases do not match.</source>
+        <translation>Les cruases secrètes fournies ne correspondent pas.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
         <translation>Le déverrouillage de votre portefeuille a échoué</translation>
     </message>
     <message>
-        <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>La phrase secrète entrée pour le décryptage de votre portefeuille était incorrecte.</translation>
+        <source>The passcruase entered for the wallet decryption was incorrect.</source>
+        <translation>La cruase secrète entrée pour le décryptage de votre portefeuille était incorrecte.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
         <translation>Le décryptage de votre portefeuille a échoué.</translation>
     </message>
     <message>
-        <source>Wallet passphrase was successfully changed.</source>
-        <translation>La phrase secrète de votre portefeuille a été changée avec succès.</translation>
+        <source>Wallet passcruase was successfully changed.</source>
+        <translation>La cruase secrète de votre portefeuille a été changée avec succès.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -211,16 +211,16 @@
         <translation>BIP 38 crypter</translation>
     </message>
     <message>
-        <source>Enter a Phore Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Entrez une adresse Phore que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
+        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passcruase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Entrez une adresse Curium que vous voulez crypter en utilisant BIP 38. Entrez une cruase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse :</translation>
     </message>
     <message>
-        <source>The Phore address to sign the message with</source>
-        <translation>L'adresse Phore avec laquelle signer le message</translation>
+        <source>The Curium address to sign the message with</source>
+        <translation>L'adresse Curium avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -239,8 +239,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passphrase: </source>
-        <translation>Phrase secrète :</translation>
+        <source>Passcruase: </source>
+        <translation>Cruase secrète :</translation>
     </message>
     <message>
         <source>Encrypted Key:</source>
@@ -251,8 +251,8 @@
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse Phore</translation>
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse Curium</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -271,12 +271,12 @@
         <translation>BIP 38 Décrypter</translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>L'adresse Phore avec laquelle le message a été signé</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>L'adresse Curium avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Phore renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified Curium address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Curium renseignée</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -295,8 +295,8 @@
         <translation>Cliquez sur "Décrypter la clé" pour calculer la clé</translation>
     </message>
     <message>
-        <source>The entered passphrase is invalid. </source>
-        <translation>La phrase secrète entrée est incorrect.</translation>
+        <source>The entered passcruase is invalid. </source>
+        <translation>La cruase secrète entrée est incorrect.</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -327,8 +327,8 @@
         <translation>Échec du décryptage.</translation>
     </message>
     <message>
-        <source>Please check the key and passphrase and try again.</source>
-        <translation>Veuillez vérifier la clé et la phrase secrète et réessayer.</translation>
+        <source>Please check the key and passcruase and try again.</source>
+        <translation>Veuillez vérifier la clé et la cruase secrète et réessayer.</translation>
     </message>
     <message>
         <source>Data Not Valid.</source>
@@ -422,12 +422,12 @@
         <translation>Sauvegarder ailleurs le portefeuille </translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>Changer la phrase de sécurité...</translation>
+        <source>&amp;Change Passcruase...</source>
+        <translation>Changer la cruase de sécurité...</translation>
     </message>
     <message>
-        <source>Change the passphrase used for wallet encryption</source>
-        <translation>Changer la phrase secrète utilisée pour l'encryptage du portefeuille</translation>
+        <source>Change the passcruase used for wallet encryption</source>
+        <translation>Changer la cruase secrète utilisée pour l'encryptage du portefeuille</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
@@ -534,8 +534,8 @@
         <translation>&amp;Aide</translation>
     </message>
     <message>
-        <source>Send coins to a Phore address</source>
-        <translation>Envoyer des pièces à une adresse Phore</translation>
+        <source>Send coins to a Curium address</source>
+        <translation>Envoyer des pièces à une adresse Curium</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -546,24 +546,24 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>Modify configuration options for Phore</source>
-        <translation>Modifier les options de configuration pour Phore</translation>
+        <source>Modify configuration options for Curium</source>
+        <translation>Modifier les options de configuration pour Curium</translation>
     </message>
     <message>
-        <source>Sign messages with your Phore addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse Phore pour prouver qu'elles sont bien à vous.</translation>
+        <source>Sign messages with your Curium addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresse Curium pour prouver qu'elles sont bien à vous.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Phore addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse Phore spécifié</translation>
+        <source>Verify messages to ensure they were signed with specified Curium addresses</source>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse Curium spécifié</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
         <translation>Outil BIP38</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passphrase</source>
-        <translation>Crypter et décrypter les clés privées en utilisant une phrase secrète</translation>
+        <source>Encrypt and decrypt private keys using a passcruase</source>
+        <translation>Crypter et décrypter les clés privées en utilisant une cruase secrète</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -653,8 +653,8 @@ Adresse : %4
         <translation>Chercher</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (phore.conf).</source>
-        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (phore.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (curium.conf).</source>
+        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (curium.conf).</translation>
     </message>
 </context>
 <context>
@@ -854,8 +854,8 @@ Adresse : %4
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Phore address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse Phore valide</translation>
+        <source>The entered address "%1" is not a valid Curium address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse Curium valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1038,32 +1038,32 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Veuillez sélectionner un niveau de confidentialité.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PHR</source>
-        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 10000 PHR</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CRU</source>
+        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 10000 CRU</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PHR</source>
-        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 10000 PHR</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CRU</source>
+        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 10000 CRU</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utiliser 16 masternodes différentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PHR to anonymize 10000 PHR</source>
-        <translation>Cette option est la plus rapide, et coutera ~0.025 PHR pour anonymiser 10000 PHR</translation>
+        <source>This option is the quickest and will cost about ~0.025 CRU to anonymize 10000 CRU</source>
+        <translation>Cette option est la plus rapide, et coutera ~0.025 CRU pour anonymiser 10000 CRU</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PHR to anonymize 10000 PHR</source>
-        <translation>Cette option est moyennement rapide, et coutera 0.05 PHR pour anonymiser 10000 PHR</translation>
+        <source>This option is moderately fast and will cost about 0.05 CRU to anonymize 10000 CRU</source>
+        <translation>Cette option est moyennement rapide, et coutera 0.05 CRU pour anonymiser 10000 CRU</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Il s'agit de l'option la plus lente est la plus sécurisé. Utiliser l'anonymat maximum coutera</translation>
     </message>
     <message>
-        <source>0.1 PHR per 10000 PHR you anonymize.</source>
-        <translation>0.1 PHR par 10000 PHR vous anonymisez.</translation>
+        <source>0.1 CRU per 10000 CRU you anonymize.</source>
+        <translation>0.1 CRU par 10000 CRU vous anonymisez.</translation>
     </message>
     </context>
 <context>
@@ -1433,8 +1433,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Après commission</translation>
     </message>
     <message>
-        <source>0 PHR</source>
-        <translation>0 PHR</translation>
+        <source>0 CRU</source>
+        <translation>0 CRU</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -1524,8 +1524,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The Phore address to send the payment to</source>
-        <translation>L'adresse Phore à laquelle envoyer le paiement</translation>
+        <source>The Curium address to send the payment to</source>
+        <translation>L'adresse Curium à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1570,8 +1570,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Signer le message</translation>
     </message>
     <message>
-        <source>The Phore address to sign the message with</source>
-        <translation>L'adresse Phore avec laquelle signer le message</translation>
+        <source>The Curium address to sign the message with</source>
+        <translation>L'adresse Curium avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1598,16 +1598,16 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse Phore</translation>
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse Curium</translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>L'adresse Phore avec laquelle le message a été signé</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>L'adresse Curium avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Phore renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified Curium address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Curium renseignée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1801,14 +1801,14 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-    <name>ZPhrControlDialog</name>
+    <name>ZCruControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     </context>
 <context>
-    <name>phore-core</name>
+    <name>curium-core</name>
     <message>
         <source>Error</source>
         <translation>Erreur</translation>

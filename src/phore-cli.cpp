@@ -71,9 +71,9 @@ static bool AppInitRPC(int argc, char* argv[])
         std::string strUsage = _("Curium Core RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  curium-cli [options] <command> [params]  " + _("Send command to Curium Core") + "\n" +
-                        "  curium-cli [options] help                " + _("List commands") + "\n" +
-                        "  curium-cli [options] help <command>      " + _("Get help for a command") + "\n";
+                        "  curiumn-cli [options] <command> [params]  " + _("Send command to Curium Core") + "\n" +
+                        "  curiumn-cli [options] help                " + _("List commands") + "\n" +
+                        "  curiumn-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessageCli();
         }

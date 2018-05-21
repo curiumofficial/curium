@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços Phore para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
+        <source>These are your Curium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços Curium para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços Phore para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your Curium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços Curium para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -114,21 +114,21 @@
     </message>
 </context>
 <context>
-    <name>AskPassphraseDialog</name>
+    <name>AskPasscruaseDialog</name>
     <message>
-        <source>Passphrase Dialog</source>
+        <source>Passcruase Dialog</source>
         <translation>Caixa de diálogo de Senha</translation>
     </message>
     <message>
-        <source>Enter passphrase</source>
+        <source>Enter passcruase</source>
         <translation>Digite sua senha</translation>
     </message>
     <message>
-        <source>New passphrase</source>
+        <source>New passcruase</source>
         <translation>Nova senha</translation>
     </message>
     <message>
-        <source>Repeat new passphrase</source>
+        <source>Repeat new passcruase</source>
         <translation>Repetir senha</translation>
     </message>
     <message>
@@ -140,7 +140,7 @@
         <translation>Apenas para anonimização e staking</translation>
     </message>
     <message>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passcruase to the wallet.&lt;br/&gt;Please use a passcruase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Digite a nova senha para a carteira.&lt;br/&gt;Use uma senha com &lt;b&gt;10 ou mais caracteres aleatórios&lt;/b&gt;, ou &lt;b&gt;oito palavras ou mais&lt;/b&gt;.</translation>
     </message>
     <message>
@@ -148,7 +148,7 @@
         <translation>Criptografar carteira</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <source>This operation needs your wallet passcruase to unlock the wallet.</source>
         <translation>Para esta operação, é necessário desbloquear a carteira com a sua senha.</translation>
     </message>
     <message>
@@ -156,7 +156,7 @@
         <translation>Desbloquear carteira</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passcruase to decrypt the wallet.</source>
         <translation>Para esta operação, é necessário desbloquear a carteira com a sua senha.</translation>
     </message>
     <message>
@@ -164,11 +164,11 @@
         <translation>Descriptografar carteira</translation>
     </message>
     <message>
-        <source>Change passphrase</source>
+        <source>Change passcruase</source>
         <translation>Alterar senha</translation>
     </message>
     <message>
-        <source>Enter the old and new passphrase to the wallet.</source>
+        <source>Enter the old and new passcruase to the wallet.</source>
         <translation>Digite a senha antiga e a nova senha</translation>
     </message>
     <message>
@@ -176,16 +176,16 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>Phore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
-        <translation>Phore encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas PHRs contra roubo por malware infectando seu computador.</translation>
+        <source>Curium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
+        <translation>Curium encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas CRUs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Tem certeza que deseja encriptar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PHR&lt;/b&gt;!</source>
-        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA PHR&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passcruase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
+        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA CRU&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -204,7 +204,7 @@
         <translation>A encriptação da carteira falhou por causa de um erro interno. Sua carteira não foi encriptada.</translation>
     </message>
     <message>
-        <source>The supplied passphrases do not match.</source>
+        <source>The supplied passcruases do not match.</source>
         <translation>As senhas digitadas não conferem.</translation>
     </message>
     <message>
@@ -212,7 +212,7 @@
         <translation>Falha ao desbloquear a carteira</translation>
     </message>
     <message>
-        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <source>The passcruase entered for the wallet decryption was incorrect.</source>
         <translation>A senha usada para decriptar a carteira estava incorreta.</translation>
     </message>
     <message>
@@ -220,7 +220,7 @@
         <translation>Decriptação da carteira falhou</translation>
     </message>
     <message>
-        <source>Wallet passphrase was successfully changed.</source>
+        <source>Wallet passcruase was successfully changed.</source>
         <translation>Senha da carteira alterada com sucesso.</translation>
     </message>
     <message>
@@ -239,16 +239,16 @@
         <translation>Encriptar com &amp;BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Phore Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Digite um endereço Phore que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
+        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passcruase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Digite um endereço Curium que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The Phore address to sign the message with</source>
-        <translation>Um endereço Phore para assinar a mensagem</translation>
+        <source>The Curium address to sign the message with</source>
+        <translation>Um endereço Curium para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -267,7 +267,7 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passphrase: </source>
+        <source>Passcruase: </source>
         <translation>Senha:</translation>
     </message>
     <message>
@@ -279,8 +279,8 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço Phore.</translation>
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço Curium.</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,8 +299,8 @@
         <translation>Criptografia BIP 38</translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>O endereço Phore que foi assinado com</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>O endereço Curium que foi assinado com</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -668,8 +668,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Phore address to sign the message with</source>
-        <translation>Um endereço Phore para assinar a mensagem</translation>
+        <source>The Curium address to sign the message with</source>
+        <translation>Um endereço Curium para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -700,12 +700,12 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço Phore.</translation>
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço Curium.</translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>O endereço Phore que foi assinado com</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>O endereço Curium que foi assinado com</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -903,17 +903,17 @@
     </message>
     </context>
 <context>
-    <name>ZPhrControlDialog</name>
+    <name>ZCruControlDialog</name>
     </context>
 <context>
-    <name>phore-core</name>
+    <name>curium-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes do blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all Phore specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionacilidades específicas da Phore (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, default %u)</translation>
+        <source>Disable all Curium specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionacilidades específicas da Curium (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, default %u)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -1272,8 +1272,8 @@
         <translation>Carteira esta bloqueada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Phore Core to complete</source>
-        <translation>Carteira precisa ser reescrita: reinicie o Phore Core para completar.</translation>
+        <source>Wallet needed to be rewritten: restart Curium Core to complete</source>
+        <translation>Carteira precisa ser reescrita: reinicie o Curium Core para completar.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

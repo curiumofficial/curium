@@ -5,7 +5,7 @@
 #include "multisigdialog.h"
 #include "forms/ui_multisigdialog.h"
 
-#include "askpassphrasedialog.h"
+#include "askpasscruasedialog.h"
 #include "primitives/transaction.h"
 #include "addressbookpage.h"
 #include "utilstrencodings.h"
@@ -367,7 +367,7 @@ bool MultisigDialog::createMultisigTransaction(vector<CTxIn> vUserIn, vector<CTx
         }
 
         if(totalIn < totalOut){
-            throw runtime_error("Not enough PHR provided as input to complete transaction (including fee).");
+            throw runtime_error("Not enough CRU provided as input to complete transaction (including fee).");
         }
 
         //calculate change amount
@@ -432,7 +432,7 @@ bool MultisigDialog::createMultisigTransaction(vector<CTxIn> vUserIn, vector<CTx
            tx.vout.at(changeIndex).nValue -= fee;
            feeStringRet = strprintf("%d",((double)fee)/COIN).c_str();
         }else{
-            throw runtime_error("Not enough PHR provided to cover fee");
+            throw runtime_error("Not enough CRU provided to cover fee");
         }
 
         //clear junk from script sigs
@@ -596,7 +596,7 @@ bool MultisigDialog::signMultisigTx(CMutableTransaction& tx, string& errorOut, Q
             if (model->getEncryptionStatus() == model->Locked) {
                 if (!model->requestUnlock(true).isValid()) {
                     // Unlock wallet was cancelled
-                    throw runtime_error("Error: Your wallet is locked. Please enter the wallet passphrase first.");
+                    throw runtime_error("Error: Your wallet is locked. Please enter the wallet passcruase first.");
                 }
             }
         }
@@ -731,7 +731,7 @@ bool MultisigDialog::createRedeemScript(int m, vector<string> vKeys, CScript& re
         for(vector<string>::iterator it = vKeys.begin(); it != vKeys.end(); ++it) {
             string keyString = *it;
     #ifdef ENABLE_WALLET
-            // Case 1: Phore address and we have full public key:
+            // Case 1: Curium address and we have full public key:
             CBitcoinAddress address(keyString);
             if (pwalletMain && address.IsValid()) {
                 CKeyID keyID;

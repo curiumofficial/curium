@@ -62,12 +62,12 @@
         <translation>Alıcı Adres</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödemeleri göndermek için olan Phore adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
+        <source>These are your Curium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödemeleri göndermek için olan Curium adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödemeleri almak için olan Phore adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
+        <source>These are your Curium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Bunlar ödemeleri almak için olan Curium adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -114,21 +114,21 @@
     </message>
 </context>
 <context>
-    <name>AskPassphraseDialog</name>
+    <name>AskPasscruaseDialog</name>
     <message>
-        <source>Passphrase Dialog</source>
+        <source>Passcruase Dialog</source>
         <translation>Şifre sözcüğü Diyaloğu</translation>
     </message>
     <message>
-        <source>Enter passphrase</source>
+        <source>Enter passcruase</source>
         <translation>Şifre sözcüğünüzü girin</translation>
     </message>
     <message>
-        <source>New passphrase</source>
+        <source>New passcruase</source>
         <translation>Yeni şifre sözcüğü</translation>
     </message>
     <message>
-        <source>Repeat new passphrase</source>
+        <source>Repeat new passcruase</source>
         <translation>yeni şifre sözcüğünü tekrarlayın</translation>
     </message>
     <message>
@@ -140,7 +140,7 @@
         <translation>Sadece anonimleştirme ve staking için</translation>
     </message>
     <message>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passcruase to the wallet.&lt;br/&gt;Please use a passcruase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Yeni şifre sözcüğünü cüzdana girinLütfen bir şifre söcüğü kullanın &lt;br/&gt;&lt;b&gt;10 veya daha fazla karakter içeren&lt;/b&gt;veya&lt;b&gt;8 veya daha fazla kelime içeren&lt;/b&gt;</translation>
     </message>
     <message>
@@ -148,7 +148,7 @@
         <translation>Cüzdanı şifreleyin</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <source>This operation needs your wallet passcruase to unlock the wallet.</source>
         <translation>Bu işlem, cüzdan kilidini açmak için cüzdan parolanıza ihtiyaç duyuyor.</translation>
     </message>
     <message>
@@ -156,7 +156,7 @@
         <translation>Cüzdanı aç</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passcruase to decrypt the wallet.</source>
         <translation>Bu işlem, cüzdan şifresini çözmek için cüzdan parolanıza ihtiyaç duyuyor.</translation>
     </message>
     <message>
@@ -164,11 +164,11 @@
         <translation>cüzdan şifresini çöz</translation>
     </message>
     <message>
-        <source>Change passphrase</source>
+        <source>Change passcruase</source>
         <translation>Şifreyi değiştir</translation>
     </message>
     <message>
-        <source>Enter the old and new passphrase to the wallet.</source>
+        <source>Enter the old and new passcruase to the wallet.</source>
         <translation>Cüzdanınıza eski ve yeni parolayı girin.</translation>
     </message>
     <message>
@@ -176,15 +176,15 @@
         <translation>cüzdan şifrelemesini onayla</translation>
     </message>
     <message>
-        <source>Phore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
-        <translation>Phore şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, PHR'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>Curium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
+        <translation>Curium şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, CRU'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PHR&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passcruase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
         <translation>Dikkat! Eğer cüzdanınızı şifrelerseniz ve şifrenizi unutursanız &lt;b&gt;Tüm Pıvlerinizi kaybedersiniz&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -204,7 +204,7 @@
         <translation>Dahili bir hata nedeniyle cüzdan şifrelemesi başarısız oldu. Cüzdanınız şifrelenmedi.</translation>
     </message>
     <message>
-        <source>The supplied passphrases do not match.</source>
+        <source>The supplied passcruases do not match.</source>
         <translation>Verilen parolalar uyuşmuyor.</translation>
     </message>
     <message>
@@ -212,7 +212,7 @@
         <translation>Cüzdan kilidini açma başarısız oldu</translation>
     </message>
     <message>
-        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <source>The passcruase entered for the wallet decryption was incorrect.</source>
         <translation>cüzdan şifre çözme işlemi için girilen parola yanlıştı.</translation>
     </message>
     <message>
@@ -220,7 +220,7 @@
         <translation>Cüzdan şifre çözme işlemi başarısız oldu</translation>
     </message>
     <message>
-        <source>Wallet passphrase was successfully changed.</source>
+        <source>Wallet passcruase was successfully changed.</source>
         <translation>Cüzdan parolası başarıyla değiştirildi.
 </translation>
     </message>
@@ -242,8 +242,8 @@
         <translation>&amp;BIP 38 şifrele</translation>
     </message>
     <message>
-        <source>Enter a Phore Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>BIP 38'i kullanarak şifrelemek istediğiniz bir Phore Adresi girin. Orta kutuya bir parola girin. Şifreli özel anahtarı hesaplamak için şifreleme tuşuna basın.
+        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passcruase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>BIP 38'i kullanarak şifrelemek istediğiniz bir Curium Adresi girin. Orta kutuya bir parola girin. Şifreli özel anahtarı hesaplamak için şifreleme tuşuna basın.
 </translation>
     </message>
     <message>
@@ -251,8 +251,8 @@
         <translation>adres</translation>
     </message>
     <message>
-        <source>The Phore address to sign the message with</source>
-        <translation>Ile mesaj imzalamak için Phore adresi
+        <source>The Curium address to sign the message with</source>
+        <translation>Ile mesaj imzalamak için Curium adresi
 </translation>
     </message>
     <message>
@@ -276,7 +276,7 @@
 </translation>
     </message>
     <message>
-        <source>Passphrase: </source>
+        <source>Passcruase: </source>
         <translation>şifre</translation>
     </message>
     <message>
@@ -289,8 +289,8 @@
 </translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>Bu Phore adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>Bu Curium adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
 </translation>
     </message>
     <message>
@@ -312,16 +312,16 @@
 </translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passcruase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
         <translation>BIP 38 şifreli özel anahtarını girin. Orta kutuya şifreyi  girin. Özel anahtarı hesaplamak için Anahtarın Çözülmesini tıklayın. Anahtar çözüldükten sonra 'Alma Adresi'ni tıklamak, bu özel anahtarı cüzdana ekleyecektir.</translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>Mesajın imzalandığı Phore adresi</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>Mesajın imzalandığı Curium adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
-        <translation>Belirtilen Phore adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
+        <source>Verify the message to ensure it was signed with the specified Curium address</source>
+        <translation>Belirtilen Curium adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -344,7 +344,7 @@
         <translation>Anahtarı hesaplamak için "Şifreyi Çöz" e tıklayın.</translation>
     </message>
     <message>
-        <source>The entered passphrase is invalid. </source>
+        <source>The entered passcruase is invalid. </source>
         <translation>Girilen şifre geçersiz.</translation>
     </message>
     <message>
@@ -377,7 +377,7 @@
         <translation>Şifre çözme  başarısız oldu.</translation>
     </message>
     <message>
-        <source>Please check the key and passphrase and try again.</source>
+        <source>Please check the key and passcruase and try again.</source>
         <translation>Lütfen anahtarı ve parolayı kontrol edin ve tekrar deneyin</translation>
     </message>
     <message>
@@ -484,11 +484,11 @@
         <translation>Cüzdanı başka biryere yedekle</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passcruase...</source>
         <translation>Parolayı değiştir</translation>
     </message>
     <message>
-        <source>Change the passphrase used for wallet encryption</source>
+        <source>Change the passcruase used for wallet encryption</source>
         <translation>Cüzdan şifrelemesi için kullanılan parolayı değiştir.</translation>
     </message>
     <message>
@@ -613,16 +613,16 @@
         <translation>Sekme tablosu</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore CORE</translation>
+        <source>Curium Core</source>
+        <translation>Curium CORE</translation>
     </message>
     <message>
-        <source>Send coins to a Phore address</source>
-        <translation>Koinleri Phore adresine gönder</translation>
+        <source>Send coins to a Curium address</source>
+        <translation>Koinleri Curium adresine gönder</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and phore: URIs)</source>
-        <translation>Ödeme talep etme (QR kodları ve phore üretir: URI'ler)</translation>
+        <source>Request payments (generates QR codes and curium: URIs)</source>
+        <translation>Ödeme talep etme (QR kodları ve curium üretir: URI'ler)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -637,24 +637,24 @@
         <translation>Masternodları ara</translation>
     </message>
     <message>
-        <source>&amp;About Phore Core</source>
+        <source>&amp;About Curium Core</source>
         <translation>Pıvx core Hakkında</translation>
     </message>
     <message>
-        <source>Show information about Phore Core</source>
+        <source>Show information about Curium Core</source>
         <translation>Pıvx Core hakkında bilgi göster</translation>
     </message>
     <message>
-        <source>Modify configuration options for Phore</source>
-        <translation>Phore için yapılandırma seçeneklerini değiştirin</translation>
+        <source>Modify configuration options for Curium</source>
+        <translation>Curium için yapılandırma seçeneklerini değiştirin</translation>
     </message>
     <message>
-        <source>Sign messages with your Phore addresses to prove you own them</source>
-        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı Phore adresleriyle imzalayın</translation>
+        <source>Sign messages with your Curium addresses to prove you own them</source>
+        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı Curium adresleriyle imzalayın</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Phore addresses</source>
-        <translation>Belirtilen Phore adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
+        <source>Verify messages to ensure they were signed with specified Curium addresses</source>
+        <translation>Belirtilen Curium adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -662,7 +662,7 @@
 </translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passphrase</source>
+        <source>Encrypt and decrypt private keys using a passcruase</source>
         <translation>Bir şifre kullanarak özel anahtarları şifrele ve şifresini çöz</translation>
     </message>
     <message>
@@ -686,8 +686,8 @@
         <translation>Açık Masternode yapılandırma dosyası</translation>
     </message>
     <message>
-        <source>Open a Phore: URI or payment request</source>
-        <translation>Bir Phore: URI veya ödeme isteği açın</translation>
+        <source>Open a Curium: URI or payment request</source>
+        <translation>Bir Curium: URI veya ödeme isteği açın</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -698,12 +698,12 @@
         <translation>Kaşif penceresini engelle</translation>
     </message>
     <message>
-        <source>Show the Phore Core help message to get a list with possible Phore command-line options</source>
-        <translation>Olası Phore komut satırı seçeneklerine sahip bir liste almak için Phore Core yardım mesajını gösterin</translation>
+        <source>Show the Curium Core help message to get a list with possible Curium command-line options</source>
+        <translation>Olası Curium komut satırı seçeneklerine sahip bir liste almak için Curium Core yardım mesajını gösterin</translation>
     </message>
     <message>
-        <source>Phore Core client</source>
-        <translation>Phore Core istemci</translation>
+        <source>Curium Core client</source>
+        <translation>Curium Core istemci</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -834,8 +834,8 @@ Adres: %4</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (phore.conf).</source>
-        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (phore.conf).
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (curium.conf).</source>
+        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (curium.conf).
 </translation>
     </message>
 </context>
@@ -1121,8 +1121,8 @@ Adres: %4</translation>
         <translation>versiyon</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore CORE</translation>
+        <source>Curium Core</source>
+        <translation>Curium CORE</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -1144,16 +1144,16 @@ Adres: %4</translation>
         <translation>Hoşgeldiniz</translation>
     </message>
     <message>
-        <source>Welcome to Phore Core.</source>
-        <translation>Phore Core'a hoşgeldiniz.</translation>
+        <source>Welcome to Curium Core.</source>
+        <translation>Curium Core'a hoşgeldiniz.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Varsayılan veri dosyasını kullanınız</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore CORE</translation>
+        <source>Curium Core</source>
+        <translation>Curium CORE</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1508,8 +1508,8 @@ Adres: %4</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Phore address to sign the message with</source>
-        <translation>Ile mesaj imzalamak için Phore adresi
+        <source>The Curium address to sign the message with</source>
+        <translation>Ile mesaj imzalamak için Curium adresi
 </translation>
     </message>
     <message>
@@ -1538,17 +1538,17 @@ Adres: %4</translation>
 </translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>Bu Phore adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>Bu Curium adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
 </translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>Mesajın imzalandığı Phore adresi</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>Mesajın imzalandığı Curium adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
-        <translation>Belirtilen Phore adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
+        <source>Verify the message to ensure it was signed with the specified Curium address</source>
+        <translation>Belirtilen Curium adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1587,8 +1587,8 @@ Adres: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore CORE</translation>
+        <source>Curium Core</source>
+        <translation>Curium CORE</translation>
     </message>
     </context>
 <context>
@@ -1687,14 +1687,14 @@ Adres: %4</translation>
     </message>
     </context>
 <context>
-    <name>ZPhrControlDialog</name>
+    <name>ZCruControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     </context>
 <context>
-    <name>phore-core</name>
+    <name>curium-core</name>
     <message>
         <source>Error</source>
         <translation>hata</translation>

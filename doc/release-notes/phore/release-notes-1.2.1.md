@@ -16,8 +16,8 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/Curium-Qt (on Mac) or
-curiumd/curium-qt (on Linux).
+installer (on Windows) or just copy over /Applications/Curiumn-Qt (on Mac) or
+curiumnd/curiumn-qt (on Linux).
 
 
 1.2.1 changelog

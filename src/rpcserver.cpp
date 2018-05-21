@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017 The Phore developers
+// Copyright (c) 2017 The Curium developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -238,10 +238,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Phore server.");
+            "\nStop Curium server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "Phore server stopping";
+    return "Curium server stopping";
 }
 
 
@@ -319,36 +319,36 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Phore features */
-        {"phore", "masternode", &masternode, true, true, false},
-        {"phore", "listmasternodes", &listmasternodes, true, true, false},
-        {"phore", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"phore", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"phore", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"phore", "masternodedebug", &masternodedebug, true, true, false},
-        {"phore", "startmasternode", &startmasternode, true, true, false},
-        {"phore", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"phore", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"phore", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"phore", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"phore", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"phore", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"phore", "mnbudget", &mnbudget, true, true, false},
-        {"phore", "preparebudget", &preparebudget, true, true, false},
-        {"phore", "submitbudget", &submitbudget, true, true, false},
-        {"phore", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"phore", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"phore", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"phore", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"phore", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"phore", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"phore", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"phore", "checkbudgets", &checkbudgets, true, true, false},
-        {"phore", "mnsync", &mnsync, true, true, false},
-        {"phore", "spork", &spork, true, true, false},
-        {"phore", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* Curium features */
+        {"curium", "masternode", &masternode, true, true, false},
+        {"curium", "listmasternodes", &listmasternodes, true, true, false},
+        {"curium", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"curium", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"curium", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"curium", "masternodedebug", &masternodedebug, true, true, false},
+        {"curium", "startmasternode", &startmasternode, true, true, false},
+        {"curium", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"curium", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"curium", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"curium", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"curium", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"curium", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"curium", "mnbudget", &mnbudget, true, true, false},
+        {"curium", "preparebudget", &preparebudget, true, true, false},
+        {"curium", "submitbudget", &submitbudget, true, true, false},
+        {"curium", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"curium", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"curium", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"curium", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"curium", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"curium", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"curium", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"curium", "checkbudgets", &checkbudgets, true, true, false},
+        {"curium", "mnsync", &mnsync, true, true, false},
+        {"curium", "spork", &spork, true, true, false},
+        {"curium", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
-        {"phore", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"curium", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -396,8 +396,8 @@ static const CRPCCommand vRPCCommands[] =
         {"wallet", "settxfee", &settxfee, true, false, true},
         {"wallet", "signmessage", &signmessage, true, false, true},
         {"wallet", "walletlock", &walletlock, true, false, true},
-        {"wallet", "walletpassphrasechange", &walletpassphrasechange, true, false, true},
-        {"wallet", "walletpassphrase", &walletpassphrase, true, false, true},
+        {"wallet", "walletpasscruasechange", &walletpasscruasechange, true, false, true},
+        {"wallet", "walletpasscruase", &walletpasscruase, true, false, true},
 
         {"zerocoin", "getzerocoinbalance", &getzerocoinbalance, false, false, true},
         {"zerocoin", "listmintedzerocoins", &listmintedzerocoins, false, false, true},
@@ -628,16 +628,16 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use phored, or the -server option to phore-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use curiumnd, or the -server option to curiumn-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
-                                               "rpcuser=phorerpc\n"
+                                               "rpcuser=curiumrpc\n"
                                                "rpcpassword=%s\n"
                                                "(you do not need to remember this password)\n"
                                                "The username and password MUST NOT be the same.\n"
                                                "If the file does not exist, create it with owner-readable-only file permissions.\n"
                                                "It is also recommended to set alertnotify so you are notified of problems;\n"
-                                               "for example: alertnotify=echo %%s | mail -s \"Phore Alert\" admin@foo.com\n"),
+                                               "for example: alertnotify=echo %%s | mail -s \"Curium Alert\" admin@foo.com\n"),
                                              GetConfigFile().string(),
                                              EncodeBase58(&rand_pwd[0], &rand_pwd[0] + 32)),
             "", CClientUIInterface::MSG_ERROR | CClientUIInterface::SECURE);
@@ -1088,7 +1088,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> phore-cli " + methodname + " " + args + "\n";
+    return "> curiumn-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

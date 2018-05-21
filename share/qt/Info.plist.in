@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Curium-Qt</string>
+  <string>Curiumn-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.curium.Curium-Qt</string>
+  <string>io.curium.Curiumn-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>

@@ -204,11 +204,11 @@ void WalletFrame::backupWallet()
         walletView->backupWallet();
 }
 
-void WalletFrame::changePassphrase()
+void WalletFrame::changePasscruase()
 {
     WalletView* walletView = currentWalletView();
     if (walletView)
-        walletView->changePassphrase();
+        walletView->changePasscruase();
 }
 
 void WalletFrame::unlockWallet()

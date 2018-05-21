@@ -164,10 +164,10 @@ public:
     SendCoinsReturn sendCoins(WalletModelTransaction& transaction);
 
     // Wallet encryption
-    bool setWalletEncrypted(bool encrypted, const SecureString& passphrase);
-    // Passphrase only needed when unlocking
-    bool setWalletLocked(bool locked, const SecureString& passPhrase = SecureString(), bool anonymizeOnly = false);
-    bool changePassphrase(const SecureString& oldPass, const SecureString& newPass);
+    bool setWalletEncrypted(bool encrypted, const SecureString& passcruase);
+    // Passcruase only needed when unlocking
+    bool setWalletLocked(bool locked, const SecureString& passCruase = SecureString(), bool anonymizeOnly = false);
+    bool changePasscruase(const SecureString& oldPass, const SecureString& newPass);
     // Is wallet unlocked for anonymization only?
     bool isAnonymizeOnlyUnlocked();
     // Wallet backup

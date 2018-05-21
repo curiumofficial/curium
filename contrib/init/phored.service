@@ -7,13 +7,13 @@ User=curium
 Group=curium
 
 Type=forking
-PIDFile=/var/lib/curiumd/curiumd.pid
+PIDFile=/var/lib/curiumnd/curiumnd.pid
 
-ExecStart=/usr/bin/curiumd -daemon -pid=/var/lib/curiumd/curiumd.pid \
-          -conf=/etc/curium/curium.conf -datadir=/var/lib/curiumd
+ExecStart=/usr/bin/curiumnd -daemon -pid=/var/lib/curiumnd/curiumnd.pid \
+          -conf=/etc/curium/curium.conf -datadir=/var/lib/curiumnd
 
-ExecStop=-/usr/bin/curium-cli -conf=/etc/curium/curium.conf \
-         -datadir=/var/lib/curiumd stop
+ExecStop=-/usr/bin/curiumn-cli -conf=/etc/curium/curium.conf \
+         -datadir=/var/lib/curiumnd stop
 
 Restart=always
 PrivateTmp=true

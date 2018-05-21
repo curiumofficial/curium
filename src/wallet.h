@@ -80,29 +80,29 @@ enum AvailableCoinsType {
     ALL_COINS = 1,
     ONLY_DENOMINATED = 2,
     ONLY_NOT10000IFMN = 3,
-    ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 PHR at the same time
+    ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 CRU at the same time
     ONLY_10000 = 5,                        // find masternode outputs including locked ones (use with caution)
     STAKABLE_COINS = 6                          // UTXO's that are valid for staking
 };
 
-// Possible states for zPHR send
+// Possible states for zCRU send
 enum ZerocoinSpendStatus {
-    ZPHR_SPEND_OKAY = 0,                            // No error
-    ZPHR_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
-    ZPHR_WALLET_LOCKED = 2,                         // Wallet was locked
-    ZPHR_COMMIT_FAILED = 3,                         // Commit failed, reset status
-    ZPHR_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
-    ZPHR_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
-    ZPHR_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
-    ZPHR_TRX_CREATE = 7,                            // Everything related to create the transaction
-    ZPHR_TRX_CHANGE = 8,                            // Everything related to transaction change
-    ZPHR_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
-    ZPHR_INVALID_COIN = 10,                         // Selected mint coin is not valid
-    ZPHR_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
-    ZPHR_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
-    ZPHR_BAD_SERIALIZATION = 13,                    // Transaction verification failed
-    ZPHR_SPENT_USED_ZPHR = 14,                      // Coin has already been spend
-    ZPHR_TX_TOO_LARGE = 15                          // The transaction is larger than the max tx size
+    ZCRU_SPEND_OKAY = 0,                            // No error
+    ZCRU_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
+    ZCRU_WALLET_LOCKED = 2,                         // Wallet was locked
+    ZCRU_COMMIT_FAILED = 3,                         // Commit failed, reset status
+    ZCRU_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
+    ZCRU_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
+    ZCRU_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
+    ZCRU_TRX_CREATE = 7,                            // Everything related to create the transaction
+    ZCRU_TRX_CHANGE = 8,                            // Everything related to transaction change
+    ZCRU_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
+    ZCRU_INVALID_COIN = 10,                         // Selected mint coin is not valid
+    ZCRU_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
+    ZCRU_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
+    ZCRU_BAD_SERIALIZATION = 13,                    // Transaction verification failed
+    ZCRU_SPENT_USED_ZCRU = 14,                      // Coin has already been spend
+    ZCRU_TX_TOO_LARGE = 15                          // The transaction is larger than the max tx size
 };
 
 struct CompactTallyItem {
@@ -207,7 +207,7 @@ public:
     std::string ResetMintZerocoin(bool fExtendedSearch);
     std::string ResetSpentZerocoin();
     void ReconsiderZerocoins(std::list<CZerocoinMint>& listMintsRestored);
-    void ZPhrBackupWallet();
+    void ZCruBackupWallet();
 
     /** Zerocin entry changed.
     * @note called with lock cs_wallet held.
@@ -310,7 +310,7 @@ public:
         return fEnableZeromint;
     }
 
-    void setZPhrAutoBackups(bool fEnabled)
+    void setZCruAutoBackups(bool fEnabled)
     {
         fBackupMints = fEnabled;
     }
@@ -413,9 +413,9 @@ public:
     //! Adds a MultiSig address to the store, without saving it to disk (used by LoadWallet)
     bool LoadMultiSig(const CScript& dest);
 
-    bool Unlock(const SecureString& strWalletPassphrase, bool anonimizeOnly = false);
-    bool ChangeWalletPassphrase(const SecureString& strOldWalletPassphrase, const SecureString& strNewWalletPassphrase);
-    bool EncryptWallet(const SecureString& strWalletPassphrase);
+    bool Unlock(const SecureString& strWalletPasscruase, bool anonimizeOnly = false);
+    bool ChangeWalletPasscruase(const SecureString& strOldWalletPasscruase, const SecureString& strNewWalletPasscruase);
+    bool EncryptWallet(const SecureString& strWalletPasscruase);
 
     void GetKeyBirthTimes(std::map<CKeyID, int64_t>& mapKeyBirth) const;
 

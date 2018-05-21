@@ -12,9 +12,9 @@ AC_CONFIG_HEADERS([src/config/curium-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
-BITCOIN_DAEMON_NAME=curiumd
-BITCOIN_GUI_NAME=curium-qt
-BITCOIN_CLI_NAME=curium-cli
+BITCOIN_DAEMON_NAME=curiumnd
+BITCOIN_GUI_NAME=curiumn-qt
+BITCOIN_CLI_NAME=curiumn-cli
 BITCOIN_TX_NAME=curium-tx
 
 AC_CANONICAL_HOST
@@ -192,7 +192,7 @@ CPPFLAGS="$CPPFLAGS -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_
 
 AC_ARG_WITH([utils],
   [AS_HELP_STRING([--with-utils],
-  [build curium-cli curium-tx (default=yes)])],
+  [build curiumn-cli curium-tx (default=yes)])],
   [build_bitcoin_utils=$withval],
   [build_bitcoin_utils=yes])
 
@@ -204,7 +204,7 @@ AC_ARG_WITH([libs],
 
 AC_ARG_WITH([daemon],
   [AS_HELP_STRING([--with-daemon],
-  [build curiumd daemon (default=yes)])],
+  [build curiumnd daemon (default=yes)])],
   [build_bitcoind=$withval],
   [build_bitcoind=yes])
 
@@ -806,11 +806,11 @@ LIBS="$LIBS_TEMP"
 
 BITCOIN_QT_PATH_PROGS([PROTOC], [protoc],$protoc_bin_path)
 
-AC_MSG_CHECKING([whether to build curiumd])
+AC_MSG_CHECKING([whether to build curiumnd])
 AM_CONDITIONAL([BUILD_BITCOIND], [test x$build_bitcoind = xyes])
 AC_MSG_RESULT($build_bitcoind)
 
-AC_MSG_CHECKING([whether to build utils (curium-cli curium-tx)])
+AC_MSG_CHECKING([whether to build utils (curiumn-cli curium-tx)])
 AM_CONDITIONAL([BUILD_BITCOIN_UTILS], [test x$build_bitcoin_utils = xyes])
 AC_MSG_RESULT($build_bitcoin_utils)
 
@@ -910,7 +910,7 @@ if test x$bitcoin_enable_qt != xno; then
     AC_MSG_WARN("xgettext is required to update qt translations")
   fi
 
-  AC_MSG_CHECKING([whether to build test_curium-qt])
+  AC_MSG_CHECKING([whether to build test_curiumn-qt])
   if test x$use_tests$bitcoin_enable_qt_test = xyesyes; then
     AC_MSG_RESULT([yes])
     BUILD_TEST_QT="test"

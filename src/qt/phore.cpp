@@ -30,7 +30,6 @@
 #include "init.h"
 #include "main.h"
 #include "rpcserver.h"
-#include "scheduler.h"
 #include "ui_interface.h"
 #include "util.h"
 
@@ -187,7 +186,6 @@ signals:
 
 private:
     boost::thread_group threadGroup;
-    CScheduler scheduler;
 
     /// Flag indicating a restart
     bool execute_restart;
@@ -272,7 +270,13 @@ void BitcoinCore::initialize()
 
     try {
         qDebug() << __func__ << ": Running AppInit2 in thread";
-        int rv = AppInit2(threadGroup, scheduler);
+        int rv = AppInit2(threadGroup);
+        if (rv) {
+            /* Start a dummy RPC thread if no RPC thread is active yet
+             * to handle timeouts.
+             */
+            StartDummyRPCThread();
+        }
         emit initializeResult(rv);
     } catch (std::exception& e) {
         handleRunawayException(&e);
@@ -287,7 +291,7 @@ void BitcoinCore::restart(QStringList args)
         execute_restart = false;
         try {
             qDebug() << __func__ << ": Running Restart in thread";
-            Interrupt(threadGroup);
+            threadGroup.interrupt_all();
             threadGroup.join_all();
             PrepareShutdown();
             qDebug() << __func__ << ": Shutdown finished";
@@ -308,7 +312,7 @@ void BitcoinCore::shutdown()
 {
     try {
         qDebug() << __func__ << ": Running Shutdown in thread";
-        Interrupt(threadGroup);
+        threadGroup.interrupt_all();
         threadGroup.join_all();
         Shutdown();
         qDebug() << __func__ << ": Shutdown finished";
@@ -577,6 +581,7 @@ int main(int argc, char* argv[])
     }
 #endif
 #endif
+    
     // Show help message immediately after parsing command-line options (for "-lang") and setting locale,
     // but before showing splash screen.
     if (mapArgs.count("-?") || mapArgs.count("-help") || mapArgs.count("-version")) {

@@ -22,7 +22,6 @@
 #ifdef ENABLE_WALLET
 #include "wallet.h"
 #endif
-#include "validationinterface.h"
 #include "masternode-payments.h"
 #include "accumulators.h"
 #include "spork.h"
@@ -201,33 +200,11 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
             double dPriority = 0;
             CAmount nTotalIn = 0;
             bool fMissingInputs = false;
-            uint256 txid = tx.GetHash();
             for (const CTxIn& txin : tx.vin) {
                 //zerocoinspend has special vin
                 if (tx.IsZerocoinSpend()) {
                     nTotalIn = tx.GetZerocoinSpent();
-
-                    //Give a high priority to zerocoinspends to get into the next block
-                    //Priority = (age^6+100000)*amount - gives higher priority to zphrs that have been in mempool long
-                    //and higher priority to zphrs that are large in value
-                    int64_t nTimeSeen = GetAdjustedTime();
-                    double nConfs = 100000;
-
-                    auto it = mapZerocoinspends.find(txid);
-                    if (it != mapZerocoinspends.end()) {
-                        nTimeSeen = it->second;
-                    } else {
-                        //for some reason not in map, add it
-                        mapZerocoinspends[txid] = nTimeSeen;
-                    }
-
-                    double nTimePriority = std::pow(GetAdjustedTime() - nTimeSeen, 6);
-
-                    // zPHR spends can have very large priority, use non-overflowing safe functions
-                    dPriority = double_safe_addition(dPriority, (nTimePriority * nConfs));
-                    dPriority = double_safe_multiplication(dPriority, nTotalIn);
-
-                    continue;
+                    break;
                 }
 
                 // Read prev transaction
@@ -264,9 +241,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
 
                 int nConf = nHeight - coins->nHeight;
 
-                // zPHR spends can have very large priority, use non-overflowing safe functions
-                dPriority = double_safe_addition(dPriority, ((double)nValueIn * nConf));
-
+                dPriority += (double)nValueIn * nConf;
             }
             if (fMissingInputs) continue;
 
@@ -438,8 +413,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
         pblock->nBits = GetNextWorkRequired(pindexPrev, pblock);
         pblock->nNonce = 0;
         uint256 nCheckpoint = 0;
-        AccumulatorMap mapAccumulators;
-        if(fZerocoinActive && !CalculateAccumulatorCheckpoint(nHeight, nCheckpoint, mapAccumulators)){
+        if(fZerocoinActive && !CalculateAccumulatorCheckpoint(nHeight, nCheckpoint)){
             LogPrintf("%s: failed to get accumulator checkpoint\n", __func__);
         }
         pblock->nAccumulatorCheckpoint = nCheckpoint;
@@ -513,17 +487,10 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         wallet.mapRequestCount[pblock->GetHash()] = 0;
     }
 
-    // Inform about the new block
-    GetMainSignals().BlockFound(pblock->GetHash());
-
     // Process this block the same as if we had received it from another node
     CValidationState state;
     if (!ProcessNewBlock(state, NULL, pblock))
         return error("PhoreMiner : ProcessNewBlock, block not accepted");
-
-    for (CNode* node : vNodes) {
-        node->PushInventory(CInv(MSG_BLOCK, pblock->GetHash()));
-    }
 
     for (CNode* node : vNodes) {
         node->PushInventory(CInv(MSG_BLOCK, pblock->GetHash()));
@@ -553,8 +520,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
                 continue;
             }
 
-            while (chainActive.Tip()->nTime < 1504595227 || vNodes.empty() || pwallet->IsLocked() || 
-                   nReserveBalance >= pwallet->GetBalance() || !masternodeSync.IsSynced()) {
+            while (chainActive.Tip()->nTime < 1504595227 || vNodes.empty() || pwallet->IsLocked() || !pwallet->MintableCoins() || nReserveBalance >= pwallet->GetBalance() || !masternodeSync.IsSynced()) {
                 nLastCoinStakeSearchInterval = 0;
                 MilliSleep(5000);
                 if (!fGenerateBitcoins && !fProofOfStake)

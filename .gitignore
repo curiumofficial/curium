@@ -10,7 +10,7 @@ reset-files.bash
 src/curium
 src/curiumnd
 src/curiumn-cli
-src/curium-tx
+src/curiumn-tx
 src/test/test_curium
 src/qt/test/test_curiumn-qt
 

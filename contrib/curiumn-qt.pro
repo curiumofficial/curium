@@ -375,7 +375,7 @@ SOURCES += src/activemasternode.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
            src/curiumn-cli.cpp \
-           src/curium-tx.cpp \
+           src/curiumn-tx.cpp \
            src/curium.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \

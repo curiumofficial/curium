@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Curium"
-            VALUE "FileDescription",    "curium-tx (CLI Curium transaction editor utility)"
+            VALUE "FileDescription",    "curiumn-tx (CLI Curium transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "curium-tx"
+            VALUE "InternalName",       "curiumn-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "curium-tx.exe"
-            VALUE "ProductName",        "curium-tx"
+            VALUE "OriginalFilename",   "curiumn-tx.exe"
+            VALUE "ProductName",        "curiumn-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

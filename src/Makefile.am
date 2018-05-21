@@ -70,7 +70,7 @@ if BUILD_BITCOIND
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += curiumn-cli curium-tx
+  bin_PROGRAMS += curiumn-cli curiumn-tx
 endif
 
 .PHONY: FORCE
@@ -447,8 +447,8 @@ curiumn_cli_SOURCES = \
 curiumn_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 #
 
-# curium-tx binary #
-curium_tx_LDADD = \
+# curiumn-tx binary #
+curiumn_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_ZEROCOIN) \
@@ -458,10 +458,10 @@ curium_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-curium_tx_SOURCES = curium-tx.cpp
-curium_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+curiumn_tx_SOURCES = curiumn-tx.cpp
+curiumn_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-curium_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+curiumn_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
 curiumn_cli_SOURCES += curiumn-cli-res.rc

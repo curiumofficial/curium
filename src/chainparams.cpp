@@ -54,12 +54,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (     0, uint256("2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf"))
-    (  1000, uint256("8defd49579d63545f9e8cdda31f8503e0513328ca3f7428f33a915258c764d15"))
-    ( 10000, uint256("6af2431daa7456e4620e9493091648eeaac8ddfd53d8cff8101c26806e301d9a"))
-    ( 90000, uint256("a883d86273f02cb19252a878d1e0bda1e5321140480b08e3df9544d7b3d1ce56"))
-    (152000, uint256("4dc1a3eb7d17bab4e7f5768e927c9666ba760d6882d3b600519fdd7b83f65610"))
-    (200000, uint256("9260e1eb2d3851bccd2794e2c61c29af91fcd4b56ba207a4b9a5b1e79b53fb10"));
+    (     0, uint256("2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -93,7 +88,16 @@ libzerocoin::ZerocoinParams* CChainParams::Zerocoin_Params() const
 
     return &ZCParams;
 }
+void MineGenesis(CBlock genesis, uint256 bnProofOfWorkLimit) {
+    printf("Mining genesis block...\n");
 
+    for (genesis.nNonce == 0; genesis.GetHash() > bnProofOfWorkLimit; genesis.nNonce++) { } 
+
+    printf("Mined genesis block:\n");
+    printf("Merkle root: %s\n", genesis.hashMerkleRoot.ToString().c_str());
+    printf("Nonce: %u\n", genesis.nNonce);
+    printf("Hash: %s\n", genesis.GetHash().ToString().c_str());
+}
 class CMainParams : public CChainParams
 {
 public:
@@ -106,12 +110,12 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x91;
-        pchMessageStart[1] = 0xc4;
-        pchMessageStart[2] = 0xfd;
-        pchMessageStart[3] = 0xe9;
+        pchMessageStart[0] = 0xab;
+        pchMessageStart[1] = 0xd8;
+        pchMessageStart[2] = 0xe2;
+        pchMessageStart[3] = 0xd5;
         vAlertPubKey = ParseHex("04659d53bd8f7ad9d34a17281febedac754e5a6eb136142d3a9c6c0ea21b6ed7498ceb3d872eed00ae755f7aeadaeb1d9ab5e1a8f1e7efcd0ddcb39d4623c12790");
-        nDefaultPort = 11771;
+        nDefaultPort = 11651;
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
@@ -130,7 +134,7 @@ public:
         nModifierUpdateBlock = 999999999;
         nZerocoinStartHeight = 90000;
         nBlockEnforceSerialRange = 90003; //Enforce serial range starting this block
-        nZerocoinStartTime = 1510734300; // October 17, 2017 4:30:00 AM
+        nZerocoinStartTime = 1527717481; // October 17, 2017 4:30:00 AM
 
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -142,7 +146,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "12 September 2017";
+        const char* pszTimestamp = "Curium May 15 2018 we began our quest for the new network";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -154,16 +158,20 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1505224800;
         genesis.nBits = 0x207fffff;;
-        genesis.nNonce = 12345;
+        genesis.nNonce = 0;
 
+		MineGenesis(genesis, bnProofOfWorkLimit);// makes genesis block
+		
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf"));
         assert(genesis.hashMerkleRoot == uint256("0x894177137a45952cfed89dd395e7fc85208a53548f34defc7c1a85cb0736b3a3"));
 
-        vSeeds.push_back(CDNSSeedData("0", "dns0.curium.io")); // run by Moonshot
-        vSeeds.push_back(CDNSSeedData("1", "curium.seed.rho.industries")); // run by Julian Meyer (meyer9)
+        vSeeds.push_back(CDNSSeedData("1stdnsseedforcurium", "dnsseed.mrmetech.me"));     // Primary DNS Seeder from Fuzzbawls
+        vSeeds.push_back(CDNSSeedData("curium1", "207.246.120.137"));    // Secondary DNS Seeder from Fuzzbawls
+        vSeeds.push_back(CDNSSeedData("curium2", "159.203.138.56"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("curium3", "46.101.62.236"));         // Single node address
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 55);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 60);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
@@ -184,17 +192,12 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "04659d53bd8f7ad9d34a17281febedac754e5a6eb136142d3a9c6c0ea21b6ed7498ceb3d872eed00ae755f7aeadaeb1d9ab5e1a8f1e7efcd0ddcb39d4623c12790";
-        strObfuscationPoolDummyAddress = "PCYiHgGJJ6xGHqivmdZrYjRnhaYf6AJ2Mp";
-        nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
+        strSporkKey = "04ba3e15d1276b37932e3861f920dedaa38e56ab9e1f05f789af06e763759652785bf96cc7375015abaaab6a58f18f20d022a3ccf7c0966f8781affee51dbc08f7";
+        strObfuscationPoolDummyAddress = "RCYiHgGJJ6xGHqivmdZrYjRnhaYf6AJ2Mp";
+        nStartMasternodePayments = 1527717481; //Wed, 25 Jun 2014 20:36:16 GMT
 
         /** Zerocoin */
-        zerocoinModulus = "25195908475657893494027183240048398571429282126204032027777137836043662020707595556264018525880784"
-            "4069182906412495150821892985591491761845028084891200728449926873928072877767359714183472702618963750149718246911"
-            "6507761337985909570009733045974880842840179742910064245869181719511874612151517265463228221686998754918242243363"
-            "7259085141865462043576798423387184774447920739934236584823824281198163815010674810451660377306056201619676256133"
-            "8441436038339044149526344321901146575444541784240209246165157233507787077498171257724679629263863563732899121548"
-            "31438167899885040445364023527381951378636564391212010397122822120720357";
+        zerocoinModulus = "949095957102901424165005743206075237918927185644508281721595049430135191788988250672362679730600654292612389558863554310553862934247224257388215158104260928073240854014458757417754474653505701243017647799681771896720056573295189290545504151065605863168771442060260038616331277655659418225751494371021602498638201151233861828407081267608284735045242816101903771761023762799824183488778280240911901179365129615023587304892714330769988937391159973997061248998610792319659429741488805570758060158758673812695500463760918378917727165655781230163900397304147420181650737066756390943371937899832943854236948356409126827563552881996260126888315827149516661918652888417577104081556028717705333252113749784130003220606532340029127529134320138525652223612702807625207726164317625460325503981494842339289019775251464014247682223178301829953590358118850181651359485326326599299513449900539668262149399867750352815127908481163097088923056085438819267516858023066700975628617681175165990851217227122074568757432336234407184416658946847479213291166038054888731599590082195767591495007813145611447488079238391223565637942257298734506554048723753266407546122948129830046806770582355923552150663937176275833876650417830133400291801707588988840958825893";
         nMaxZerocoinSpendsPerTransaction = 7; // Assume about 20kb each
         nMinZerocoinMintFee = 1 * CENT; //high fee required for zerocoin mints
         nMintRequiredConfirmations = 20; //the maximum amount of confirmations until accumulated in 19

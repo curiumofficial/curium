@@ -27,7 +27,7 @@ Check out the source code in the following directory hierarchy.
     git clone https://github.com/curiumproject/gitian.sigs.git
     git clone https://github.com/curiumproject/curium-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/curiumproject/curium.git
+    git clone https://github.com/mrmetech/curium.git
 
 ### Curium maintainers/release engineers, suggestion for writing release notes
 

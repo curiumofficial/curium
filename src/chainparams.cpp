@@ -55,7 +55,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (     0, uint256("58a7439ee630d5ecc6381db3170b922688a1a5f0d948acec1f0da74f3fa36f3e"));
+    (     0, uint256("20438ea808f386bca78de64fc78320312af41d0d828763a9f5dd444d8ba7b54c"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -66,7 +66,7 @@ static const Checkpoints::CCheckpointData data = {
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-    boost::assign::map_list_of(0, uint256("0x58a7439ee630d5ecc6381db3170b922688a1a5f0d948acec1f0da74f3fa36f3e"));
+    boost::assign::map_list_of(0, uint256("0x20438ea808f386bca78de64fc78320312af41d0d828763a9f5dd444d8ba7b54c"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1526939990,
@@ -74,7 +74,7 @@ static const Checkpoints::CCheckpointData dataTestnet = {
     250};
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
-    boost::assign::map_list_of(0, uint256("0x58a7439ee630d5ecc6381db3170b922688a1a5f0d948acec1f0da74f3fa36f3e"));
+    boost::assign::map_list_of(0, uint256("0x20438ea808f386bca78de64fc78320312af41d0d828763a9f5dd444d8ba7b54c"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
     1526939990,
@@ -164,7 +164,7 @@ public:
 		MineGenesis(genesis, bnProofOfWorkLimit);// makes genesis block
 		
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x58a7439ee630d5ecc6381db3170b922688a1a5f0d948acec1f0da74f3fa36f3e"));
+        assert(hashGenesisBlock == uint256("0x20438ea808f386bca78de64fc78320312af41d0d828763a9f5dd444d8ba7b54c"));
         assert(genesis.hashMerkleRoot == uint256("0x8738140c726a5ee4eabd99024115280f825c57bae6decc2b14251b917152df4f"));
 
         vSeeds.push_back(CDNSSeedData("1stdnsseedforcurium", "dnsseed.mrmetech.me"));     // Primary DNS Seeder from Fuzzbawls
@@ -245,11 +245,11 @@ public:
         nZerocoinStartHeight = 201576;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1505224800;
-        genesis.nNonce = 12345;
+        genesis.nTime = 1526939990;
+        genesis.nNonce = 0;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x58a7439ee630d5ecc6381db3170b922688a1a5f0d948acec1f0da74f3fa36f3e"));
+        assert(hashGenesisBlock == uint256("0x20438ea808f386bca78de64fc78320312af41d0d828763a9f5dd444d8ba7b54c"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -311,13 +311,13 @@ public:
         nTargetTimespan = 24 * 60 * 60; // Curium: 1 day
         nTargetSpacing = 1 * 60;        // Curium: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1505224800;
+        genesis.nTime = 1526939990;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 12345;
+        genesis.nNonce = 0;
 
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 11773;
-        assert(hashGenesisBlock == uint256("0x58a7439ee630d5ecc6381db3170b922688a1a5f0d948acec1f0da74f3fa36f3e"));
+        assert(hashGenesisBlock == uint256("0x20438ea808f386bca78de64fc78320312af41d0d828763a9f5dd444d8ba7b54c"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.

@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Phore"
-            VALUE "FileDescription",    "phore-tx (CLI Phore transaction editor utility)"
+            VALUE "CompanyName",        "Curium"
+            VALUE "FileDescription",    "curium-tx (CLI Curium transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "phore-tx"
+            VALUE "InternalName",       "curium-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "phore-tx.exe"
-            VALUE "ProductName",        "phore-tx"
+            VALUE "OriginalFilename",   "curium-tx.exe"
+            VALUE "ProductName",        "curium-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

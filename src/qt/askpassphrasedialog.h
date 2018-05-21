@@ -2,8 +2,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QT_ASKPASSPHRASEDIALOG_H
-#define BITCOIN_QT_ASKPASSPHRASEDIALOG_H
+#ifndef BITCOIN_QT_ASKPASSCRUASEDIALOG_H
+#define BITCOIN_QT_ASKPASSCRUASEDIALOG_H
 
 #include <QDialog>
 
@@ -11,31 +11,31 @@ class WalletModel;
 
 namespace Ui
 {
-class AskPassphraseDialog;
+class AskPasscruaseDialog;
 }
 
-/** Multifunctional dialog to ask for passphrases. Used for encryption, unlocking, and changing the passphrase.
+/** Multifunctional dialog to ask for passcruases. Used for encryption, unlocking, and changing the passcruase.
  */
-class AskPassphraseDialog : public QDialog
+class AskPasscruaseDialog : public QDialog
 {
     Q_OBJECT
 
 public:
     enum Mode {
-        Encrypt,         /**< Ask passphrase twice and encrypt */
-        UnlockAnonymize, /**< Ask passphrase and unlock only for anonymization */
-        Unlock,          /**< Ask passphrase and unlock */
-        ChangePass,      /**< Ask old passphrase + new passphrase twice */
-        Decrypt          /**< Ask passphrase and decrypt wallet */
+        Encrypt,         /**< Ask passcruase twice and encrypt */
+        UnlockAnonymize, /**< Ask passcruase and unlock only for anonymization */
+        Unlock,          /**< Ask passcruase and unlock */
+        ChangePass,      /**< Ask old passcruase + new passcruase twice */
+        Decrypt          /**< Ask passcruase and decrypt wallet */
     };
 
-    explicit AskPassphraseDialog(Mode mode, QWidget* parent, WalletModel* model);
-    ~AskPassphraseDialog();
+    explicit AskPasscruaseDialog(Mode mode, QWidget* parent, WalletModel* model);
+    ~AskPasscruaseDialog();
 
     void accept();
 
 private:
-    Ui::AskPassphraseDialog* ui;
+    Ui::AskPasscruaseDialog* ui;
     Mode mode;
     WalletModel* model;
     bool fCapsLock;
@@ -48,4 +48,4 @@ protected:
     bool eventFilter(QObject* object, QEvent* event);
 };
 
-#endif // BITCOIN_QT_ASKPASSPHRASEDIALOG_H
+#endif // BITCOIN_QT_ASKPASSCRUASEDIALOG_H

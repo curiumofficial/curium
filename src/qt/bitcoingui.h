@@ -6,7 +6,7 @@
 #define BITCOIN_QT_BITCOINGUI_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/phore-config.h"
+#include "config/curium-config.h"
 #endif
 
 #include "amount.h"
@@ -111,7 +111,7 @@ private:
     QAction* toggleHideAction;
     QAction* encryptWalletAction;
     QAction* backupWalletAction;
-    QAction* changePassphraseAction;
+    QAction* changePasscruaseAction;
     QAction* unlockWalletAction;
     QAction* lockWalletAction;
     QAction* aboutQtAction;

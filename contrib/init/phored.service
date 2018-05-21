@@ -1,19 +1,19 @@
 [Unit]
-Description=Phore's distributed currency daemon
+Description=Curium's distributed currency daemon
 After=network.target
 
 [Service]
-User=phore
-Group=phore
+User=curium
+Group=curium
 
 Type=forking
-PIDFile=/var/lib/phored/phored.pid
+PIDFile=/var/lib/curiumd/curiumd.pid
 
-ExecStart=/usr/bin/phored -daemon -pid=/var/lib/phored/phored.pid \
-          -conf=/etc/phore/phore.conf -datadir=/var/lib/phored
+ExecStart=/usr/bin/curiumd -daemon -pid=/var/lib/curiumd/curiumd.pid \
+          -conf=/etc/curium/curium.conf -datadir=/var/lib/curiumd
 
-ExecStop=-/usr/bin/phore-cli -conf=/etc/phore/phore.conf \
-         -datadir=/var/lib/phored stop
+ExecStop=-/usr/bin/curium-cli -conf=/etc/curium/curium.conf \
+         -datadir=/var/lib/curiumd stop
 
 Restart=always
 PrivateTmp=true

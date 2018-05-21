@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017 The Phore developers
+// Copyright (c) 2017 The Curium developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -25,8 +25,8 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called Phore (http://www.phore.io),
- * which enables instant payments to anyone, anywhere in the world. Phore uses peer-to-peer technology to operate
+ * This is the developer documentation of the reference client for an experimental new digital currency called Curium (http://www.curium.io),
+ * which enables instant payments to anyone, anywhere in the world. Curium uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -65,18 +65,18 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/phore.conf are parsed in qt/phore.cpp's main()
+    // If Qt is used, parameters/curium.conf are parsed in qt/curium.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
     if (mapArgs.count("-?") || mapArgs.count("-help") || mapArgs.count("-version")) {
-        std::string strUsage = _("Phore Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("Curium Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
 
         if (mapArgs.count("-version")) {
             strUsage += LicenseInfo();
         } else {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  phored [options]                     " + _("Start Phore Core Daemon") + "\n";
+                        "  curiumd [options]                     " + _("Start Curium Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -112,17 +112,17 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "phore:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "curium:"))
                 fCommandLine = true;
 
         if (fCommandLine) {
-            fprintf(stderr, "Error: There is no RPC client functionality in phored anymore. Use the phore-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in curiumd anymore. Use the curium-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon) {
-            fprintf(stdout, "Phore server starting\n");
+            fprintf(stdout, "Curium server starting\n");
 
             // Daemonize
             pid_t pid = fork();
@@ -175,7 +175,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect phored signal handlers
+    // Connect curiumd signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);

@@ -1,6 +1,6 @@
 [Protocol]
-exec=phore-qt '%u'
-protocol=phore
+exec=curium-qt '%u'
+protocol=curium
 input=none
 output=none
 helper=true

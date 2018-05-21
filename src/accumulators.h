@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PHORE_ACCUMULATORS_H
-#define PHORE_ACCUMULATORS_H
+#ifndef CURIUM_ACCUMULATORS_H
+#define CURIUM_ACCUMULATORS_H
 
 #include "libzerocoin/Accumulator.h"
 #include "libzerocoin/Denominations.h"
@@ -21,4 +21,4 @@ bool EraseAccumulatorValues(const uint256& nCheckpointErase, const uint256& nChe
 uint32_t ParseChecksum(uint256 nChecksum, libzerocoin::CoinDenomination denomination);
 uint32_t GetChecksum(const CBigNum &bnValue);
 
-#endif //PHORE_ACCUMULATORS_H
+#endif //CURIUM_ACCUMULATORS_H

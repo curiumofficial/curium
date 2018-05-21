@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/phore-config.h \
+           src/curium-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/phore-config.h \
+           src/config/curium-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -166,7 +166,7 @@ HEADERS += src/activemasternode.h \
            src/primitives/transaction.h \
            src/qt/addressbookpage.h \
            src/qt/addresstablemodel.h \
-           src/qt/askpassphrasedialog.h \
+           src/qt/askpasscruasedialog.h \
            src/qt/bitcoinaddressvalidator.h \
            src/qt/bitcoinamountfield.h \
            src/qt/bitcoingui.h \
@@ -333,13 +333,13 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/phore.moc \
+           src/qt/curium.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
            src/secp256k1/src/secp256k1.c
 FORMS += src/qt/forms/addressbookpage.ui \
-         src/qt/forms/askpassphrasedialog.ui \
+         src/qt/forms/askpasscruasedialog.ui \
          src/qt/forms/coincontroldialog.ui \
          src/qt/forms/obfuscationconfig.ui \
          src/qt/forms/editaddressdialog.ui \
@@ -374,9 +374,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/phore-cli.cpp \
-           src/phore-tx.cpp \
-           src/phore.cpp \
+           src/curium-cli.cpp \
+           src/curium-tx.cpp \
+           src/curium.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -461,7 +461,7 @@ SOURCES += src/activemasternode.cpp \
            src/primitives/transaction.cpp \
            src/qt/addressbookpage.cpp \
            src/qt/addresstablemodel.cpp \
-           src/qt/askpassphrasedialog.cpp \
+           src/qt/askpasscruasedialog.cpp \
            src/qt/bitcoinaddressvalidator.cpp \
            src/qt/bitcoinamountfield.cpp \
            src/qt/bitcoingui.cpp \
@@ -471,8 +471,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/phore.cpp \
-           src/qt/phorestrings.cpp \
+           src/qt/curium.cpp \
+           src/qt/curiumstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -550,7 +550,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_phore.cpp \
+           src/test/test_curium.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -641,21 +641,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/phore.qrc src/qt/phore_locale.qrc
+RESOURCES += src/qt/curium.qrc src/qt/curium_locale.qrc
 
-TRANSLATIONS += src/qt/locale/phore_bg.ts \
-                src/qt/locale/phore_de.ts \
-                src/qt/locale/phore_en.ts \
-                src/qt/locale/phore_es.ts \
-                src/qt/locale/phore_fi.ts \
-                src/qt/locale/phore_fr.ts \
-                src/qt/locale/phore_it.ts \
-                src/qt/locale/phore_ja.ts \
-                src/qt/locale/phore_pl.ts \
-                src/qt/locale/phore_pt.ts \
-                src/qt/locale/phore_ru.ts \
-                src/qt/locale/phore_sk.ts \
-                src/qt/locale/phore_sv.ts \
-                src/qt/locale/phore_vi.ts \
-                src/qt/locale/phore_zh_CN.ts \
-                src/qt/locale/phore_zh_TW.ts
+TRANSLATIONS += src/qt/locale/curium_bg.ts \
+                src/qt/locale/curium_de.ts \
+                src/qt/locale/curium_en.ts \
+                src/qt/locale/curium_es.ts \
+                src/qt/locale/curium_fi.ts \
+                src/qt/locale/curium_fr.ts \
+                src/qt/locale/curium_it.ts \
+                src/qt/locale/curium_ja.ts \
+                src/qt/locale/curium_pl.ts \
+                src/qt/locale/curium_pt.ts \
+                src/qt/locale/curium_ru.ts \
+                src/qt/locale/curium_sk.ts \
+                src/qt/locale/curium_sv.ts \
+                src/qt/locale/curium_vi.ts \
+                src/qt/locale/curium_zh_CN.ts \
+                src/qt/locale/curium_zh_TW.ts

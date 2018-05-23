@@ -56,7 +56,7 @@ def run_test(nodes, tmpdir):
         assert(e.error['code']==-12)
 
     # put three new keys in the keypool
-    nodes[0].walletpasscruase('test', 12000)
+    nodes[0].walletpassphrase('test', 12000)
     nodes[0].keypoolrefill(3)
     nodes[0].walletlock()
 

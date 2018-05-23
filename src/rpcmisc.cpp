@@ -294,7 +294,7 @@ Value spork(const Array& params, bool fHelp)
         "spork <name> [<value>]\n"
         "<name> is the corresponding spork name, or 'show' to show all current spork settings, active to show which sporks are active"
         "<value> is a epoch datetime to enable or disable spork" +
-        HelpRequiringPasscruase());
+        HelpRequiringPassphrase());
 }
 
 Value validateaddress(const Array& params, bool fHelp)
@@ -456,7 +456,7 @@ Value verifymessage(const Array& params, bool fHelp)
             "true|false   (boolean) If the signature is verified or not.\n"
             "\nExamples:\n"
             "\nUnlock the wallet for 30 seconds\n" +
-            HelpExampleCli("walletpasscruase", "\"mypasscruase\" 30") +
+            HelpExampleCli("walletpassphrase", "\"mypassphrase\" 30") +
             "\nCreate the signature\n" + HelpExampleCli("signmessage", "\"1D1ZrZNe3JUo7ZycKEYQQiQAWd9y54F4XZ\" \"my message\"") +
             "\nVerify the signature\n" + HelpExampleCli("verifymessage", "\"1D1ZrZNe3JUo7ZycKEYQQiQAWd9y54F4XZ\" \"signature\" \"my message\"") +
             "\nAs json rpc\n" + HelpExampleRpc("verifymessage", "\"1D1ZrZNe3JUo7ZycKEYQQiQAWd9y54F4XZ\", \"signature\", \"my message\""));

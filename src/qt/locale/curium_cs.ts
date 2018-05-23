@@ -114,21 +114,21 @@
     </message>
 </context>
 <context>
-    <name>AskPasscruaseDialog</name>
+    <name>AskPassphraseDialog</name>
     <message>
-        <source>Passcruase Dialog</source>
+        <source>Passphrase Dialog</source>
         <translation>Dialog frázového hesla</translation>
     </message>
     <message>
-        <source>Enter passcruase</source>
+        <source>Enter passphrase</source>
         <translation>Zadejte frázové heslo</translation>
     </message>
     <message>
-        <source>New passcruase</source>
+        <source>New passphrase</source>
         <translation>Nové frázové heslo</translation>
     </message>
     <message>
-        <source>Repeat new passcruase</source>
+        <source>Repeat new passphrase</source>
         <translation>Zopakujte frázové heslo</translation>
     </message>
     <message>
@@ -140,7 +140,7 @@
         <translation>Pouze pro anonymizaci a sázení</translation>
     </message>
     <message>
-        <source>Enter the new passcruase to the wallet.&lt;br/&gt;Please use a passcruase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Zadejte nové frázové heslo pro Vaši peněženku &lt;br/&gt; Prosím, použijte frázové heslo z &lt;b&gt; nebo více náhodných znaků &lt;/b&gt;, nebo&lt;b&gt;z osmi nebo více slov&lt;/b&gt;  .</translation>
     </message>
     <message>
@@ -148,7 +148,7 @@
         <translation>Šifrovat peněženku</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcruase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Pro tuto operaci potřebujete frázové heslo k odemčení Vaší paněženky.</translation>
     </message>
     <message>
@@ -156,7 +156,7 @@
         <translation>Odemknout peněženku</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcruase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Pro tuto operaci potřebujete frázové heslo pro odšifrování Vaší paněženky.</translation>
     </message>
     <message>
@@ -164,11 +164,11 @@
         <translation>Odšifrovat peněženku</translation>
     </message>
     <message>
-        <source>Change passcruase</source>
+        <source>Change passphrase</source>
         <translation>Změnit frázové heslo</translation>
     </message>
     <message>
-        <source>Enter the old and new passcruase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Zadajete staré a nové frázové heslo Vaší peněženky.</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passcruase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
         <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE CRUy&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -204,7 +204,7 @@
         <translation>Šifrování peněženky selhalo kvůli vnitřní chybě aplikace. Vaše peněženka není zašifrovaná.</translation>
     </message>
     <message>
-        <source>The supplied passcruases do not match.</source>
+        <source>The supplied passphrases do not match.</source>
         <translation>Zadaná frázová hesla se neshodují.</translation>
     </message>
     <message>
@@ -212,7 +212,7 @@
         <translation>Uzamčení pěněženky selhalo</translation>
     </message>
     <message>
-        <source>The passcruase entered for the wallet decryption was incorrect.</source>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>Zadané frázové heslo pro dešifrování peněženky není správné.</translation>
     </message>
     <message>
@@ -220,7 +220,7 @@
         <translation>Odšifrování peněženky selhalo</translation>
     </message>
     <message>
-        <source>Wallet passcruase was successfully changed.</source>
+        <source>Wallet passphrase was successfully changed.</source>
         <translation>Frázové heslo peněženky bylo úspěšně změněno.</translation>
     </message>
     <message>
@@ -239,7 +239,7 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
-        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passcruase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Zadejte Curium adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
@@ -267,7 +267,7 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passcruase: </source>
+        <source>Passphrase: </source>
         <translation>Frázové heslo:</translation>
     </message>
     <message>
@@ -299,7 +299,7 @@
         <translation>&amp;BIP 38 Dešifrování</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passcruase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
@@ -331,7 +331,7 @@
         <translation>Kliněte na "Dešifrovat Klíč" pro výpočet klíče</translation>
     </message>
     <message>
-        <source>The entered passcruase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation>Zadané frázové heslo není validní.</translation>
     </message>
     <message>
@@ -363,7 +363,7 @@
         <translation>Dešifrování selhalo.</translation>
     </message>
     <message>
-        <source>Please check the key and passcruase and try again.</source>
+        <source>Please check the key and passphrase and try again.</source>
         <translation>Prosím, zkontrolujte klíč a frázové heslo a zkuste to znovu.</translation>
     </message>
     <message>
@@ -470,11 +470,11 @@
         <translation>Zálohovat peněženku na jiné místo</translation>
     </message>
     <message>
-        <source>&amp;Change Passcruase...</source>
+        <source>&amp;Change Passphrase...</source>
         <translation>&amp;Změnit frázové heslo...</translation>
     </message>
     <message>
-        <source>Change the passcruase used for wallet encryption</source>
+        <source>Change the passphrase used for wallet encryption</source>
         <translation>Změnit frázové heslo pro šifrování peněženky</translation>
     </message>
     <message>
@@ -642,7 +642,7 @@
         <translation>&amp;BIP38 nástroj</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passcruase</source>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
         <translation>Šifrovat a dešivraovat klíče s použitím frázového hesla</translation>
     </message>
     <message>

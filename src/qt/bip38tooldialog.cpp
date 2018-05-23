@@ -33,10 +33,10 @@ Bip38ToolDialog::Bip38ToolDialog(QWidget* parent) : QDialog(parent),
 
     GUIUtil::setupAddressWidget(ui->addressIn_ENC, this);
     ui->addressIn_ENC->installEventFilter(this);
-    ui->passcruaseIn_ENC->installEventFilter(this);
+    ui->passphraseIn_ENC->installEventFilter(this);
     ui->encryptedKeyOut_ENC->installEventFilter(this);
     ui->encryptedKeyIn_DEC->installEventFilter(this);
-    ui->passcruaseIn_DEC->installEventFilter(this);
+    ui->passphraseIn_DEC->installEventFilter(this);
     ui->decryptedKeyOut_DEC->installEventFilter(this);
 }
 
@@ -53,13 +53,13 @@ void Bip38ToolDialog::setModel(WalletModel* model)
 void Bip38ToolDialog::setAddress_ENC(const QString& address)
 {
     ui->addressIn_ENC->setText(address);
-    ui->passcruaseIn_ENC->setFocus();
+    ui->passphraseIn_ENC->setFocus();
 }
 
 void Bip38ToolDialog::setAddress_DEC(const QString& address)
 {
     ui->encryptedKeyIn_DEC->setText(address);
-    ui->passcruaseIn_DEC->setFocus();
+    ui->passphraseIn_DEC->setFocus();
 }
 
 void Bip38ToolDialog::showTab_ENC(bool fShow)
@@ -94,14 +94,14 @@ void Bip38ToolDialog::on_pasteButton_ENC_clicked()
 
 QString specialChar = "\"@!#$%&'()*+,-./:;<=>?`{|}~^_[]\\";
 QString validChar = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz" + specialChar;
-bool isValidPasscruase(QString strPasscruase, QString& strInvalid)
+bool isValidPassphrase(QString strPassphrase, QString& strInvalid)
 {
-    for (int i = 0; i < strPasscruase.size(); i++) {
-        if (!validChar.contains(strPasscruase[i], Qt::CaseSensitive)) {
-            if (QString("\"'").contains(strPasscruase[i]))
+    for (int i = 0; i < strPassphrase.size(); i++) {
+        if (!validChar.contains(strPassphrase[i], Qt::CaseSensitive)) {
+            if (QString("\"'").contains(strPassphrase[i]))
                 continue;
 
-            strInvalid = strPasscruase[i];
+            strInvalid = strPassphrase[i];
             return false;
         }
     }
@@ -114,11 +114,11 @@ void Bip38ToolDialog::on_encryptKeyButton_ENC_clicked()
     if (!model)
         return;
 
-    QString qstrPasscruase = ui->passcruaseIn_ENC->text();
+    QString qstrPassphrase = ui->passphraseIn_ENC->text();
     QString strInvalid;
-    if (!isValidPasscruase(qstrPasscruase, strInvalid)) {
+    if (!isValidPassphrase(qstrPassphrase, strInvalid)) {
         ui->statusLabel_ENC->setStyleSheet("QLabel { color: red; }");
-        ui->statusLabel_ENC->setText(tr("The entered passcruase is invalid. ") + strInvalid + QString(" is not valid") + QString(" ") + tr("Allowed: 0-9,a-z,A-Z,") + specialChar);
+        ui->statusLabel_ENC->setText(tr("The entered passphrase is invalid. ") + strInvalid + QString(" is not valid") + QString(" ") + tr("Allowed: 0-9,a-z,A-Z,") + specialChar);
         return;
     }
 
@@ -151,7 +151,7 @@ void Bip38ToolDialog::on_encryptKeyButton_ENC_clicked()
         return;
     }
 
-    std::string encryptedKey = BIP38_Encrypt(addr.ToString(), qstrPasscruase.toStdString(), key.GetPrivKey_256(), key.IsCompressed());
+    std::string encryptedKey = BIP38_Encrypt(addr.ToString(), qstrPassphrase.toStdString(), key.GetPrivKey_256(), key.IsCompressed());
     ui->encryptedKeyOut_ENC->setText(QString::fromStdString(encryptedKey));
 }
 
@@ -163,7 +163,7 @@ void Bip38ToolDialog::on_copyKeyButton_ENC_clicked()
 void Bip38ToolDialog::on_clearButton_ENC_clicked()
 {
     ui->addressIn_ENC->clear();
-    ui->passcruaseIn_ENC->clear();
+    ui->passphraseIn_ENC->clear();
     ui->encryptedKeyOut_ENC->clear();
     ui->statusLabel_ENC->clear();
 
@@ -173,14 +173,14 @@ void Bip38ToolDialog::on_clearButton_ENC_clicked()
 CKey key;
 void Bip38ToolDialog::on_decryptKeyButton_DEC_clicked()
 {
-    string strPasscruase = ui->passcruaseIn_DEC->text().toStdString();
+    string strPassphrase = ui->passphraseIn_DEC->text().toStdString();
     string strKey = ui->encryptedKeyIn_DEC->text().toStdString();
 
     uint256 privKey;
     bool fCompressed;
-    if (!BIP38_Decrypt(strPasscruase, strKey, privKey, fCompressed)) {
+    if (!BIP38_Decrypt(strPassphrase, strKey, privKey, fCompressed)) {
         ui->statusLabel_DEC->setStyleSheet("QLabel { color: red; }");
-        ui->statusLabel_DEC->setText(tr("Failed to decrypt.") + QString(" ") + tr("Please check the key and passcruase and try again."));
+        ui->statusLabel_DEC->setText(tr("Failed to decrypt.") + QString(" ") + tr("Please check the key and passphrase and try again."));
         return;
     }
 
@@ -246,7 +246,7 @@ void Bip38ToolDialog::on_clearButton_DEC_clicked()
 {
     ui->encryptedKeyIn_DEC->clear();
     ui->decryptedKeyOut_DEC->clear();
-    ui->passcruaseIn_DEC->clear();
+    ui->passphraseIn_DEC->clear();
     ui->statusLabel_DEC->clear();
 
     ui->encryptedKeyIn_DEC->setFocus();

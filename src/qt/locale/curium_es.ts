@@ -114,21 +114,21 @@
     </message>
 </context>
 <context>
-    <name>AskPasscruaseDialog</name>
+    <name>AskPassphraseDialog</name>
     <message>
-        <source>Passcruase Dialog</source>
+        <source>Passphrase Dialog</source>
         <translation>Diálogo de contraseña</translation>
     </message>
     <message>
-        <source>Enter passcruase</source>
+        <source>Enter passphrase</source>
         <translation>Introduzca la contraseña</translation>
     </message>
     <message>
-        <source>New passcruase</source>
+        <source>New passphrase</source>
         <translation>Nueva contraseña</translation>
     </message>
     <message>
-        <source>Repeat new passcruase</source>
+        <source>Repeat new passphrase</source>
         <translation>Repetir nueva contraseña</translation>
     </message>
     <message>
@@ -140,7 +140,7 @@
         <translation>Desbloquear solo para anonimización y staking</translation>
     </message>
     <message>
-        <source>Enter the new passcruase to the wallet.&lt;br/&gt;Please use a passcruase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Escriba la nueva contraseña para la Wallet. &lt;br/&gt;Por favor utilice una contraseña de &lt;b&gt;10 o más caracteres aleatorios&lt;/b&gt;, u &lt;b&gt; ocho o más palabras&lt;/b&gt;</translation>
     </message>
     <message>
@@ -148,7 +148,7 @@
         <translation>Cifrar monedero</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcruase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Esta operación requiere su contraseña para desbloquear el monedero</translation>
     </message>
     <message>
@@ -156,7 +156,7 @@
         <translation>Desbloquear monedero</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcruase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Esta operación requiere su contraseña para descifrar el monedero</translation>
     </message>
     <message>
@@ -164,11 +164,11 @@
         <translation>Descifrar monedero</translation>
     </message>
     <message>
-        <source>Change passcruase</source>
+        <source>Change passphrase</source>
         <translation>Cambiar contraseña</translation>
     </message>
     <message>
-        <source>Enter the old and new passcruase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Ingrese la antigua y la nueva contraseña para el monedero</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>¿Está seguro de que desea cifrar su monedero?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passcruase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
         <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS CRU&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -204,7 +204,7 @@
         <translation>El cifrado del monedero ha fallado debido a un error interno. Su monedero no ha sido cifrado.</translation>
     </message>
     <message>
-        <source>The supplied passcruases do not match.</source>
+        <source>The supplied passphrases do not match.</source>
         <translation>Las contraseñas introducidas no coinciden.</translation>
     </message>
     <message>
@@ -212,7 +212,7 @@
         <translation>Desbloqueo del monedero fallido</translation>
     </message>
     <message>
-        <source>The passcruase entered for the wallet decryption was incorrect.</source>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>La contraseña introducida para el descifrado del monedero es incorrecta.</translation>
     </message>
     <message>
@@ -220,7 +220,7 @@
         <translation>Descifrado del monedero fallido</translation>
     </message>
     <message>
-        <source>Wallet passcruase was successfully changed.</source>
+        <source>Wallet passphrase was successfully changed.</source>
         <translation>Se cambió la contraseña con éxito.</translation>
     </message>
     <message>
@@ -239,7 +239,7 @@
         <translation>&amp;Cifrado BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passcruase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Introduzca la dirección Curium que querría cifrar usando BIP 38. Introduzca una contraseña en el campo central. Haga clic en cifrar para generar la clave privada cifrada.</translation>
     </message>
     <message>
@@ -267,7 +267,7 @@
         <translation>Alt + P</translation>
     </message>
     <message>
-        <source>Passcruase: </source>
+        <source>Passphrase: </source>
         <translation>Contraseña:</translation>
     </message>
     <message>
@@ -299,7 +299,7 @@
         <translation>&amp;Descifrado BIP 38</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passcruase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
         <translation>Introduzca la clave cifrada privada BIP 38. Introduzca la contraseña en el campo central. Haga clic en descifrar clave para generar la clave privada. Después de que la clave sea descifrada, pulsando en 'Importar dirección' añadirá esta clave privada al monedero.</translation>
     </message>
     <message>
@@ -331,7 +331,7 @@
         <translation>Haga clic en "Descifrar clave" para generar la clave</translation>
     </message>
     <message>
-        <source>The entered passcruase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation>La contraseña introducida es inválida</translation>
     </message>
     <message>
@@ -363,7 +363,7 @@
         <translation>Falló el descifrado</translation>
     </message>
     <message>
-        <source>Please check the key and passcruase and try again.</source>
+        <source>Please check the key and passphrase and try again.</source>
         <translation>Por favor compruebe la clave y la contraseña e inténtelo de nuevo.</translation>
     </message>
     <message>
@@ -470,11 +470,11 @@
         <translation>Copia de seguridad de la wallet a otra ubicación</translation>
     </message>
     <message>
-        <source>&amp;Change Passcruase...</source>
+        <source>&amp;Change Passphrase...</source>
         <translation>&amp;Cambiar contraseña...</translation>
     </message>
     <message>
-        <source>Change the passcruase used for wallet encryption</source>
+        <source>Change the passphrase used for wallet encryption</source>
         <translation>Cambiar contraseña usada para la encriptación de la wallet</translation>
     </message>
     <message>
@@ -654,7 +654,7 @@
         <translation>&amp;Herramienta BIP38</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passcruase</source>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
         <translation>Encriptar y desencriptar las llaves privadas usando una contraseña</translation>
     </message>
     <message>
@@ -2384,7 +2384,7 @@ https://www.transifex.com/curium-project/curium-project-translations</translatio
         <translation>La funcionalidad Zerocoin todavía no está habilitada en la red Curium.</translation>
     </message>
     <message>
-        <source>Error: Your wallet is locked. Please enter the wallet passcruase first.</source>
+        <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
         <translation>Error: Tu monedero está bloqueado. Por favor, primero introduzca la clave de desbloqueo.</translation>
     </message>
     <message>

@@ -97,7 +97,7 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMai
                                                                             toggleHideAction(0),
                                                                             encryptWalletAction(0),
                                                                             backupWalletAction(0),
-                                                                            changePasscruaseAction(0),
+                                                                            changePassphraseAction(0),
                                                                             aboutQtAction(0),
                                                                             openRPCConsoleAction(0),
                                                                             openAction(0),
@@ -399,8 +399,8 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
     encryptWalletAction->setCheckable(true);
     backupWalletAction = new QAction(QIcon(":/icons/filesave"), tr("&Backup Wallet..."), this);
     backupWalletAction->setStatusTip(tr("Backup wallet to another location"));
-    changePasscruaseAction = new QAction(QIcon(":/icons/key"), tr("&Change Passcruase..."), this);
-    changePasscruaseAction->setStatusTip(tr("Change the passcruase used for wallet encryption"));
+    changePassphraseAction = new QAction(QIcon(":/icons/key"), tr("&Change Passphrase..."), this);
+    changePassphraseAction->setStatusTip(tr("Change the passphrase used for wallet encryption"));
     unlockWalletAction = new QAction(tr("&Unlock Wallet..."), this);
     unlockWalletAction->setToolTip(tr("Unlock wallet"));
     lockWalletAction = new QAction(tr("&Lock Wallet"), this);
@@ -409,7 +409,7 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
     verifyMessageAction = new QAction(QIcon(":/icons/transaction_0"), tr("&Verify message..."), this);
     verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified Curium addresses"));
     bip38ToolAction = new QAction(QIcon(":/icons/key"), tr("&BIP38 tool"), this);
-    bip38ToolAction->setToolTip(tr("Encrypt and decrypt private keys using a passcruase"));
+    bip38ToolAction->setToolTip(tr("Encrypt and decrypt private keys using a passphrase"));
     multiSendAction = new QAction(QIcon(":/icons/edit"), tr("&MultiSend"), this);
     multiSendAction->setToolTip(tr("MultiSend Settings"));
     multiSendAction->setCheckable(true);
@@ -462,7 +462,7 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
     if (walletFrame) {
         connect(encryptWalletAction, SIGNAL(triggered(bool)), walletFrame, SLOT(encryptWallet(bool)));
         connect(backupWalletAction, SIGNAL(triggered()), walletFrame, SLOT(backupWallet()));
-        connect(changePasscruaseAction, SIGNAL(triggered()), walletFrame, SLOT(changePasscruase()));
+        connect(changePassphraseAction, SIGNAL(triggered()), walletFrame, SLOT(changePassphrase()));
         connect(unlockWalletAction, SIGNAL(triggered()), walletFrame, SLOT(unlockWallet()));
         connect(lockWalletAction, SIGNAL(triggered()), walletFrame, SLOT(lockWallet()));
         connect(signMessageAction, SIGNAL(triggered()), this, SLOT(gotoSignMessageTab()));
@@ -510,7 +510,7 @@ void BitcoinGUI::createMenuBar()
     QMenu* settings = appMenuBar->addMenu(tr("&Settings"));
     if (walletFrame) {
         settings->addAction(encryptWalletAction);
-        settings->addAction(changePasscruaseAction);
+        settings->addAction(changePassphraseAction);
         settings->addAction(unlockWalletAction);
         settings->addAction(lockWalletAction);
         settings->addAction(bip38ToolAction);
@@ -648,7 +648,7 @@ void BitcoinGUI::setWalletActionsEnabled(bool enabled)
     }
     encryptWalletAction->setEnabled(enabled);
     backupWalletAction->setEnabled(enabled);
-    changePasscruaseAction->setEnabled(enabled);
+    changePassphraseAction->setEnabled(enabled);
     signMessageAction->setEnabled(enabled);
     verifyMessageAction->setEnabled(enabled);
     multisigCreateAction->setEnabled(enabled);
@@ -1172,7 +1172,7 @@ void BitcoinGUI::setEncryptionStatus(int status)
     case WalletModel::Unencrypted:
         labelEncryptionIcon->hide();
         encryptWalletAction->setChecked(false);
-        changePasscruaseAction->setEnabled(false);
+        changePassphraseAction->setEnabled(false);
         unlockWalletAction->setVisible(false);
         lockWalletAction->setVisible(false);
         encryptWalletAction->setEnabled(true);
@@ -1182,7 +1182,7 @@ void BitcoinGUI::setEncryptionStatus(int status)
         labelEncryptionIcon->setIcon(QIcon(":/icons/lock_open").pixmap(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE));
         labelEncryptionIcon->setToolTip(tr("Wallet is <b>encrypted</b> and currently <b>unlocked</b>"));
         encryptWalletAction->setChecked(true);
-        changePasscruaseAction->setEnabled(true);
+        changePassphraseAction->setEnabled(true);
         unlockWalletAction->setVisible(false);
         lockWalletAction->setVisible(true);
         encryptWalletAction->setEnabled(false); // TODO: decrypt currently not supported
@@ -1192,7 +1192,7 @@ void BitcoinGUI::setEncryptionStatus(int status)
         labelEncryptionIcon->setIcon(QIcon(":/icons/lock_open").pixmap(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE));
         labelEncryptionIcon->setToolTip(tr("Wallet is <b>encrypted</b> and currently <b>unlocked</b> for anonimization and staking only"));
         encryptWalletAction->setChecked(true);
-        changePasscruaseAction->setEnabled(true);
+        changePassphraseAction->setEnabled(true);
         unlockWalletAction->setVisible(true);
         lockWalletAction->setVisible(true);
         encryptWalletAction->setEnabled(false); // TODO: decrypt currently not supported
@@ -1202,7 +1202,7 @@ void BitcoinGUI::setEncryptionStatus(int status)
         labelEncryptionIcon->setIcon(QIcon(":/icons/lock_closed").pixmap(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE));
         labelEncryptionIcon->setToolTip(tr("Wallet is <b>encrypted</b> and currently <b>locked</b>"));
         encryptWalletAction->setChecked(true);
-        changePasscruaseAction->setEnabled(true);
+        changePassphraseAction->setEnabled(true);
         unlockWalletAction->setVisible(true);
         lockWalletAction->setVisible(false);
         encryptWalletAction->setEnabled(false); // TODO: decrypt currently not supported

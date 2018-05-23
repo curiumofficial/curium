@@ -114,21 +114,21 @@
     </message>
 </context>
 <context>
-    <name>AskPasscruaseDialog</name>
+    <name>AskPassphraseDialog</name>
     <message>
-        <source>Passcruase Dialog</source>
+        <source>Passphrase Dialog</source>
         <translation>Okno prístupovej frázy</translation>
     </message>
     <message>
-        <source>Enter passcruase</source>
+        <source>Enter passphrase</source>
         <translation>Zadajte prístupovú frázu</translation>
     </message>
     <message>
-        <source>New passcruase</source>
+        <source>New passphrase</source>
         <translation>Nová prístupová fráza</translation>
     </message>
     <message>
-        <source>Repeat new passcruase</source>
+        <source>Repeat new passphrase</source>
         <translation>Zopakujte prístupovú frázu</translation>
     </message>
     <message>
@@ -140,7 +140,7 @@
         <translation>Len pre anonymizáciu a staking</translation>
     </message>
     <message>
-        <source>Enter the new passcruase to the wallet.&lt;br/&gt;Please use a passcruase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Zadajte novú prístupovú frázu do peňaženky. &lt;br/&gt; Použite prístupovú frázu &lt;b&gt;, ktorá má desať alebo viac náhodných znakov &lt;/ b&gt; alebo &lt;b&gt; osem alebo viac slov &lt;/ b&gt;.</translation>
     </message>
     <message>
@@ -148,7 +148,7 @@
         <translation>Šifrovať peňaženku</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcruase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Táto operácia potrebuje prístupovú frázu peňaženky na odomknutie peňaženky.</translation>
     </message>
     <message>
@@ -156,7 +156,7 @@
         <translation>Odomknúť peňaženku</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcruase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Táto operácia potrebuje prístupovú frázu peňaženky na dešifrovanie peňaženky.</translation>
     </message>
     <message>
@@ -164,11 +164,11 @@
         <translation>Dešifrovať peňaženku</translation>
     </message>
     <message>
-        <source>Change passcruase</source>
+        <source>Change passphrase</source>
         <translation>Zmeniť prístupovú frázu</translation>
     </message>
     <message>
-        <source>Enter the old and new passcruase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Zadajte starú a novú prístupovú frázu do peňaženky.</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>Naozaj chcete zašifrovať svoju peňaženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passcruase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
         <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY CRU &lt;/ b&gt;!</translation>
     </message>
     <message>
@@ -204,7 +204,7 @@
         <translation>Šifrovanie peňaženky zlyhalo kvôli internej chybe. Vaša peňaženka nebola zašifrovaná.</translation>
     </message>
     <message>
-        <source>The supplied passcruases do not match.</source>
+        <source>The supplied passphrases do not match.</source>
         <translation>Zadané prístupové frázy sa nezhodujú.</translation>
     </message>
     <message>
@@ -212,7 +212,7 @@
         <translation>Odomknutie peňaženky zlyhalo</translation>
     </message>
     <message>
-        <source>The passcruase entered for the wallet decryption was incorrect.</source>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>Zadaná prístupová fráza pre dešifrovanie peňaženky bola nesprávna.</translation>
     </message>
     <message>
@@ -220,7 +220,7 @@
         <translation>Dešifrovanie peňaženky zlyhalo</translation>
     </message>
     <message>
-        <source>Wallet passcruase was successfully changed.</source>
+        <source>Wallet passphrase was successfully changed.</source>
         <translation>Prístupová fráza pre peňaženku bola úspešne zmenená.</translation>
     </message>
     <message>
@@ -239,7 +239,7 @@
         <translation>BIP 38 Šifrovanie</translation>
     </message>
     <message>
-        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passcruase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Zadajte adresu Curium, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
     </message>
     <message>
@@ -267,7 +267,7 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passcruase: </source>
+        <source>Passphrase: </source>
         <translation>Prístupová fráza:</translation>
     </message>
     <message>
@@ -299,7 +299,7 @@
         <translation>BIP 38 dešifrovanie</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passcruase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
         <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
     </message>
     <message>
@@ -331,7 +331,7 @@
         <translation>Kliknite na tlačidlo "Dešifrovať kľúč" pre výpočet kľúča</translation>
     </message>
     <message>
-        <source>The entered passcruase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation>Zadaná prístupová fráza je neplatná.</translation>
     </message>
     <message>
@@ -363,7 +363,7 @@
         <translation>Dešifrovanie zlyhalo.</translation>
     </message>
     <message>
-        <source>Please check the key and passcruase and try again.</source>
+        <source>Please check the key and passphrase and try again.</source>
         <translation>Skontrolujte, prosím, kľúč a prístupovú frázu a skúste to znova.</translation>
     </message>
     <message>
@@ -470,11 +470,11 @@
         <translation>Zálohovať peňaženku na iné miesto</translation>
     </message>
     <message>
-        <source>&amp;Change Passcruase...</source>
+        <source>&amp;Change Passphrase...</source>
         <translation>Zmeniť prístupovú frázu...</translation>
     </message>
     <message>
-        <source>Change the passcruase used for wallet encryption</source>
+        <source>Change the passphrase used for wallet encryption</source>
         <translation>Zmeniť prístupovú frázu, ktorá bola použitá na šifrovanie peňaženky</translation>
     </message>
     <message>
@@ -642,7 +642,7 @@
         <translation>BIP 38 Utilita</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passcruase</source>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
         <translation>Šifrovať a dešifrovať privátne kľúče pomocou prístupovej frázy</translation>
     </message>
     <message>

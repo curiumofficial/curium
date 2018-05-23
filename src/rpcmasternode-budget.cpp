@@ -58,7 +58,7 @@ Value mnbudget(const Array& params, bool fHelp)
     if (fHelp ||
         (strCommand != "vote-alias" && strCommand != "vote-many" && strCommand != "prepare" && strCommand != "submit" && strCommand != "vote" && strCommand != "getvotes" && strCommand != "getinfo" && strCommand != "show" && strCommand != "projection" && strCommand != "check" && strCommand != "nextblock"))
         throw runtime_error(
-            "mnbudget \"command\"... ( \"passcruase\" )\n"
+            "mnbudget \"command\"... ( \"passphrase\" )\n"
             "\nVote or show current budgets\n"
             "This command is deprecated, please see individual command documentation for future reference\n\n"
 
@@ -154,7 +154,7 @@ Value preparebudget(const Array& params, bool fHelp)
             HelpExampleRpc("preparebudget", "\"test-proposal\" \"https://forum.curium.org/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500"));
 
     if (pwalletMain->IsLocked())
-        throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Please enter the wallet passcruase with walletpasscruase first.");
+        throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Please enter the wallet passphrase with walletpassphrase first.");
 
     std::string strProposalName = SanitizeString(params[0].get_str());
     if (strProposalName.size() > 20)
@@ -838,7 +838,7 @@ Value mnfinalbudget(const Array& params, bool fHelp)
     if (fHelp ||
         (strCommand != "suggest" && strCommand != "vote-many" && strCommand != "vote" && strCommand != "show" && strCommand != "getvotes"))
         throw runtime_error(
-            "mnfinalbudget \"command\"... ( \"passcruase\" )\n"
+            "mnfinalbudget \"command\"... ( \"passphrase\" )\n"
             "Vote or show current budgets\n"
             "\nAvailable commands:\n"
             "  vote-many   - Vote on a finalized budget\n"

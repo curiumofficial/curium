@@ -114,25 +114,25 @@
     </message>
 </context>
 <context>
-    <name>AskPasscruaseDialog</name>
+    <name>AskPassphraseDialog</name>
     <message>
-        <source>Passcruase Dialog</source>
+        <source>Passphrase Dialog</source>
         <translation>Diàleg de contrasenya</translation>
     </message>
     <message>
-        <source>Enter passcruase</source>
+        <source>Enter passphrase</source>
         <translation>Introduïu una contrasenya</translation>
     </message>
     <message>
-        <source>New passcruase</source>
+        <source>New passphrase</source>
         <translation>Nova contrasenya</translation>
     </message>
     <message>
-        <source>Repeat new passcruase</source>
+        <source>Repeat new passphrase</source>
         <translation>Repetiu la nova contrasenya</translation>
     </message>
     <message>
-        <source>Enter the new passcruase to the wallet.&lt;br/&gt;Please use a passcruase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Introduïu la contrasenya nova al moneder. &lt;br/&gt;Utilitzeu una contrasenya de &lt;b&gt;deu o més caràcters aleatoris&lt;/b&gt;, o &lt;b&gt;vuit o més paraules&lt;/b&gt;.</translation>
     </message>
     <message>
@@ -140,7 +140,7 @@
         <translation>Encripta el moneder</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcruase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Aquesta operació requereix la contrasenya del moneder per a desbloquejar-lo.</translation>
     </message>
     <message>
@@ -148,7 +148,7 @@
         <translation>Desbloqueja el moneder</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcruase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Aquesta operació requereix la contrasenya del moneder per desencriptar-lo.</translation>
     </message>
     <message>
@@ -156,11 +156,11 @@
         <translation>Desencripta el moneder</translation>
     </message>
     <message>
-        <source>Change passcruase</source>
+        <source>Change passphrase</source>
         <translation>Canvia la contrasenya</translation>
     </message>
     <message>
-        <source>Enter the old and new passcruase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Introduïu la contrasenya antiga i la contrasenya nova al moneder.</translation>
     </message>
     <message>
@@ -176,7 +176,7 @@
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passcruase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
         <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES CRUS&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -188,7 +188,7 @@
         <translation>L'encriptació del moneder ha fallat</translation>
     </message>
     <message>
-        <source>The supplied passcruases do not match.</source>
+        <source>The supplied passphrases do not match.</source>
         <translation>Les contrasenyes introduïdes no coincideixen.</translation>
     </message>
     <message>
@@ -196,7 +196,7 @@
         <translation>El desbloqueig del moneder ha fallat</translation>
     </message>
     <message>
-        <source>The passcruase entered for the wallet decryption was incorrect.</source>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>La contrasenya introduïda per a desencriptar el moneder és incorrecta.</translation>
     </message>
     <message>
@@ -204,7 +204,7 @@
         <translation>La desencriptació del moneder ha fallat.</translation>
     </message>
     <message>
-        <source>Wallet passcruase was successfully changed.</source>
+        <source>Wallet passphrase was successfully changed.</source>
         <translation>La contrasenya del moneder ha estat canviada amb èxit.</translation>
     </message>
     </context>
@@ -231,7 +231,7 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passcruase: </source>
+        <source>Passphrase: </source>
         <translation>Contrasenya:</translation>
     </message>
     <message>
@@ -255,7 +255,7 @@
         <translation>Importa adreça</translation>
     </message>
     <message>
-        <source>The entered passcruase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation>La contrasenya introduïda és incorrecta.</translation>
     </message>
     <message>
@@ -342,7 +342,7 @@
         <translation>Realitza una &amp;còpia de seguretat del moneder...</translation>
     </message>
     <message>
-        <source>&amp;Change Passcruase...</source>
+        <source>&amp;Change Passphrase...</source>
         <translation>&amp;Canvia la contrasenya...</translation>
     </message>
     <message>

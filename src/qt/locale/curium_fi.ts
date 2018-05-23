@@ -110,21 +110,21 @@
     </message>
 </context>
 <context>
-    <name>AskPasscruaseDialog</name>
+    <name>AskPassphraseDialog</name>
     <message>
-        <source>Passcruase Dialog</source>
+        <source>Passphrase Dialog</source>
         <translation>Salausavain dialogi</translation>
     </message>
     <message>
-        <source>Enter passcruase</source>
+        <source>Enter passphrase</source>
         <translation>Syötä salausavaimesi</translation>
     </message>
     <message>
-        <source>New passcruase</source>
+        <source>New passphrase</source>
         <translation>Uusi salausavain</translation>
     </message>
     <message>
-        <source>Repeat new passcruase</source>
+        <source>Repeat new passphrase</source>
         <translation>Toista uusi salausavain</translation>
     </message>
     <message>
@@ -136,7 +136,7 @@
         <translation>Vain anonymisointiin ja panostukseen</translation>
     </message>
     <message>
-        <source>Enter the new passcruase to the wallet.&lt;br/&gt;Please use a passcruase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Syötä uusi salausavain lompakkoon &lt;br/&gt; Käytä salausavaimena &lt;b&gt;yli kymmentä satunnaista merkkiä&lt;/b&gt;, tai &lt;b&gt; kahdeksaa tai useampaa sanaa&lt;/b&gt;.</translation>
     </message>
     <message>
@@ -144,7 +144,7 @@
         <translation>Salaa lompakko</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcruase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Tämä toiminto tarvitsee sinun salausavaimesi lompakon avaamista varten.</translation>
     </message>
     <message>
@@ -152,7 +152,7 @@
         <translation>Avaa lompakko</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcruase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Tämä toiminto vaatii salausavaimen avataksesi lompakon.</translation>
     </message>
     <message>
@@ -160,11 +160,11 @@
         <translation>Pura lompakon salaus</translation>
     </message>
     <message>
-        <source>Change passcruase</source>
+        <source>Change passphrase</source>
         <translation>Vaihda salausavain</translation>
     </message>
     <message>
-        <source>Enter the old and new passcruase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Syötä uusi ja vanha salausavain lompakkoon.</translation>
     </message>
     <message>
@@ -180,7 +180,7 @@
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passcruase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
         <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki CRUisi&lt;/b&gt;</translation>
     </message>
     <message>
@@ -200,7 +200,7 @@
         <translation>Lompakon salaus epäonnistui sisäisen vian vuoksi. Lompakkoa ei salattu.</translation>
     </message>
     <message>
-        <source>The supplied passcruases do not match.</source>
+        <source>The supplied passphrases do not match.</source>
         <translation>Syötetyt salausavaimet eivät täsmää.</translation>
     </message>
     <message>
@@ -208,7 +208,7 @@
         <translation>Lompakon avaaminen epäonnistui</translation>
     </message>
     <message>
-        <source>The passcruase entered for the wallet decryption was incorrect.</source>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>Syöttämäsi salausavain on väärin.</translation>
     </message>
     <message>
@@ -216,7 +216,7 @@
         <translation>Lompakon salauksen purku epäonnistui</translation>
     </message>
     <message>
-        <source>Wallet passcruase was successfully changed.</source>
+        <source>Wallet passphrase was successfully changed.</source>
         <translation>Lompakon salausavaimen vaihto onnistui.</translation>
     </message>
     <message>
@@ -235,7 +235,7 @@
         <translation>&amp;BIP 38 Salaus</translation>
     </message>
     <message>
-        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passcruase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Syötä Curium osoite, jonnka tahtoisit salata käyttäen BIP 38.
 Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityisavaimen.</translation>
     </message>
@@ -264,7 +264,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passcruase: </source>
+        <source>Passphrase: </source>
         <translation>Salausavain:</translation>
     </message>
     <message>
@@ -296,7 +296,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;BIP 38 salauksen avaus</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passcruase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
         <translation>Syötä BIP 38 salattu yksityisavain. Syötä salausavain laatikkoon. Paina Avaa Salaus tuottaaksesi yksityisavaimen. Kun avain on dekryptattu, painamalla "Import osoite" lisää tämän yksityisavaimen lompakkoon.</translation>
     </message>
     <message>
@@ -328,7 +328,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Paina "Salausavaimen avaus" generoidaksesi avain</translation>
     </message>
     <message>
-        <source>The entered passcruase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation>Syötetty salausavain ei ole toimiva.</translation>
     </message>
     <message>
@@ -360,7 +360,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Salauksen avaus ei onnistunut.</translation>
     </message>
     <message>
-        <source>Please check the key and passcruase and try again.</source>
+        <source>Please check the key and passphrase and try again.</source>
         <translation>Ole hyvä ja tarkista avain ja salausavain. Kokeile uudestaan.</translation>
     </message>
     <message>
@@ -467,11 +467,11 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Varmuuskopioi lompakko toiseen sijaintiin</translation>
     </message>
     <message>
-        <source>&amp;Change Passcruase...</source>
+        <source>&amp;Change Passphrase...</source>
         <translation>&amp;Vaihda salausavain...</translation>
     </message>
     <message>
-        <source>Change the passcruase used for wallet encryption</source>
+        <source>Change the passphrase used for wallet encryption</source>
         <translation>Vaihda salausavain, jota käytetään lompakon salaukseen</translation>
     </message>
     <message>
@@ -635,7 +635,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;BIP38 työkalu</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passcruase</source>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
         <translation>Salaa ja avaa yksityisavainten salaus käyttämällä salasanaa</translation>
     </message>
     <message>

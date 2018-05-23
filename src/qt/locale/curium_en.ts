@@ -143,26 +143,26 @@
     </message>
 </context>
 <context>
-    <name>AskPasscruaseDialog</name>
+    <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpasscruasedialog.ui" line="+26"/>
-        <source>Passcruase Dialog</source>
-        <translation>Passcruase Dialog</translation>
+        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
+        <source>Passphrase Dialog</source>
+        <translation>Passphrase Dialog</translation>
     </message>
     <message>
         <location line="+30"/>
-        <source>Enter passcruase</source>
-        <translation>Enter passcruase</translation>
+        <source>Enter passphrase</source>
+        <translation>Enter passphrase</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>New passcruase</source>
-        <translation>New passcruase</translation>
+        <source>New passphrase</source>
+        <translation>New passphrase</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Repeat new passcruase</source>
-        <translation>Repeat new passcruase</translation>
+        <source>Repeat new passphrase</source>
+        <translation>Repeat new passphrase</translation>
     </message>
     <message>
         <location line="+33"/>
@@ -175,9 +175,9 @@
         <translation>For anonymization and staking only</translation>
     </message>
     <message>
-        <location filename="../askpasscruasedialog.cpp" line="+44"/>
-        <source>Enter the new passcruase to the wallet.&lt;br/&gt;Please use a passcruase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Enter the new passcruase to the wallet.&lt;br/&gt;Please use a passcruase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</translation>
+        <location filename="../askpassphrasedialog.cpp" line="+44"/>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -186,8 +186,8 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>This operation needs your wallet passcruase to unlock the wallet.</source>
-        <translation>This operation needs your wallet passcruase to unlock the wallet.</translation>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation>This operation needs your wallet passphrase to unlock the wallet.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -196,8 +196,8 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>This operation needs your wallet passcruase to decrypt the wallet.</source>
-        <translation>This operation needs your wallet passcruase to decrypt the wallet.</translation>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <translation>This operation needs your wallet passphrase to decrypt the wallet.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -206,13 +206,13 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Change passcruase</source>
-        <translation>Change passcruase</translation>
+        <source>Change passphrase</source>
+        <translation>Change passphrase</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Enter the old and new passcruase to the wallet.</source>
-        <translation>Enter the old and new passcruase to the wallet.</translation>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Enter the old and new passphrase to the wallet.</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passcruase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -261,8 +261,8 @@
     <message>
         <location line="+5"/>
         <location line="+35"/>
-        <source>The supplied passcruases do not match.</source>
-        <translation>The supplied passcruases do not match.</translation>
+        <source>The supplied passphrases do not match.</source>
+        <translation>The supplied passphrases do not match.</translation>
     </message>
     <message>
         <location line="-26"/>
@@ -273,8 +273,8 @@
         <location line="+1"/>
         <location line="+8"/>
         <location line="+13"/>
-        <source>The passcruase entered for the wallet decryption was incorrect.</source>
-        <translation>The passcruase entered for the wallet decryption was incorrect.</translation>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <translation>The passphrase entered for the wallet decryption was incorrect.</translation>
     </message>
     <message>
         <location line="-14"/>
@@ -283,8 +283,8 @@
     </message>
     <message>
         <location line="+10"/>
-        <source>Wallet passcruase was successfully changed.</source>
-        <translation>Wallet passcruase was successfully changed.</translation>
+        <source>Wallet passphrase was successfully changed.</source>
+        <translation>Wallet passphrase was successfully changed.</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -307,7 +307,7 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passcruase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -344,7 +344,7 @@
     <message>
         <location line="+14"/>
         <location line="+185"/>
-        <source>Passcruase: </source>
+        <source>Passphrase: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -386,7 +386,7 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>Enter the BIP 38 encrypted private key. Enter the passcruase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking &apos;Import Address&apos; will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking &apos;Import Address&apos; will add this private key to the wallet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -426,7 +426,7 @@
     </message>
     <message>
         <location line="+90"/>
-        <source>The entered passcruase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -468,7 +468,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Please check the key and passcruase and try again.</source>
+        <source>Please check the key and passphrase and try again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -607,13 +607,13 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>&amp;Change Passcruase...</source>
-        <translation>&amp;Change Passcruase...</translation>
+        <source>&amp;Change Passphrase...</source>
+        <translation>&amp;Change Passphrase...</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Change the passcruase used for wallet encryption</source>
-        <translation>Change the passcruase used for wallet encryption</translation>
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>Change the passphrase used for wallet encryption</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -836,7 +836,7 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Encrypt and decrypt private keys using a passcruase</source>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3172,7 +3172,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     </message>
     <message>
         <location line="-98"/>
-        <source>Error: Your wallet is locked. Please enter the wallet passcruase first.</source>
+        <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

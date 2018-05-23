@@ -400,7 +400,7 @@ Value bip38encrypt(const Array& params, bool fHelp)
             "\nEncrypts a private key corresponding to 'curiumaddress'.\n"
             "\nArguments:\n"
             "1. \"curiumaddress\"   (string, required) The curium address for the private key (you must hold the key already)\n"
-            "2. \"passcruase\"   (string, required) The passcruase you want the private key to be encrypted with - Valid special chars: !#$%&'()*+,-./:;<=>?`{|}~ \n"
+            "2. \"passphrase\"   (string, required) The passphrase you want the private key to be encrypted with - Valid special chars: !#$%&'()*+,-./:;<=>?`{|}~ \n"
             "\nResult:\n"
             "\"key\"                (string) The encrypted private key\n"
             "\nExamples:\n");
@@ -408,7 +408,7 @@ Value bip38encrypt(const Array& params, bool fHelp)
     EnsureWalletIsUnlocked();
 
     string strAddress = params[0].get_str();
-    string strPasscruase = params[1].get_str();
+    string strPassphrase = params[1].get_str();
 
     CBitcoinAddress address;
     if (!address.SetString(strAddress))
@@ -421,7 +421,7 @@ Value bip38encrypt(const Array& params, bool fHelp)
         throw JSONRPCError(RPC_WALLET_ERROR, "Private key for address " + strAddress + " is not known");
 
     uint256 privKey = vchSecret.GetPrivKey_256();
-    string encryptedOut = BIP38_Encrypt(strAddress, strPasscruase, privKey, vchSecret.IsCompressed());
+    string encryptedOut = BIP38_Encrypt(strAddress, strPassphrase, privKey, vchSecret.IsCompressed());
 
     Object result;
     result.push_back(Pair("Addess", strAddress));
@@ -438,7 +438,7 @@ Value bip38decrypt(const Array& params, bool fHelp)
             "\nDecrypts and then imports password protected private key.\n"
             "\nArguments:\n"
             "1. \"encryptedkey\"   (string, required) The encrypted private key\n"
-            "2. \"passcruase\"   (string, required) The passcruase you want the private key to be encrypted with\n"
+            "2. \"passphrase\"   (string, required) The passphrase you want the private key to be encrypted with\n"
 
             "\nResult:\n"
             "\"key\"                (string) The decrypted private key\n"
@@ -446,13 +446,13 @@ Value bip38decrypt(const Array& params, bool fHelp)
 
     EnsureWalletIsUnlocked();
 
-    /** Collect private key and passcruase **/
+    /** Collect private key and passphrase **/
     string strKey = params[0].get_str();
-    string strPasscruase = params[1].get_str();
+    string strPassphrase = params[1].get_str();
 
     uint256 privKey;
     bool fCompressed;
-    if (!BIP38_Decrypt(strPasscruase, strKey, privKey, fCompressed))
+    if (!BIP38_Decrypt(strPassphrase, strKey, privKey, fCompressed))
         throw JSONRPCError(RPC_WALLET_ERROR, "Failed To Decrypt");
 
     Object result;

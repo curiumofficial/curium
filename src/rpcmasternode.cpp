@@ -60,10 +60,10 @@ Value obfuscation(const Array& params, bool fHelp)
             "obfuscation <curiumaddress> <amount>\n"
             "curiumaddress, reset, or auto (AutoDenominate)"
             "<amount> is a real and will be rounded to the next 0.1" +
-            HelpRequiringPasscruase());
+            HelpRequiringPassphrase());
 
     if (pwalletMain->IsLocked())
-        throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Please enter the wallet passcruase with walletpasscruase first.");
+        throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Please enter the wallet passphrase with walletpassphrase first.");
 
     if (params[0].get_str() == "auto") {
         if (fMasterNode)
@@ -82,7 +82,7 @@ Value obfuscation(const Array& params, bool fHelp)
             "obfuscation <curiumaddress> <amount>\n"
             "curiumaddress, denominate, or auto (AutoDenominate)"
             "<amount> is a real and will be rounded to the next 0.1" +
-            HelpRequiringPasscruase());
+            HelpRequiringPassphrase());
 
     CBitcoinAddress address(params[0].get_str());
     if (!address.IsValid())
@@ -487,7 +487,7 @@ Value startmasternode (const Array& params, bool fHelp)
         if (!fMasterNode) throw runtime_error("you must set masternode=1 in the configuration\n");
 
         if (pwalletMain->IsLocked())
-            throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Please enter the wallet passcruase with walletpasscruase first.");
+            throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Please enter the wallet passphrase with walletpassphrase first.");
 
         if (activeMasternode.status != ACTIVE_MASTERNODE_STARTED) {
             activeMasternode.status = ACTIVE_MASTERNODE_INITIAL; // TODO: consider better way
@@ -501,7 +501,7 @@ Value startmasternode (const Array& params, bool fHelp)
 
     if (strCommand == "all" || strCommand == "many" || strCommand == "missing" || strCommand == "disabled") {
         if (pwalletMain->IsLocked())
-            throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Please enter the wallet passcruase with walletpasscruase first.");
+            throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Please enter the wallet passphrase with walletpassphrase first.");
 
         if ((strCommand == "missing" || strCommand == "disabled") &&
             (masternodeSync.RequestedMasternodeAssets <= MASTERNODE_SYNC_LIST ||
@@ -560,7 +560,7 @@ Value startmasternode (const Array& params, bool fHelp)
         std::string alias = params[2].get_str();
 
         if (pwalletMain->IsLocked())
-            throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Please enter the wallet passcruase with walletpasscruase first.");
+            throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Please enter the wallet passphrase with walletpassphrase first.");
 
         bool found = false;
         int successful = 0;

@@ -109,11 +109,11 @@ An additional parameter has been added to `mnbudget` to allow a controller walle
 
 All fields are required to successfully vote.
 
-#### walletpasscruase command
+#### walletpassphrase command
 
-CLI users that are staking their coins will now have the option of unlocking the wallet with no re-lock timeout. Similar to using `9999999` as the timeout, the `walletpasscruase` command now accepts `0` as a timeout to indicate that no re-locking should occur based on elapsed time.
+CLI users that are staking their coins will now have the option of unlocking the wallet with no re-lock timeout. Similar to using `9999999` as the timeout, the `walletpassphrase` command now accepts `0` as a timeout to indicate that no re-locking should occur based on elapsed time.
 
-Usage: `walletpasscruase <passcruase> 0 <true|false>`
+Usage: `walletpassphrase <passphrase> 0 <true|false>`
 
 The third parameter indicates if the wallet should be unlocked for staking and anonymization only (true), or to allow send operations (false, full unlock).
 

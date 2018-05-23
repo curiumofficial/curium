@@ -10,8 +10,8 @@
 /* Milliseconds between model updates */
 static const int MODEL_UPDATE_DELAY = 250;
 
-/* AskPasscruaseDialog -- Maximum passcruase length */
-static const int MAX_PASSCRUASE_SIZE = 1024;
+/* AskPassphraseDialog -- Maximum passphrase length */
+static const int MAX_PASSPHRASE_SIZE = 1024;
 
 /* Curium GUI -- Size of icons in status bar */
 static const int STATUSBAR_ICONSIZE = 16;

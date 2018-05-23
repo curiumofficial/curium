@@ -8,7 +8,7 @@
 #include "ui_sendcoinsdialog.h"
 
 #include "addresstablemodel.h"
-#include "askpasscruasedialog.h"
+#include "askpassphrasedialog.h"
 #include "bitcoinunits.h"
 #include "clientmodel.h"
 #include "coincontroldialog.h"
@@ -317,7 +317,7 @@ void SendCoinsDialog::on_sendButton_clicked()
     fNewRecipientAllowed = false;
 
     // request unlock only if was locked or unlocked for mixing:
-    // this way we let users unlock by walletpasscruase or by menu
+    // this way we let users unlock by walletpassphrase or by menu
     // and make many transactions while unlocking through this dialog
     // will call relock
     WalletModel::EncryptionStatus encStatus = model->getEncryptionStatus();

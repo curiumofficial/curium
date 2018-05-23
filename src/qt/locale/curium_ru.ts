@@ -114,21 +114,21 @@
     </message>
 </context>
 <context>
-    <name>AskPasscruaseDialog</name>
+    <name>AskPassphraseDialog</name>
     <message>
-        <source>Passcruase Dialog</source>
+        <source>Passphrase Dialog</source>
         <translation>Диалоговое окно кодовой фразы</translation>
     </message>
     <message>
-        <source>Enter passcruase</source>
+        <source>Enter passphrase</source>
         <translation>Введите кодовую фразу</translation>
     </message>
     <message>
-        <source>New passcruase</source>
+        <source>New passphrase</source>
         <translation>Новая кодовая фраза</translation>
     </message>
     <message>
-        <source>Repeat new passcruase</source>
+        <source>Repeat new passphrase</source>
         <translation>Повторить новую кодовую фразу</translation>
     </message>
     <message>
@@ -136,7 +136,7 @@
         <translation>Только для анонимизации и хранения</translation>
     </message>
     <message>
-        <source>Enter the new passcruase to the wallet.&lt;br/&gt;Please use a passcruase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Введите новый пароль к кошельку. &lt;br/&gt;Используйте при этом десять &lt;/b&gt;или болле случайных символов &lt;/b&gt;или восем и более слов.</translation>
     </message>
     <message>
@@ -144,7 +144,7 @@
         <translation>Зашифровать кошелек</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcruase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Для этой операции требуется кодовая фраза вашего кошелька, чтобы разблокировать кошелек.</translation>
     </message>
     <message>
@@ -152,7 +152,7 @@
         <translation>Снятие блокировки кошелька</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcruase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Для операции дешифрования вашего кошелька нужна кодовая фраза.</translation>
     </message>
     <message>
@@ -160,11 +160,11 @@
         <translation>Расшифровать кошелек</translation>
     </message>
     <message>
-        <source>Change passcruase</source>
+        <source>Change passphrase</source>
         <translation>Изменить кодовую фразу</translation>
     </message>
     <message>
-        <source>Enter the old and new passcruase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Введите старую и новую кодовую фразу для кошелька.</translation>
     </message>
     <message>
@@ -180,7 +180,7 @@
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passcruase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
         <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ CRU&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -200,7 +200,7 @@
         <translation>Шифрование кошелька не удалось из-за внутренней ошибки. Ваш кошелек не был зашифрован.</translation>
     </message>
     <message>
-        <source>The supplied passcruases do not match.</source>
+        <source>The supplied passphrases do not match.</source>
         <translation>Введенные парольные фразы не совпадают.</translation>
     </message>
     <message>
@@ -208,7 +208,7 @@
         <translation>Не удалось разблокировать кошелек</translation>
     </message>
     <message>
-        <source>The passcruase entered for the wallet decryption was incorrect.</source>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>Кодовая фраза, введенная для расшифровки кошелька, была неверной.</translation>
     </message>
     <message>
@@ -216,7 +216,7 @@
         <translation>Не удалось дешифровать кошелек</translation>
     </message>
     <message>
-        <source>Wallet passcruase was successfully changed.</source>
+        <source>Wallet passphrase was successfully changed.</source>
         <translation>Кодовая фраза кошелька успешно изменена.</translation>
     </message>
     <message>
@@ -235,7 +235,7 @@
         <translation>&amp;BIP 38 Шифрование</translation>
     </message>
     <message>
-        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passcruase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Введите Curium адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
     </message>
     <message>
@@ -263,7 +263,7 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passcruase: </source>
+        <source>Passphrase: </source>
         <translation>Кодовая фраза:</translation>
     </message>
     <message>
@@ -295,7 +295,7 @@
         <translation>&amp;BIP 38 Дешифрование</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passcruase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
         <translation>Введите зашифрованный с помощью BIP 38 секретный ключ. Введите секретную фразу в среднем окне. Нажмите Дешифровать Ключ чтобы создать секретный ключ. Нажав на Импортировать Адрес после дешифровки, вы добавите секретный ключ к кошельку.</translation>
     </message>
     <message>
@@ -327,7 +327,7 @@
         <translation>Нажмите "Дешифровать Ключ" для генерации ключа</translation>
     </message>
     <message>
-        <source>The entered passcruase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation>Неправильно введена кодовая фраза.</translation>
     </message>
     <message>
@@ -359,7 +359,7 @@
         <translation>Не удалось дешифровать.</translation>
     </message>
     <message>
-        <source>Please check the key and passcruase and try again.</source>
+        <source>Please check the key and passphrase and try again.</source>
         <translation>Пожалуйста, проверьте ключ и кодовую фразу и попробуйте снова.</translation>
     </message>
     <message>
@@ -466,11 +466,11 @@
         <translation>Сделать резервную копию кошелька в другом месте</translation>
     </message>
     <message>
-        <source>&amp;Change Passcruase...</source>
+        <source>&amp;Change Passphrase...</source>
         <translation>&amp;Изменить кодовую фразу</translation>
     </message>
     <message>
-        <source>Change the passcruase used for wallet encryption</source>
+        <source>Change the passphrase used for wallet encryption</source>
         <translation>Изменение кодовой фразы, используемой для шифрования кошелька</translation>
     </message>
     <message>
@@ -646,7 +646,7 @@
         <translation>&amp;BIP38 Утилита</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passcruase</source>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
         <translation>Шифрование и дешифрование личных ключей с использованием кодовой фразы</translation>
     </message>
     <message>

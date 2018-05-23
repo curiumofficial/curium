@@ -1,7 +1,7 @@
 Translations
 ============
 
-The Curium Core project has been designed to support multiple localisations. This makes adding new cruases, and completely new languages easily achievable. For managing all application translations, Curium Core makes use of the Transifex online translation management tool.
+The Curium Core project has been designed to support multiple localisations. This makes adding new phrases, and completely new languages easily achievable. For managing all application translations, Curium Core makes use of the Transifex online translation management tool.
 
 ### Helping to translate (using Transifex)
 Transifex is setup to monitor the GitHub repo for updates, and when code containing new translations is found, Transifex will process any changes. It may take several hours after a pull-request has been merged, to appear in the Transifex web interface.
@@ -30,7 +30,7 @@ QToolBar *toolbar = addToolBar(tr("Tabs toolbar"));
 ```
 
 ### Creating a pull-request
-For general PRs, you shouldn’t include any updates to the translation source files. They will be updated periodically, primarily around pre-releases, allowing time for any new cruases to be translated before public releases. This is also important in avoiding translation related merge conflicts.
+For general PRs, you shouldn’t include any updates to the translation source files. They will be updated periodically, primarily around pre-releases, allowing time for any new phrases to be translated before public releases. This is also important in avoiding translation related merge conflicts.
 
 When an updated source file is merged into the GitHub repo, Transifex will automatically detect it (although it can take several hours). Once processed, the new strings will show up as "Remaining" in the Transifex web interface and are ready for translators.
 

@@ -116,21 +116,21 @@
     </message>
 </context>
 <context>
-    <name>AskPasscruaseDialog</name>
+    <name>AskPassphraseDialog</name>
     <message>
-        <source>Passcruase Dialog</source>
+        <source>Passphrase Dialog</source>
         <translation>パスワードダイアログ</translation>
     </message>
     <message>
-        <source>Enter passcruase</source>
+        <source>Enter passphrase</source>
         <translation>パスワードを入力してください。</translation>
     </message>
     <message>
-        <source>New passcruase</source>
+        <source>New passphrase</source>
         <translation>新しいパスワード</translation>
     </message>
     <message>
-        <source>Repeat new passcruase</source>
+        <source>Repeat new passphrase</source>
         <translation>新しいパスワードの確認</translation>
     </message>
     <message>
@@ -142,7 +142,7 @@
         <translation>匿名化およびステーキングのみを有効化</translation>
     </message>
     <message>
-        <source>Enter the new passcruase to the wallet.&lt;br/&gt;Please use a passcruase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>新しいパスワードを入力してください。&lt;br/&gt;パスワード/フレーズは&lt;b&gt;10文字以上&lt;/b&gt;, もしくは &lt;b&gt;8単語以上&lt;/b&gt;.</translation>
     </message>
     <message>
@@ -150,7 +150,7 @@
         <translation>ウォレットを暗号化</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcruase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>この操作にはウォレットのパスワードを入力しウォレットの暗号化を解除する必要があります。</translation>
     </message>
     <message>
@@ -158,7 +158,7 @@
         <translation>ウォレットの暗号化を解除</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcruase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>この操作では、ウォレットの復号化のためパスワードが必要です。</translation>
     </message>
     <message>
@@ -166,11 +166,11 @@
         <translation>ウォレットの復号化</translation>
     </message>
     <message>
-        <source>Change passcruase</source>
+        <source>Change passphrase</source>
         <translation>パスワードの変更</translation>
     </message>
     <message>
-        <source>Enter the old and new passcruase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>古いパスワード・新しいパスワードを入力してください。</translation>
     </message>
     <message>
@@ -186,7 +186,7 @@
         <translation>ウォレットを暗号化しますか？</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passcruase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
         <translation>注意 : もし暗号化した後パスワードを忘れた場合 &lt;b&gt;すべてのCRUを失います&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -206,7 +206,7 @@
         <translation>ウォレットの暗号化は内部エラーのため失敗しました。あなたのウォレットは暗号化されていません。</translation>
     </message>
     <message>
-        <source>The supplied passcruases do not match.</source>
+        <source>The supplied passphrases do not match.</source>
         <translation>入力されたパスワードが一致していません</translation>
     </message>
     <message>
@@ -214,7 +214,7 @@
         <translation>ウォレットのアンロックに失敗しました</translation>
     </message>
     <message>
-        <source>The passcruase entered for the wallet decryption was incorrect.</source>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>復号化のために入力されたパスワードが一致してません</translation>
     </message>
     <message>
@@ -222,7 +222,7 @@
         <translation>ウォレットの復号に失敗しました</translation>
     </message>
     <message>
-        <source>Wallet passcruase was successfully changed.</source>
+        <source>Wallet passphrase was successfully changed.</source>
         <translation>ウォレットのパスワードの変更に成功しました</translation>
     </message>
     <message>
@@ -241,7 +241,7 @@
         <translation>&amp;BIP 38 暗号化</translation>
     </message>
     <message>
-        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passcruase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>BIP38 を用いて暗号化したCurium アドレスを入力してください。パスワードを中段の入力欄に記入し、encrypt ボタンを押して暗号化されたプライベートキーを取得しましょう。</translation>
     </message>
     <message>
@@ -269,7 +269,7 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passcruase: </source>
+        <source>Passphrase: </source>
         <translation>パスワード : </translation>
     </message>
     <message>
@@ -301,7 +301,7 @@
         <translation>&amp;BIP 38 復号化</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passcruase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking &apos;Import Address&apos; will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking &apos;Import Address&apos; will add this private key to the wallet.</source>
         <translation>BIP38 暗号化されたプライベートキーを一番上の欄に入力し、二番目の欄にパスワードを入力してください。プライベートキーを出力するため、復号化ボタンを押してください。アドレスのインポートをクリックしてウォレットに追加できます。</translation>
     </message>
     <message>
@@ -333,7 +333,7 @@
         <translation>&quot;キーの復号化&quot;をクリックしてキーを表示</translation>
     </message>
     <message>
-        <source>The entered passcruase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation>入力されたパスワードは間違っています。 </translation>
     </message>
     <message>
@@ -365,7 +365,7 @@
         <translation>復号化に失敗しました。</translation>
     </message>
     <message>
-        <source>Please check the key and passcruase and try again.</source>
+        <source>Please check the key and passphrase and try again.</source>
         <translation>キーとパスワードを確認し、もう一度試してください。</translation>
     </message>
     <message>
@@ -472,11 +472,11 @@
         <translation>ウォレットデータを他の場所へ保存します</translation>
     </message>
     <message>
-        <source>&amp;Change Passcruase...</source>
+        <source>&amp;Change Passphrase...</source>
         <translation>&amp;パスワードの変更</translation>
     </message>
     <message>
-        <source>Change the passcruase used for wallet encryption</source>
+        <source>Change the passphrase used for wallet encryption</source>
         <translation>ウォレットの暗号化にしようしていたパスワードを変更します</translation>
     </message>
     <message>
@@ -650,7 +650,7 @@
         <translation>&amp;BIP38 ツール</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passcruase</source>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
         <translation>パスワードを用いて暗号化・復号化する</translation>
     </message>
     <message>

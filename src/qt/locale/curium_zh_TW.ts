@@ -114,21 +114,21 @@
     </message>
 </context>
 <context>
-    <name>AskPasscruaseDialog</name>
+    <name>AskPassphraseDialog</name>
     <message>
-        <source>Passcruase Dialog</source>
+        <source>Passphrase Dialog</source>
         <translation>密碼輸入欄</translation>
     </message>
     <message>
-        <source>Enter passcruase</source>
+        <source>Enter passphrase</source>
         <translation>輸入密碼</translation>
     </message>
     <message>
-        <source>New passcruase</source>
+        <source>New passphrase</source>
         <translation>新的密碼</translation>
     </message>
     <message>
-        <source>Repeat new passcruase</source>
+        <source>Repeat new passphrase</source>
         <translation>重複新密碼</translation>
     </message>
     <message>
@@ -136,7 +136,7 @@
         <translation>錢包加密</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcruase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>這項操作需要先用密碼解鎖你的錢包</translation>
     </message>
     <message>
@@ -144,7 +144,7 @@
         <translation>錢包解鎖</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcruase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>這項操作需要你的密碼來解密錢包</translation>
     </message>
     <message>
@@ -152,11 +152,11 @@
         <translation>錢包解密</translation>
     </message>
     <message>
-        <source>Change passcruase</source>
+        <source>Change passphrase</source>
         <translation>修改密碼</translation>
     </message>
     <message>
-        <source>Enter the old and new passcruase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>請分別輸入錢包的舊密碼與新密碼</translation>
     </message>
     <message>
@@ -172,7 +172,7 @@
         <translation>確定要加密你的錢包?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passcruase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CRU&lt;/b&gt;!</source>
         <translation>請注意: 如果你加密了你的錢包但是卻忘記你設定的密碼, &lt;b&gt;你將會失去錢包裡的錢(CRU)&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -192,7 +192,7 @@
         <translation>錢包加密失敗因為程式上的錯誤, 你的錢包尚未被加密.</translation>
     </message>
     <message>
-        <source>The supplied passcruases do not match.</source>
+        <source>The supplied passphrases do not match.</source>
         <translation>您輸入的密碼不符.</translation>
     </message>
     <message>
@@ -200,7 +200,7 @@
         <translation>錢包解鎖失敗</translation>
     </message>
     <message>
-        <source>The passcruase entered for the wallet decryption was incorrect.</source>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>您輸入的密碼錯誤.</translation>
     </message>
     <message>
@@ -208,7 +208,7 @@
         <translation>錢包解密失敗</translation>
     </message>
     <message>
-        <source>Wallet passcruase was successfully changed.</source>
+        <source>Wallet passphrase was successfully changed.</source>
         <translation>錢包密碼修改成功</translation>
     </message>
     <message>
@@ -227,7 +227,7 @@
         <translation>&amp;BIP 38 加密</translation>
     </message>
     <message>
-        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passcruase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>輸入你想 BIP 38 加密的 Curium 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
     </message>
     <message>
@@ -255,7 +255,7 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passcruase: </source>
+        <source>Passphrase: </source>
         <translation>密碼:</translation>
     </message>
     <message>
@@ -315,7 +315,7 @@
         <translation>點 "解密鑰匙" 來產生</translation>
     </message>
     <message>
-        <source>The entered passcruase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation>輸入的密碼不符合規定</translation>
     </message>
     <message>
@@ -347,7 +347,7 @@
         <translation>解密失敗</translation>
     </message>
     <message>
-        <source>Please check the key and passcruase and try again.</source>
+        <source>Please check the key and passphrase and try again.</source>
         <translation>請確認錢包私鑰的密碼是正確的.</translation>
     </message>
     <message>
@@ -454,11 +454,11 @@
         <translation>備份錢包到另外的位置</translation>
     </message>
     <message>
-        <source>&amp;Change Passcruase...</source>
+        <source>&amp;Change Passphrase...</source>
         <translation>&amp;更改密碼</translation>
     </message>
     <message>
-        <source>Change the passcruase used for wallet encryption</source>
+        <source>Change the passphrase used for wallet encryption</source>
         <translation>更改使用中的錢包密碼</translation>
     </message>
     <message>
@@ -626,7 +626,7 @@
         <translation>&amp;BIP38 工具</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passcruase</source>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
         <translation>使用密碼對私鑰加密解密</translation>
     </message>
     <message>

@@ -30,7 +30,7 @@
        <item>
         <widget class="QLabel" name="infoLabel_ENC">
          <property name="text">
-          <string>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passcruase in the middle box. Press encrypt to compute the encrypted private key.</string>
+          <string>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
@@ -106,12 +106,12 @@
          <item>
           <widget class="QLabel" name="label_6">
            <property name="text">
-            <string>Passcruase: </string>
+            <string>Passphrase: </string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="passcruaseIn_ENC">
+          <widget class="QLineEdit" name="passphraseIn_ENC">
            <property name="echoMode">
             <enum>QLineEdit::Password</enum>
            </property>
@@ -255,7 +255,7 @@
        <item>
         <widget class="QLabel" name="infoLabel_DEC">
          <property name="text">
-          <string>Enter the BIP 38 encrypted private key. Enter the passcruase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</string>
+          <string>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
@@ -291,12 +291,12 @@
          <item>
           <widget class="QLabel" name="label">
            <property name="text">
-            <string>Passcruase: </string>
+            <string>Passphrase: </string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="passcruaseIn_DEC">
+          <widget class="QLineEdit" name="passphraseIn_DEC">
            <property name="echoMode">
             <enum>QLineEdit::Password</enum>
            </property>

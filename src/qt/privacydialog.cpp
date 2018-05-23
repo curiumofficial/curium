@@ -175,7 +175,7 @@ void PrivacyDialog::on_pushButtonMintzCRU_clicked()
         WalletModel::UnlockContext ctx(walletModel->requestUnlock(true));
         if (!ctx.isValid()) {
             // Unlock wallet was cancelled
-            ui->TEMintStatus->setPlainText(tr("Error: Your wallet is locked. Please enter the wallet passcruase first."));
+            ui->TEMintStatus->setPlainText(tr("Error: Your wallet is locked. Please enter the wallet passphrase first."));
             return;
         }
     }

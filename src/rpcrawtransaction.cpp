@@ -547,7 +547,7 @@ Value signrawtransaction(const Array& params, bool fHelp)
             "The third optional argument (may be null) is an array of base58-encoded private\n"
             "keys that, if given, will be the only keys used to sign the transaction.\n"
 #ifdef ENABLE_WALLET
-            + HelpRequiringPasscruase() + "\n"
+            + HelpRequiringPassphrase() + "\n"
 #endif
 
                                           "\nArguments:\n"

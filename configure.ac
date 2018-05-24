@@ -19,9 +19,9 @@ BITCOIN_TX_NAME=curiumn-tx
 
 AC_CANONICAL_HOST
 
-AH_TOP([#ifndef PHR_CONFIG_H])
-AH_TOP([#define PHR_CONFIG_H])
-AH_BOTTOM([#endif //PHR_CONFIG_H])
+AH_TOP([#ifndef CRU_CONFIG_H])
+AH_TOP([#define CRU_CONFIG_H])
+AH_BOTTOM([#endif //CRU_CONFIG_H])
 
 dnl faketime breaks configure and is only needed for make. Disable it here.
 unset FAKETIME

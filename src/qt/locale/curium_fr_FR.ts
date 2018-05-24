@@ -152,8 +152,8 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>Curiumn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
-        <translation>Curiumn va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos CRUs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>Curium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
+        <translation>Curium va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos CRUs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -211,16 +211,16 @@
         <translation>BIP 38 crypter</translation>
     </message>
     <message>
-        <source>Enter a Curiumn Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Entrez une adresse Curiumn que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
+        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Entrez une adresse Curium que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse :</translation>
     </message>
     <message>
-        <source>The Curiumn address to sign the message with</source>
-        <translation>L'adresse Curiumn avec laquelle signer le message</translation>
+        <source>The Curium address to sign the message with</source>
+        <translation>L'adresse Curium avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -251,8 +251,8 @@
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curiumn address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse Curiumn</translation>
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse Curium</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -271,12 +271,12 @@
         <translation>BIP 38 Décrypter</translation>
     </message>
     <message>
-        <source>The Curiumn address the message was signed with</source>
-        <translation>L'adresse Curiumn avec laquelle le message a été signé</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>L'adresse Curium avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Curiumn address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Curiumn renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified Curium address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Curium renseignée</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -534,8 +534,8 @@
         <translation>&amp;Aide</translation>
     </message>
     <message>
-        <source>Send coins to a Curiumn address</source>
-        <translation>Envoyer des pièces à une adresse Curiumn</translation>
+        <source>Send coins to a Curium address</source>
+        <translation>Envoyer des pièces à une adresse Curium</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -546,16 +546,16 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>Modify configuration options for Curiumn</source>
-        <translation>Modifier les options de configuration pour Curiumn</translation>
+        <source>Modify configuration options for Curium</source>
+        <translation>Modifier les options de configuration pour Curium</translation>
     </message>
     <message>
-        <source>Sign messages with your Curiumn addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse Curiumn pour prouver qu'elles sont bien à vous.</translation>
+        <source>Sign messages with your Curium addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresse Curium pour prouver qu'elles sont bien à vous.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Curiumn addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse Curiumn spécifié</translation>
+        <source>Verify messages to ensure they were signed with specified Curium addresses</source>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse Curium spécifié</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -653,8 +653,8 @@ Adresse : %4
         <translation>Chercher</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (curiumn.conf).</source>
-        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (curiumn.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (curium.conf).</source>
+        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (curium.conf).</translation>
     </message>
 </context>
 <context>
@@ -854,8 +854,8 @@ Adresse : %4
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Curiumn address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse Curiumn valide</translation>
+        <source>The entered address "%1" is not a valid Curium address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse Curium valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1524,8 +1524,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The Curiumn address to send the payment to</source>
-        <translation>L'adresse Curiumn à laquelle envoyer le paiement</translation>
+        <source>The Curium address to send the payment to</source>
+        <translation>L'adresse Curium à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1570,8 +1570,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Signer le message</translation>
     </message>
     <message>
-        <source>The Curiumn address to sign the message with</source>
-        <translation>L'adresse Curiumn avec laquelle signer le message</translation>
+        <source>The Curium address to sign the message with</source>
+        <translation>L'adresse Curium avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1598,16 +1598,16 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curiumn address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse Curiumn</translation>
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse Curium</translation>
     </message>
     <message>
-        <source>The Curiumn address the message was signed with</source>
-        <translation>L'adresse Curiumn avec laquelle le message a été signé</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>L'adresse Curium avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Curiumn address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Curiumn renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified Curium address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Curium renseignée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1808,7 +1808,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-    <name>curiumn-core</name>
+    <name>curium-core</name>
     <message>
         <source>Error</source>
         <translation>Erreur</translation>

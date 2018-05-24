@@ -2,7 +2,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2017  The Phore Developers
-// Copyright (c) 2018 The Curiumn Developers
+// Copyright (c) 2018 The Curium Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -33,9 +33,9 @@ SendCoinsEntry::SendCoinsEntry(QWidget* parent) : QStackedWidget(parent),
     ui->addAsLabel->setPlaceholderText(tr("Enter a label for this address to add it to your address book"));
 #endif
 
-    // normal curiumn address field
+    // normal curium address field
     GUIUtil::setupAddressWidget(ui->payTo, this);
-    // just a label for displaying curiumn address(es)
+    // just a label for displaying curium address(es)
     ui->payTo_is->setFont(GUIUtil::bitcoinAddressFont());
 
     // Connect signals

@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#  curiumnd The Curiumn core server.
+#  curiumnd The Curium core server.
 #
 #
 # chkconfig: 345 80 20

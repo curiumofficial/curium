@@ -64,11 +64,11 @@
         <translation>受信用アドレス</translation>
     </message>
     <message>
-        <source>These are your Curiumn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Curium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>これは支払い先アドレスです。送金の際には常に送金量・送金先アドレスを確認してください。</translation>
     </message>
     <message>
-        <source>These are your Curiumn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Curium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>受け取り用アドレスです。各トランザクション/受信 につき新しいアドレスを使うことをお勧めします。</translation>
     </message>
     <message>
@@ -178,7 +178,7 @@
         <translation>ウォレットの再暗号化を行いました</translation>
     </message>
     <message>
-        <source>Curiumn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
+        <source>Curium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
         <translation>暗号化を完了するためウォレットを閉じます。暗号化されたため、パスワードがなければ攻撃者はCRUを送金できません。</translation>
     </message>
     <message>
@@ -241,16 +241,16 @@
         <translation>&amp;BIP 38 暗号化</translation>
     </message>
     <message>
-        <source>Enter a Curiumn Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>BIP38 を用いて暗号化したCuriumn アドレスを入力してください。パスワードを中段の入力欄に記入し、encrypt ボタンを押して暗号化されたプライベートキーを取得しましょう。</translation>
+        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>BIP38 を用いて暗号化したCurium アドレスを入力してください。パスワードを中段の入力欄に記入し、encrypt ボタンを押して暗号化されたプライベートキーを取得しましょう。</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>アドレス:</translation>
     </message>
     <message>
-        <source>The Curiumn address to sign the message with</source>
-        <translation>メッセージを署名したいCuriumn アドレス</translation>
+        <source>The Curium address to sign the message with</source>
+        <translation>メッセージを署名したいCurium アドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -281,8 +281,8 @@
         <translation>今表示されている署名をクリップボードへコピー</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curiumn address</source>
-        <translation>Curiumn アドレスの所持を証明するためにこのメッセージを署名</translation>
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>Curium アドレスの所持を証明するためにこのメッセージを署名</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -305,12 +305,12 @@
         <translation>BIP38 暗号化されたプライベートキーを一番上の欄に入力し、二番目の欄にパスワードを入力してください。プライベートキーを出力するため、復号化ボタンを押してください。アドレスのインポートをクリックしてウォレットに追加できます。</translation>
     </message>
     <message>
-        <source>The Curiumn address the message was signed with</source>
-        <translation>このCuriumnアドレスのメッセージは次により署名されています</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>このCuriumアドレスのメッセージは次により署名されています</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Curiumn address</source>
-        <translation>メッセージが特定のCuriumnアドレスにより署名されていることを確認してください。</translation>
+        <source>Verify the message to ensure it was signed with the specified Curium address</source>
+        <translation>メッセージが特定のCuriumアドレスにより署名されていることを確認してください。</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -606,16 +606,16 @@
         <translation>ツールバー</translation>
     </message>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn コア</translation>
+        <source>Curium Core</source>
+        <translation>Curium コア</translation>
     </message>
     <message>
-        <source>Send coins to a Curiumn address</source>
-        <translation>Curiumn addressへ送金する</translation>
+        <source>Send coins to a Curium address</source>
+        <translation>Curium addressへ送金する</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and curiumn: URIs)</source>
-        <translation>支払いを作成する (QRコード または curiumn: URIを作成)</translation>
+        <source>Request payments (generates QR codes and curium: URIs)</source>
+        <translation>支払いを作成する (QRコード または curium: URIを作成)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -626,24 +626,24 @@
         <translation>マスターノードを参照</translation>
     </message>
     <message>
-        <source>&amp;About Curiumn Core</source>
-        <translation>&amp;Curiumn コアについて</translation>
+        <source>&amp;About Curium Core</source>
+        <translation>&amp;Curium コアについて</translation>
     </message>
     <message>
-        <source>Show information about Curiumn Core</source>
-        <translation>Curiumn コアの情報をみる</translation>
+        <source>Show information about Curium Core</source>
+        <translation>Curium コアの情報をみる</translation>
     </message>
     <message>
-        <source>Modify configuration options for Curiumn</source>
-        <translation>Curiumnのオプションを編集する</translation>
+        <source>Modify configuration options for Curium</source>
+        <translation>Curiumのオプションを編集する</translation>
     </message>
     <message>
-        <source>Sign messages with your Curiumn addresses to prove you own them</source>
+        <source>Sign messages with your Curium addresses to prove you own them</source>
         <translation>あなたがそのアドレスを所有していることをメッセージの署名を用いて証明する</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Curiumn addresses</source>
-        <translation>メッセージが特定のCuriumnアドレスにより署名されていることを確認する</translation>
+        <source>Verify messages to ensure they were signed with specified Curium addresses</source>
+        <translation>メッセージが特定のCuriumアドレスにより署名されていることを確認する</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -674,8 +674,8 @@
         <translation>マスターノードの設定ファイルを開く</translation>
     </message>
     <message>
-        <source>Open a Curiumn: URI or payment request</source>
-        <translation>Curiumn: URI か支払いリクエストを開く</translation>
+        <source>Open a Curium: URI or payment request</source>
+        <translation>Curium: URI か支払いリクエストを開く</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -686,15 +686,15 @@
         <translation>ブロックエクスプローラ</translation>
     </message>
     <message>
-        <source>Show the Curiumn Core help message to get a list with possible Curiumn command-line options</source>
-        <translation>Curiumn コアのヘルプメッセージを表示してコマンドラインオプションを確認する</translation>
+        <source>Show the Curium Core help message to get a list with possible Curium command-line options</source>
+        <translation>Curium コアのヘルプメッセージを表示してコマンドラインオプションを確認する</translation>
     </message>
     <message>
-        <source>Curiumn Core client</source>
-        <translation>Curiumn コア クライアント</translation>
+        <source>Curium Core client</source>
+        <translation>Curium コア クライアント</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Curiumn network</source>
+        <source>%n active connection(s) to Curium network</source>
         <translation>
             <numerusform>%n 個のアクティブなノードが存在します</numerusform>
         </translation>
@@ -868,8 +868,8 @@ Address: %4
         <translation>%1 前です。ブロックをスキャン中 %2</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Curiumn can no longer continue safely and will quit.</source>
-        <translation>致命的なエラーが発生しました。Curiumnは終了します。</translation>
+        <source>A fatal error occurred. Curium can no longer continue safely and will quit.</source>
+        <translation>致命的なエラーが発生しました。Curiumは終了します。</translation>
     </message>
     <message>
         <source>High Sierra not supported with this build</source>
@@ -895,8 +895,8 @@ Address: %4
         <translation>テキスト</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (curiumn.conf).</source>
-        <translation>すべてのトランザクションが確認できるわけではありません。全て確認したい場合、txindex=1 とウォレット設定ファイルへ追加してください (curiumn.conf)。</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (curium.conf).</source>
+        <translation>すべてのトランザクションが確認できるわけではありません。全て確認したい場合、txindex=1 とウォレット設定ファイルへ追加してください (curium.conf)。</translation>
     </message>
 </context>
 <context>
@@ -1204,8 +1204,8 @@ Address: %4
         <translation>送金アドレスを編集</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Curiumn address.</source>
-        <translation>入力したアドレス &quot;%1&quot; は正しいCuriumnアドレスではありません </translation>
+        <source>The entered address &quot;%1&quot; is not a valid Curium address.</source>
+        <translation>入力したアドレス &quot;%1&quot; は正しいCuriumアドレスではありません </translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
@@ -1250,16 +1250,16 @@ Address: %4
         <translation>バージョン</translation>
     </message>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn コア</translation>
+        <source>Curium Core</source>
+        <translation>Curium コア</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Curiumn Core</source>
-        <translation>Curiumn コアについて</translation>
+        <source>About Curium Core</source>
+        <translation>Curium コアについて</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1305,16 +1305,16 @@ Address: %4
         <translation>ようこそ</translation>
     </message>
     <message>
-        <source>Welcome to Curiumn Core.</source>
-        <translation>Curiumn コアへようこそ</translation>
+        <source>Welcome to Curium Core.</source>
+        <translation>Curium コアへようこそ</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Curiumn Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Curium Core will store its data.</source>
         <translation>これが初期起動の場合、データフォルダの場所を選択できます。</translation>
     </message>
     <message>
-        <source>Curiumn Core will download and store a copy of the Curiumn block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Curiumn コアはCuriumnのブロックチェーンデータをダウンロードします。データフォルダには少なくとも %1 GB程度の空き容量が必要です。ウォレットデータもこの場所へ保存されます。</translation>
+        <source>Curium Core will download and store a copy of the Curium block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Curium コアはCuriumのブロックチェーンデータをダウンロードします。データフォルダには少なくとも %1 GB程度の空き容量が必要です。ウォレットデータもこの場所へ保存されます。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1325,8 +1325,8 @@ Address: %4
         <translation>カスタムデータフォルダを利用する:</translation>
     </message>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn コア</translation>
+        <source>Curium Core</source>
+        <translation>Curium コア</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; cannot be created.</source>
@@ -1467,8 +1467,8 @@ Address: %4
         <translation>送り先のアドレスを入力</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Curiumn addresses after it matures.
-To Add: enter percentage to give and Curiumn address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Curium addresses after it matures.
+To Add: enter percentage to give and Curium address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation>MultiSendは最大100%までステーキング・マスターノード報酬を成熟後に他のアドレスへ自動で送金します。
@@ -1643,16 +1643,16 @@ Please check the address and try again.</source>
         <translation>Obfuscation Configuration</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Curiumn&apos;s configuration screen.</source>
-        <translation>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Curiumn&apos;s configuration screen.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Curium&apos;s configuration screen.</source>
+        <translation>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Curium&apos;s configuration screen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Curiumn&apos;s configuration screen.</source>
-        <translation>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Curiumn&apos;s configuration screen.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Curium&apos;s configuration screen.</source>
+        <translation>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Curium&apos;s configuration screen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Curiumn&apos;s configuration screen.</source>
-        <translation>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Curiumn&apos;s configuration screen.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Curium&apos;s configuration screen.</source>
+        <translation>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Curium&apos;s configuration screen.</translation>
     </message>
 </context>
 <context>
@@ -1713,8 +1713,8 @@ Please check the address and try again.</source>
         <translation>未確認のお釣りの利用を無効にした場合、&lt;br/&gt;1確認されるまでお釣りを使用できません。&lt;br/&gt;</translation>
     </message>
     <message>
-        <source>Automatically open the Curiumn client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Curiumn クライアントの利用するポートを自動で開きます。ルーターがUPnPに対応していて、有効な場合のみ動作します。</translation>
+        <source>Automatically open the Curium client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Curium クライアントの利用するポートを自動で開きます。ルーターがUPnPに対応していて、有効な場合のみ動作します。</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1733,12 +1733,12 @@ Please check the address and try again.</source>
         <translation>経験者向け</translation>
     </message>
     <message>
-        <source>Automatically start Curiumn after logging in to the system.</source>
+        <source>Automatically start Curium after logging in to the system.</source>
         <translation>ログイン後、curiumn-qtが自動的に起動します。</translation>
     </message>
     <message>
-        <source>&amp;Start Curiumn on system login</source>
-        <translation>&amp;ログイン時にCuriumn-qtを起動する</translation>
+        <source>&amp;Start Curium on system login</source>
+        <translation>&amp;ログイン時にCurium-qtを起動する</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1753,8 +1753,8 @@ Please check the address and try again.</source>
         <translation>This amount acts as a threshold to turn off Obfuscation once it&apos;s reached.</translation>
     </message>
     <message>
-        <source>Amount of Curiumn to keep anonymized</source>
-        <translation>Amount of Curiumn to keep anonymized</translation>
+        <source>Amount of Curium to keep anonymized</source>
+        <translation>Amount of Curium to keep anonymized</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1781,22 +1781,22 @@ Please check the address and try again.</source>
         <translation>&amp;ネットワーク</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Curiumn.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Curium.</source>
         <translation>ユーザーインターフェースの言語設定を変更できます。変更はウォレットの次の起動から有効になります。</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/curiumn-project/curiumn-project-translations</source>
+https://www.transifex.com/curium-project/curium-project-translations</source>
         <translation>不完全なところがございましたか？ぜひこちらよりご協力ください。:
-https://www.transifex.com/curiumn-project/curiumn-project-translations</translation>
+https://www.transifex.com/curium-project/curium-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>UPnP&amp;を用いたポートマッピング</translation>
     </message>
     <message>
-        <source>Connect to the Curiumn network through a SOCKS5 proxy.</source>
-        <translation>SOCKS5 プロキシを通してCuriumnネットワークへ接続</translation>
+        <source>Connect to the Curium network through a SOCKS5 proxy.</source>
+        <translation>SOCKS5 プロキシを通してCuriumネットワークへ接続</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1970,7 +1970,7 @@ https://www.transifex.com/curiumn-project/curiumn-project-translations</translat
         <translation>残高</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Curiumn network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Curium network after a connection is established, but this process has not completed yet.</source>
         <translation>表示されている情報は最新ではありません。ネットワークへ接続され次第ウォレットは同期されますが、まだ未完了です。</translation>
     </message>
     <message>
@@ -2253,14 +2253,14 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <translation>自動変換は有効です </translation>
     </message>
     <message>
-        <source>To disable AutoMint delete set &apos;enablezeromint=1&apos; to &apos;enablezeromint=0&apos; in curiumn.conf.</source>
-        <translation>自動変換を無効化するには、curiumn.conf の中の &apos;enablezeromint=1&apos; を &apos;enablezeromint=0&apos; へ変えてください。</translation>
+        <source>To disable AutoMint delete set &apos;enablezeromint=1&apos; to &apos;enablezeromint=0&apos; in curium.conf.</source>
+        <translation>自動変換を無効化するには、curium.conf の中の &apos;enablezeromint=1&apos; を &apos;enablezeromint=0&apos; へ変えてください。</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
+To enable AutoMint add &apos;enablezeromint=1&apos; in curium.conf</source>
         <translation>自動変換は現在無効です。
-自動変換を有効化して、curiumn.conf の中の &apos;enablezeromint=1&apos; を追記してください</translation>
+自動変換を有効化して、curium.conf の中の &apos;enablezeromint=1&apos; を追記してください</translation>
     </message>
 </context>
 <context>
@@ -2286,12 +2286,12 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
         <translation>支払いアドレスが間違えています。 %1</translation>
     </message>
     <message>
-        <source>Cannot start curiumn: click-to-pay handler</source>
-        <translation>curiumn: クリックトゥペイに失敗</translation>
+        <source>Cannot start curium: click-to-pay handler</source>
+        <translation>curium: クリックトゥペイに失敗</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Curiumn address or malformed URI parameters.</source>
-        <translation>URIの解析に失敗しました。Curiumnのアドレスが間違っているか、URIのパラメタに不備があります。</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Curium address or malformed URI parameters.</source>
+        <translation>URIの解析に失敗しました。Curiumのアドレスが間違っているか、URIのパラメタに不備があります。</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2376,8 +2376,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
         <translation>枚数</translation>
     </message>
     <message>
-        <source>Enter a Curiumn address (e.g. %1)</source>
-        <translation>Curiumnアドレスを入力してください。 (例: %1)</translation>
+        <source>Enter a Curium address (e.g. %1)</source>
+        <translation>Curiumアドレスを入力してください。 (例: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2420,8 +2420,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
         <translation></translation>
     </message>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn コア</translation>
+        <source>Curium Core</source>
+        <translation>Curium コア</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -2440,8 +2440,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
         <translation>マスターノード設定ファイル(masternode.conf)の読み込みでエラーが発生しました %1</translation>
     </message>
     <message>
-        <source>Curiumn Core didn&apos;t yet exit safely...</source>
-        <translation>Curiumn コアは正常に停止していません...</translation>
+        <source>Curium Core didn&apos;t yet exit safely...</source>
+        <translation>Curium コアは正常に停止していません...</translation>
     </message>
 </context>
 <context>
@@ -2538,8 +2538,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
         <translation>ブロックチェーン</translation>
     </message>
     <message>
-        <source>Open the Curiumn debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>データフォルダからCuriumnのデバッグログを開きます(時間がかかることがあります)。</translation>
+        <source>Open the Curium debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>データフォルダからCuriumのデバッグログを開きます(時間がかかることがあります)。</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2706,8 +2706,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
         <translation>Out:</translation>
     </message>
     <message>
-        <source>Welcome to the Curiumn RPC console.</source>
-        <translation>Curiumn RPC コンソールへようこそ！</translation>
+        <source>Welcome to the Curium RPC console.</source>
+        <translation>Curium RPC コンソールへようこそ！</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2809,11 +2809,11 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
         <translation>新しい受け取りアドレスに紐づく追加のラベル</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Curiumn network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Curium network.</source>
         <translation>支払いリクエストに紐づくメッセージで、リクエストを開いた際に表示されます。 注:支払い時に表示されるメッセージではありません。</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Curiumn network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Curium network.</source>
         <translation>支払いリクエストに紐づくメッセージで、リクエストを開いた際に表示されます。 &lt;br&gt;注:支払い時に表示されるメッセージではありません。</translation>
     </message>
     <message>
@@ -3102,8 +3102,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
         <translation>If the custom fee is set to 1000 uCRUs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uCRUs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uCRUs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Curiumn transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Curiumn transactions than the network can process.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Curium transactions than the network can process.</source>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Curium transactions than the network can process.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3206,8 +3206,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
         <translation>匿名化資産</translation>
     </message>
     <message>
-        <source>Warning: Invalid Curiumn address</source>
-        <translation>警告: Curiumnアドレスが正しくありません。</translation>
+        <source>Warning: Invalid Curium address</source>
+        <translation>警告: Curiumアドレスが正しくありません。</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3339,8 +3339,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
         <translation>支払い先&amp;:</translation>
     </message>
     <message>
-        <source>The Curiumn address to send the payment to</source>
-        <translation>支払い先のCuriumn アドレス</translation>
+        <source>The Curium address to send the payment to</source>
+        <translation>支払い先のCurium アドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3379,8 +3379,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
         <translation>メッセージ:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Curiumn: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Curiumn network.</source>
-        <translation>Curiumn: URI に紐づくメッセージです。 注:支払い時に表示されるメッセージではありません。</translation>
+        <source>A message that was attached to the Curium: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Curium network.</source>
+        <translation>Curium: URI に紐づくメッセージです。 注:支払い時に表示されるメッセージではありません。</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3406,8 +3406,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Curiumn Core is shutting down...</source>
-        <translation>Curiumn コアは停止中です...</translation>
+        <source>Curium Core is shutting down...</source>
+        <translation>Curium コアは停止中です...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3429,8 +3429,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
         <translation>アドレスの所有を証明するためにメッセージを署名できます。フィッシング攻撃などを避けるために、よくわからないものには署名せず、完全に同意したものにのみ署名してください。</translation>
     </message>
     <message>
-        <source>The Curiumn address to sign the message with</source>
-        <translation>メッセージを署名するCuriumnアドレス</translation>
+        <source>The Curium address to sign the message with</source>
+        <translation>メッセージを署名するCuriumアドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3461,16 +3461,16 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
         <translation>現在のシグネチャをクリップボードへコピー</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curiumn address</source>
-        <translation>このCuriumnアドレスの所有の証明のためメッセージを署名する</translation>
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>このCuriumアドレスの所有の証明のためメッセージを署名する</translation>
     </message>
     <message>
-        <source>The Curiumn address the message was signed with</source>
-        <translation>メッセージの署名に使われたCuriumn アドレス</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>メッセージの署名に使われたCurium アドレス</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Curiumn address</source>
-        <translation>特定のCuriumnアドレスにより署名されたメッセージを確認する</translation>
+        <source>Verify the message to ensure it was signed with the specified Curium address</source>
+        <translation>特定のCuriumアドレスにより署名されたメッセージを確認する</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3556,8 +3556,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn コア</translation>
+        <source>Curium Core</source>
+        <translation>Curium コア</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3572,8 +3572,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
         <translation>Dash コア開発者チーム</translation>
     </message>
     <message>
-        <source>The Curiumn Core developers</source>
-        <translation>Curiumn コア開発者チーム</translation>
+        <source>The Curium Core developers</source>
+        <translation>Curium コア開発者チーム</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4262,7 +4262,7 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
     </message>
 </context>
 <context>
-    <name>curiumn-core</name>
+    <name>curium-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = トランザクションメタデータを保持, 2 = メタデータを再ダウンロード)</translation>
@@ -4288,8 +4288,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
         <translation>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Curiumn Core is probably already running.</source>
-        <translation>%s のデータフォルダをロックできません。 Curiumn コアは既に実行されています。</translation>
+        <source>Cannot obtain a lock on data directory %s. Curium Core is probably already running.</source>
+        <translation>%s のデータフォルダをロックできません。 Curium コアは既に実行されています。</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4308,8 +4308,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
         <translation>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</translation>
     </message>
     <message>
-        <source>Disable all Curiumn specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Disable all Curiumn specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</translation>
+        <source>Disable all Curium specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Disable all Curium specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -4464,30 +4464,30 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in curiumn.conf</source>
 To use curiumnd, or the -server option to curiumn-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=curiumnrpc
+rpcuser=curiumrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Curiumn Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Curium Alert&quot; admin@foo.com
 </source>
         <translation>
         curiumnd, curiumn-qt にserverオプションを付ける場合、以下の設定が必要になります。:
         %s
-        curiumn.confにRPCユーザー名,パスワードを入力してください。:
-        rpcuser=curiumnrpc
+        curium.confにRPCユーザー名,パスワードを入力してください。:
+        rpcuser=curiumrpc
         rpcpassword=%s
-        (覚える必要はなく、curiumn.confに記載すれば大丈夫です。)
+        (覚える必要はなく、curium.confに記載すれば大丈夫です。)
         ユーザーネームとパスワードは同じにしてはいけません。
-        curiumn.confが存在しなければ作成します。
+        curium.confが存在しなければ作成します。
         It is also recommended to set alertnotify so you are notified of problems;
-        for example: alertnotify=echo %%s | mail -s &quot;Curiumn Alert&quot; admin@foo.com
+        for example: alertnotify=echo %%s | mail -s &quot;Curium Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Curiumn Core is probably already running.</source>
-        <translation>%s をbind出来ませんでした。Curiumnコアは既に動作しているようです。</translation>
+        <source>Unable to bind to %s on this computer. Curium Core is probably already running.</source>
+        <translation>%s をbind出来ませんでした。Curiumコアは既に動作しているようです。</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -4514,8 +4514,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Curiumn Alert&quot; admin@foo.
         <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Curiumn Core will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Curiumn Core will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Curium Core will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Curium Core will not work properly.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4662,8 +4662,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Curiumn Alert&quot; admin@foo.
         <translation>Copyright (C) 2014-%i Dash コア開発者チーム</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Curiumn Core Developers</source>
-        <translation>Copyright (C) 2015-%i Curiumn コア開発者チーム</translation>
+        <source>Copyright (C) 2015-%i The Curium Core Developers</source>
+        <translation>Copyright (C) 2015-%i Curium コア開発者チーム</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4734,8 +4734,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Curiumn Alert&quot; admin@foo.
         <translation>wallet.datの読み込みにエラー発生: ウォレットが破損しています</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Curiumn Core</source>
-        <translation>Ewallet.datの読み込みにエラー発生: ウォレットデータの読み込みに新しいバージョンのCuriumn コアが必要です</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Curium Core</source>
+        <translation>Ewallet.datの読み込みにエラー発生: ウォレットデータの読み込みに新しいバージョンのCurium コアが必要です</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4846,8 +4846,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Curiumn Alert&quot; admin@foo.
         <translation>情報</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Curiumn Core is shutting down.</source>
-        <translation>初期サニティチェックが失敗しました。Curiumnコアは終了します。</translation>
+        <source>Initialization sanity check failed. Curium Core is shutting down.</source>
+        <translation>初期サニティチェックが失敗しました。Curiumコアは終了します。</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5466,8 +5466,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Curiumn Alert&quot; admin@foo.
         <translation>ウォレットはロックされています。</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Curiumn Core to complete</source>
-        <translation>ウォレットは再書き込みが必要です。Curiumn コアを再起動してください。</translation>
+        <source>Wallet needed to be rewritten: restart Curium Core to complete</source>
+        <translation>ウォレットは再書き込みが必要です。Curium コアを再起動してください。</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -5546,8 +5546,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Curiumn Alert&quot; admin@foo.
         <translation></translation>
     </message>
     <message>
-        <source>Disable all Curiumn specific functionality (Masternodes, Obfuscation, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Curiumnの全特徴を無効化する(マスターノード/匿名化/SwiftX/Budget) (0-1, デフォルト: %u)</translation>
+        <source>Disable all Curium specific functionality (Masternodes, Obfuscation, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Curiumの全特徴を無効化する(マスターノード/匿名化/SwiftX/Budget) (0-1, デフォルト: %u)</translation>
     </message>
     <message>
         <source>Enable automatic wallet backups triggered after each zCru minting (0-1, default: %u)</source>
@@ -5589,24 +5589,24 @@ for example: alertnotify=echo %%s | mail -s &quot;Curiumn Alert&quot; admin@foo.
         <source>To use curiumnd, or the -server option to curiumn-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=curiumnrpc
+rpcuser=curiumrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Curiumn Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Curium Alert&quot; admin@foo.com
 </source>
         <translation>curiumnd, curiumn-qt -server を利用する場合rpcの設定が必要です。:
 %s
 ランダムなパスワードの利用を推奨します。
-rpcuser=curiumnrpc
+rpcuser=curiumrpc
 rpcpassword=%s
 パスワードを覚える必要はありませんが、
 ユーザー名と同じパスワードは禁止されます。
 もしファイルが存在しない場合、自動的に生成されます。
 以下を追加することで、問題が発生したときにメールでアラートを出すこともできます。
-for example: alertnotify=echo %%s | mail -s &quot;Curiumn Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Curium Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -5622,8 +5622,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Curiumn Alert&quot; admin@foo.
         <translation>Copyright (C) 2015-%i PIVX コア開発者チーム</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The Curiumn Core Developers</source>
-        <translation>Copyright (C) 2015-%i Curiumn コア開発者チーム {2017-?}</translation>
+        <source>Copyright (C) 2017-%i The Curium Core Developers</source>
+        <translation>Copyright (C) 2015-%i Curium コア開発者チーム {2017-?}</translation>
     </message>
     <message>
         <source>Delete blockchain folders and resync from scratch</source>
@@ -5764,8 +5764,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Curiumn Alert&quot; admin@foo.
         <translation>ゼロコインの操作:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Curiumn network after a connection is established, but this process has not completed yet.</source>
-        <translation>表示されている情報は古いものかもしれません。Curiumnネットワークに接続後自動的に同期が行われますが、まだ同期は完了していません。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Curium network after a connection is established, but this process has not completed yet.</source>
+        <translation>表示されている情報は古いものかもしれません。Curiumネットワークに接続後自動的に同期が行われますが、まだ同期は完了していません。</translation>
     </message>
     <message>
         <source>Enter an amount of Cru to convert to zCru</source>
@@ -5866,8 +5866,8 @@ zCRU are mature when they have more than 20 confirmations AND more than 2 mints 
         <translation>支払い先:</translation>
     </message>
     <message>
-        <source>The Curiumn address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>支払い先Curiumnアドレスです。空欄の際は自身への送金になります。</translation>
+        <source>The Curium address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>支払い先Curiumアドレスです。空欄の際は自身への送金になります。</translation>
     </message>
     <message>
         <source>Choose previously used address</source>

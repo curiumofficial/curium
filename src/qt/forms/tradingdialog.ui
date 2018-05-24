@@ -445,7 +445,7 @@
       <string>Buy CRU</string>
      </property>
      <property name="icon">
-      <iconset resource="../curiumn.qrc">
+      <iconset resource="../curium.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -1754,7 +1754,7 @@
       <string>Sell CRU</string>
      </property>
      <property name="icon">
-      <iconset resource="../curiumn">
+      <iconset resource="../curium">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -2941,10 +2941,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Generate Curiumn Deposit Address</string>
+      <string>Generate Curium Deposit Address</string>
      </property>
      <property name="icon">
-      <iconset resource="../curiumn.qrc">
+      <iconset resource="../curium.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3155,7 +3155,7 @@
        <string notr="true">border: 1px solid #61696c;margin-left:4px;</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnConvertCuriumn">
+     <widget class="QPushButton" name="btnConvertCurium">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -3206,7 +3206,7 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="../curiumn.qrc">:/icons/transaction_1</pixmap>
+       <pixmap resource="../curium.qrc">:/icons/transaction_1</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -3253,7 +3253,7 @@
       <string>Update API Keys</string>
      </property>
      <property name="icon">
-      <iconset resource="../curiumn.qrc">
+      <iconset resource="../curium.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3408,7 +3408,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="../curiumn.qrc"/>
+  <include location="../curium.qrc"/>
  </resources>
  <connections/>
 </ui>

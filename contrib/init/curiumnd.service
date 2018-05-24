@@ -1,18 +1,18 @@
 [Unit]
-Description=Curiumn's distributed currency daemon
+Description=Curium's distributed currency daemon
 After=network.target
 
 [Service]
-User=curiumn
-Group=curiumn
+User=curium
+Group=curium
 
 Type=forking
 PIDFile=/var/lib/curiumnd/curiumnd.pid
 
 ExecStart=/usr/bin/curiumnd -daemon -pid=/var/lib/curiumnd/curiumnd.pid \
-          -conf=/etc/curiumn/curiumn.conf -datadir=/var/lib/curiumnd
+          -conf=/etc/curium/curium.conf -datadir=/var/lib/curiumnd
 
-ExecStop=-/usr/bin/curiumn-cli -conf=/etc/curiumn/curiumn.conf \
+ExecStop=-/usr/bin/curiumn-cli -conf=/etc/curium/curium.conf \
          -datadir=/var/lib/curiumnd stop
 
 Restart=always

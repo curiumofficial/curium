@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>選擇要匯出Curiumn幣的位址</translation>
+        <translation>選擇要匯出Curium幣的位址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>選擇要接收Curiumn幣的位址</translation>
+        <translation>選擇要接收Curium幣的位址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>接收的位址</translation>
     </message>
     <message>
-        <source>These are your Curiumn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這是你用來付款的 Curiumn 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
+        <source>These are your Curium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>這是你用來付款的 Curium 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
     </message>
     <message>
-        <source>These are your Curiumn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這是你用來接收款項的 Curiumn 位址, 建議你每次付款都使用新的位址.</translation>
+        <source>These are your Curium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這是你用來接收款項的 Curium 位址, 建議你每次付款都使用新的位址.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,8 +164,8 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
-        <source>Curiumn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
-        <translation>Curiumn 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 CRU 幣被可疑軟體或病毒偷走的風險.</translation>
+        <source>Curium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
+        <translation>Curium 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 CRU 幣被可疑軟體或病毒偷走的風險.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -227,16 +227,16 @@
         <translation>&amp;BIP 38 加密</translation>
     </message>
     <message>
-        <source>Enter a Curiumn Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>輸入你想 BIP 38 加密的 Curiumn 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
+        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>輸入你想 BIP 38 加密的 Curium 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>位址:</translation>
     </message>
     <message>
-        <source>The Curiumn address to sign the message with</source>
-        <translation>對訊息簽名的 Curiumn 位址</translation>
+        <source>The Curium address to sign the message with</source>
+        <translation>對訊息簽名的 Curium 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -267,8 +267,8 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curiumn address</source>
-        <translation>使用簽章來證明你是該  Curiumn 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>使用簽章來證明你是該  Curium 位址的擁有者,</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -287,12 +287,12 @@
         <translation>&amp;BIP 38 解密</translation>
     </message>
     <message>
-        <source>The Curiumn address the message was signed with</source>
-        <translation>此訊息之 Curiumn 位址已簽章於</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>此訊息之 Curium 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Curiumn address</source>
-        <translation>驗證訊息以確保該  Curiumn 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified Curium address</source>
+        <translation>驗證訊息以確保該  Curium 位址已被簽章</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -582,16 +582,16 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn Core</translation>
+        <source>Curium Core</source>
+        <translation>Curium Core</translation>
     </message>
     <message>
-        <source>Send coins to a Curiumn address</source>
-        <translation>送出錢幣到 Curiumn 地址</translation>
+        <source>Send coins to a Curium address</source>
+        <translation>送出錢幣到 Curium 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and curiumn: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 curiumn 位址)</translation>
+        <source>Request payments (generates QR codes and curium: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 curium 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -602,24 +602,24 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Curiumn Core</source>
-        <translation>&amp;關於 Curiumn Core</translation>
+        <source>&amp;About Curium Core</source>
+        <translation>&amp;關於 Curium Core</translation>
     </message>
     <message>
-        <source>Show information about Curiumn Core</source>
-        <translation>顯示 Curiumn Core 相關資訊</translation>
+        <source>Show information about Curium Core</source>
+        <translation>顯示 Curium Core 相關資訊</translation>
     </message>
     <message>
-        <source>Modify configuration options for Curiumn</source>
-        <translation>修改 Curiumn 設定</translation>
+        <source>Modify configuration options for Curium</source>
+        <translation>修改 Curium 設定</translation>
     </message>
     <message>
-        <source>Sign messages with your Curiumn addresses to prove you own them</source>
-        <translation>使用你的 Curiumn 位址對訊息簽章, 來證明你是擁有者</translation>
+        <source>Sign messages with your Curium addresses to prove you own them</source>
+        <translation>使用你的 Curium 位址對訊息簽章, 來證明你是擁有者</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Curiumn addresses</source>
-        <translation>驗證訊息簽章與 Curiumn 位址吻合</translation>
+        <source>Verify messages to ensure they were signed with specified Curium addresses</source>
+        <translation>驗證訊息簽章與 Curium 位址吻合</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -650,8 +650,8 @@
         <translation>打開Masternode設定檔</translation>
     </message>
     <message>
-        <source>Open a Curiumn: URI or payment request</source>
-        <translation>打開Curiumn: 位址或付款請求 </translation>
+        <source>Open a Curium: URI or payment request</source>
+        <translation>打開Curium: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -662,12 +662,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the Curiumn Core help message to get a list with possible Curiumn command-line options</source>
-        <translation>顯示 Curiumn Core 幫助訊息以取得 Curiumn 命令列表選項</translation>
+        <source>Show the Curium Core help message to get a list with possible Curium command-line options</source>
+        <translation>顯示 Curium Core 幫助訊息以取得 Curium 命令列表選項</translation>
     </message>
     <message>
-        <source>Curiumn Core client</source>
-        <translation>Curiumn Core 客戶端</translation>
+        <source>Curium Core client</source>
+        <translation>Curium Core 客戶端</translation>
     </message>
     </context>
 <context>
@@ -696,15 +696,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn Core</translation>
+        <source>Curium Core</source>
+        <translation>Curium Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn Core</translation>
+        <source>Curium Core</source>
+        <translation>Curium Core</translation>
     </message>
     </context>
 <context>
@@ -836,8 +836,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Curiumn address to sign the message with</source>
-        <translation>對訊息簽名的 Curiumn 位址</translation>
+        <source>The Curium address to sign the message with</source>
+        <translation>對訊息簽名的 Curium 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -860,16 +860,16 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curiumn address</source>
-        <translation>使用簽章來證明你是該  Curiumn 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>使用簽章來證明你是該  Curium 位址的擁有者,</translation>
     </message>
     <message>
-        <source>The Curiumn address the message was signed with</source>
-        <translation>此訊息之 Curiumn 位址已簽章於</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>此訊息之 Curium 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Curiumn address</source>
-        <translation>驗證訊息以確保該  Curiumn 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified Curium address</source>
+        <translation>驗證訊息以確保該  Curium 位址已被簽章</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -907,8 +907,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn Core</translation>
+        <source>Curium Core</source>
+        <translation>Curium Core</translation>
     </message>
     </context>
 <context>
@@ -974,6 +974,6 @@
     <name>ZCruControlDialog</name>
     </context>
 <context>
-    <name>curiumn-core</name>
+    <name>curium-core</name>
     </context>
 </TS>

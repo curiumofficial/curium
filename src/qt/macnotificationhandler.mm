@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2013 The Bitcoin Core developers
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2017  The Phore Developers
-// Copyright (c) 2018 The Curiumn Developers
+// Copyright (c) 2018 The Curium Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -16,7 +16,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.curiumn.Curiumn-Qt";
+        return @"io.curium.Curiumn-Qt";
     } else {
         return [self __bundleIdentifier];
     }

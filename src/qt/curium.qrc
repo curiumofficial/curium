@@ -38,12 +38,12 @@
         <file alias="tx_input">res/icons/tx_input.png</file>
         <file alias="tx_output">res/icons/tx_output.png</file>
         <file alias="tx_inout">res/icons/tx_inout.png</file>
-        <file alias="unit_curiumn">res/icons/unit_curiumn.png</file>
-        <file alias="unit_mcuriumn">res/icons/unit_mcuriumn.png</file>
-        <file alias="unit_ucuriumn">res/icons/unit_ucuriumn.png</file>
-        <file alias="unit_tcuriumn">res/icons/unit_tcuriumn.png</file>
-        <file alias="unit_tmcuriumn">res/icons/unit_tmcuriumn.png</file>
-        <file alias="unit_tucuriumn">res/icons/unit_tucuriumn.png</file>
+        <file alias="unit_curium">res/icons/unit_curium.png</file>
+        <file alias="unit_mcurium">res/icons/unit_mcurium.png</file>
+        <file alias="unit_ucurium">res/icons/unit_ucurium.png</file>
+        <file alias="unit_tcurium">res/icons/unit_tcurium.png</file>
+        <file alias="unit_tmcurium">res/icons/unit_tmcurium.png</file>
+        <file alias="unit_tucurium">res/icons/unit_tucurium.png</file>
         <file alias="lock_closed">res/icons/lock_closed.png</file>
         <file alias="lock_open">res/icons/lock_open.png</file>
         <file alias="key">res/icons/key.png</file>
@@ -59,7 +59,7 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
-        <file alias="curiumn_logo_horizontal">res/images/curiumn_logo_horizontal.png</file>
+        <file alias="curium_logo_horizontal">res/images/curium_logo_horizontal.png</file>
         <file alias="downArrow">res/images/downArrow.png</file>
         <file alias="downArrow_small">res/images/downArrow_small.png</file>
         <file alias="upArrow_small">res/images/upArrow_small.png</file>

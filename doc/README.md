@@ -1,13 +1,13 @@
-Curiumn Core
+Curium Core
 =====================
 
 Setup
 ---------------------
-[Curiumn Core](http://curiumn.org/wallet) is the original Curiumn client and it builds the backbone of the network. However, it downloads and stores the entire history of Curiumn transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Curium Core](http://curium.org/wallet) is the original Curium client and it builds the backbone of the network. However, it downloads and stores the entire history of Curium transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Curiumn on your native platform.
+The following are some helpful notes on how to run Curium on your native platform.
 
 ### Unix
 
@@ -26,14 +26,14 @@ Drag Curiumn-Qt to your applications folder, and then run Curiumn-Qt.
 
 ### Need Help?
 
-* See the documentation at the [Curiumn Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [Curium Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [Curiumn Forum](http://forum.curiumn.org/).
-* Join one of our Slack groups [Curiumn Slack Groups](https://curiumn.org/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [Curium Forum](http://forum.curium.org/).
+* Join one of our Slack groups [Curium Slack Groups](https://curium.org/slack-logins/).
 
 Building
 ---------------------
-The following are developer notes on how to build Curiumn on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Curium on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build Curiumn on your native platfor
 
 Development
 ---------------------
-The Curiumn repo's [root README](https://github.com/curiumnproject/Curiumn/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Curium repo's [root README](https://github.com/curiumproject/Curium/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -55,8 +55,8 @@ The Curiumn repo's [root README](https://github.com/curiumnproject/Curiumn/blob/
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [Curiumn](http://forum.curiumn.org/) forum.
-* Join the [Curiumn-Dev](https://curiumn-dev.slack.com/) Slack group ([Sign-Up](https://curiumn-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [Curium](http://forum.curium.org/) forum.
+* Join the [Curium-Dev](https://curium-dev.slack.com/) Slack group ([Sign-Up](https://curium-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

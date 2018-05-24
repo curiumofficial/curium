@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your Curiumn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše Curiumn adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <source>These are your Curium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú vaše Curium adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your Curiumn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše Curiumn adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your Curium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše Curium adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Curiumn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
-        <translation>Curiumn sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše CRU pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>Curium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
+        <translation>Curium sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše CRU pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,16 +239,16 @@
         <translation>BIP 38 Šifrovanie</translation>
     </message>
     <message>
-        <source>Enter a Curiumn Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadajte adresu Curiumn, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
+        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadajte adresu Curium, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The Curiumn address to sign the message with</source>
-        <translation>Adresa Curiumn, ktorou chcete správu podpísať</translation>
+        <source>The Curium address to sign the message with</source>
+        <translation>Adresa Curium, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curiumn address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto Curiumn adresy</translation>
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto Curium adresy</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
     </message>
     <message>
-        <source>The Curiumn address the message was signed with</source>
-        <translation>Curiumn adresa, ktorou bola správa podpísaná</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>Curium adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Curiumn address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou Curiumn adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Curium address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou Curium adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn Core</translation>
+        <source>Curium Core</source>
+        <translation>Curium Core</translation>
     </message>
     <message>
-        <source>Send coins to a Curiumn address</source>
-        <translation>Odoslať mince na adresu Curiumn</translation>
+        <source>Send coins to a Curium address</source>
+        <translation>Odoslať mince na adresu Curium</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and curiumn: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a curiumn: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and curium: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a curium: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About Curiumn Core</source>
-        <translation>O Curiumn Core</translation>
+        <source>&amp;About Curium Core</source>
+        <translation>O Curium Core</translation>
     </message>
     <message>
-        <source>Show information about Curiumn Core</source>
-        <translation>Zobraziť informácie o Curiumn Core</translation>
+        <source>Show information about Curium Core</source>
+        <translation>Zobraziť informácie o Curium Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Curiumn</source>
-        <translation>Zmeňte možnosti konfigurácie pre Curiumn</translation>
+        <source>Modify configuration options for Curium</source>
+        <translation>Zmeňte možnosti konfigurácie pre Curium</translation>
     </message>
     <message>
-        <source>Sign messages with your Curiumn addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy Curiumn, aby ste preukázali, že ich vlastníte</translation>
+        <source>Sign messages with your Curium addresses to prove you own them</source>
+        <translation>Podpíšte správy pomocou adresy Curium, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Curiumn addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými Curiumn adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Curium addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými Curium adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a Curiumn: URI or payment request</source>
-        <translation>Otvorte Curiumn: URI alebo žiadosť o platbu</translation>
+        <source>Open a Curium: URI or payment request</source>
+        <translation>Otvorte Curium: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the Curiumn Core help message to get a list with possible Curiumn command-line options</source>
-        <translation>Zobraziť pomocnú správu programu Curiumn Core a získajte zoznam možností príkazového riadka Curiumn</translation>
+        <source>Show the Curium Core help message to get a list with possible Curium command-line options</source>
+        <translation>Zobraziť pomocnú správu programu Curium Core a získajte zoznam možností príkazového riadka Curium</translation>
     </message>
     <message>
-        <source>Curiumn Core client</source>
-        <translation>Curiumn Core klient</translation>
+        <source>Curium Core client</source>
+        <translation>Curium Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -813,8 +813,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (curiumn.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (curiumn.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (curium.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (curium.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -904,15 +904,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn Core</translation>
+        <source>Curium Core</source>
+        <translation>Curium Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn Core</translation>
+        <source>Curium Core</source>
+        <translation>Curium Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1136,8 +1136,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Curiumn address to sign the message with</source>
-        <translation>Adresa Curiumn, ktorou chcete správu podpísať</translation>
+        <source>The Curium address to sign the message with</source>
+        <translation>Adresa Curium, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1160,16 +1160,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curiumn address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto Curiumn adresy</translation>
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto Curium adresy</translation>
     </message>
     <message>
-        <source>The Curiumn address the message was signed with</source>
-        <translation>Curiumn adresa, ktorou bola správa podpísaná</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>Curium adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Curiumn address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou Curiumn adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Curium address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou Curium adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1207,8 +1207,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn Core</translation>
+        <source>Curium Core</source>
+        <translation>Curium Core</translation>
     </message>
     </context>
 <context>
@@ -1306,7 +1306,7 @@ MultiSend: %1</translation>
     <name>ZCruControlDialog</name>
     </context>
 <context>
-    <name>curiumn-core</name>
+    <name>curium-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

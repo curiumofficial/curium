@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your Curiumn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun Curiumn osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your Curium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun Curium osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your Curiumn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun Curiumn osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your Curium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun Curium osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>Curiumn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
-        <translation>Curiumn sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella CRUien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>Curium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
+        <translation>Curium sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella CRUien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -235,8 +235,8 @@
         <translation>&amp;BIP 38 Salaus</translation>
     </message>
     <message>
-        <source>Enter a Curiumn Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Syötä Curiumn osoite, jonnka tahtoisit salata käyttäen BIP 38.
+        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Syötä Curium osoite, jonnka tahtoisit salata käyttäen BIP 38.
 Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityisavaimen.</translation>
     </message>
     <message>
@@ -244,8 +244,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Osoite:</translation>
     </message>
     <message>
-        <source>The Curiumn address to sign the message with</source>
-        <translation>Curiumn osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The Curium address to sign the message with</source>
+        <translation>Curium osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -276,8 +276,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curiumn address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Curiumn osoitteen</translation>
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Curium osoitteen</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -300,12 +300,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Syötä BIP 38 salattu yksityisavain. Syötä salausavain laatikkoon. Paina Avaa Salaus tuottaaksesi yksityisavaimen. Kun avain on dekryptattu, painamalla "Import osoite" lisää tämän yksityisavaimen lompakkoon.</translation>
     </message>
     <message>
-        <source>The Curiumn address the message was signed with</source>
-        <translation>Curiumn osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>Curium osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Curiumn address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla Curiumn osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified Curium address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla Curium osoitteella.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -591,16 +591,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn Ydin</translation>
+        <source>Curium Core</source>
+        <translation>Curium Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a Curiumn address</source>
-        <translation>Lähetä kolikkoja Curiumn osoitteeseen</translation>
+        <source>Send coins to a Curium address</source>
+        <translation>Lähetä kolikkoja Curium osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and curiumn: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja curiumn: URIja)</translation>
+        <source>Request payments (generates QR codes and curium: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja curium: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -611,24 +611,24 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About Curiumn Core</source>
-        <translation>Curiumn Core &amp;ytimestä</translation>
+        <source>&amp;About Curium Core</source>
+        <translation>Curium Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about Curiumn Core</source>
-        <translation>Näytä tietoja Curiumn Ytimestä</translation>
+        <source>Show information about Curium Core</source>
+        <translation>Näytä tietoja Curium Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for Curiumn</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja Curiumn:lle</translation>
+        <source>Modify configuration options for Curium</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja Curium:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your Curiumn addresses to prove you own them</source>
+        <source>Sign messages with your Curium addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Curiumn addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä Curiumn osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified Curium addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä Curium osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -659,8 +659,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a Curiumn: URI or payment request</source>
-        <translation>Avaa Curiumn: URI tai pyydä maksua</translation>
+        <source>Open a Curium: URI or payment request</source>
+        <translation>Avaa Curium: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -671,12 +671,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the Curiumn Core help message to get a list with possible Curiumn command-line options</source>
-        <translation>Näytä Curiumn Ydin apuviesti saadaksesi lista mahdollisista Curiumn komentolinja komennoista.</translation>
+        <source>Show the Curium Core help message to get a list with possible Curium command-line options</source>
+        <translation>Näytä Curium Ydin apuviesti saadaksesi lista mahdollisista Curium komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>Curiumn Core client</source>
-        <translation>Curiumn Ydin asiakasohjelma</translation>
+        <source>Curium Core client</source>
+        <translation>Curium Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -934,8 +934,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn Ydin</translation>
+        <source>Curium Core</source>
+        <translation>Curium Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -953,12 +953,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to Curiumn Core.</source>
-        <translation>Tervetuloa Curiumn Ytimeen.</translation>
+        <source>Welcome to Curium Core.</source>
+        <translation>Tervetuloa Curium Ytimeen.</translation>
     </message>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn Ydin</translation>
+        <source>Curium Core</source>
+        <translation>Curium Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1136,11 +1136,11 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 10000 CRU</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 Curiumn</translation>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 Curium</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 10000 CRU</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 Curiumn</translation>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 Curium</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
@@ -1148,11 +1148,11 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 CRU to anonymize 10000 CRU</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 CRU anonymoidaksesi 10000 Curiumn</translation>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 CRU anonymoidaksesi 10000 Curium</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 CRU to anonymize 10000 CRU</source>
-        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 Curiumn anonymoidaksesi 10000 Curiumn</translation>
+        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 Curium anonymoidaksesi 10000 Curium</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1160,7 +1160,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>0.1 CRU per 10000 CRU you anonymize.</source>
-        <translation>0.1 per 10000 Curiumn, jotka anonymisoit.</translation>
+        <translation>0.1 per 10000 Curium, jotka anonymisoit.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1209,12 +1209,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start Curiumn after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä Curiumn kun kirjaudut sisään.</translation>
+        <source>Automatically start Curium after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä Curium kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start Curiumn on system login</source>
-        <translation>&amp;Aloita Curiumn järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start Curium on system login</source>
+        <translation>&amp;Aloita Curium järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1233,12 +1233,12 @@ Please check the address and try again.</source>
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Curiumn.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Curium.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the Curiumn network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä Curiumn verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the Curium network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä Curium verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1542,8 +1542,8 @@ Please check the address and try again.</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the Curiumn debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa Curiumn debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the Curium debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa Curium debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1654,8 +1654,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the Curiumn RPC console.</source>
-        <translation>Tervetuloa Curiumn RPC konsoliin.</translation>
+        <source>Welcome to the Curium RPC console.</source>
+        <translation>Tervetuloa Curium RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1697,12 +1697,12 @@ Please check the address and try again.</source>
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Curiumn network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana Curiumn verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Curium network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana Curium verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Curiumn network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana Curiumn  verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Curium network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana Curium  verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1982,8 +1982,8 @@ Please check the address and try again.</source>
         <translation>käyttää</translation>
     </message>
     <message>
-        <source>Warning: Invalid Curiumn address</source>
-        <translation>Varoitus: Virheellinen Curiumn osoite</translation>
+        <source>Warning: Invalid Curium address</source>
+        <translation>Varoitus: Virheellinen Curium osoite</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -2029,8 +2029,8 @@ Please check the address and try again.</source>
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The Curiumn address to send the payment to</source>
-        <translation>Curiumn osoite johon maksu lähetetään</translation>
+        <source>The Curium address to send the payment to</source>
+        <translation>Curium osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2072,8 +2072,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Curiumn Core is shutting down...</source>
-        <translation>Curiumn core sammuu...</translation>
+        <source>Curium Core is shutting down...</source>
+        <translation>Curium core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2091,8 +2091,8 @@ Please check the address and try again.</source>
         <translation>Voit allekirjoittaa viestejä osoitteillasi todistaaksesi, että omistat ne. Ole varovainen ettet allekirjoita mitään kummallista, sillä kalasteluyritykset saattavat yrittää huijata sinut luovuttamaan tietoja. Allekirjoita vain täysin yksityiskohtaisia sanomia, jotka hyväksyt.</translation>
     </message>
     <message>
-        <source>The Curiumn address to sign the message with</source>
-        <translation>Curiumn osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The Curium address to sign the message with</source>
+        <translation>Curium osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2123,16 +2123,16 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curiumn address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Curiumn osoitteen</translation>
+        <source>Sign the message to prove you own this Curium address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Curium osoitteen</translation>
     </message>
     <message>
-        <source>The Curiumn address the message was signed with</source>
-        <translation>Curiumn osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The Curium address the message was signed with</source>
+        <translation>Curium osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Curiumn address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla Curiumn osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified Curium address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla Curium osoitteella.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2214,8 +2214,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn Ydin</translation>
+        <source>Curium Core</source>
+        <translation>Curium Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2230,8 +2230,8 @@ Please check the address and try again.</source>
         <translation>Dash Core kehittäjät</translation>
     </message>
     <message>
-        <source>The Curiumn Core developers</source>
-        <translation>Curiumn core kehittäjät</translation>
+        <source>The Curium Core developers</source>
+        <translation>Curium core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2541,7 +2541,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>curiumn-core</name>
+    <name>curium-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>
@@ -2591,8 +2591,8 @@ Please check the address and try again.</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Curiumn Core</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version Curiumn Coresta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Curium Core</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version Curium Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

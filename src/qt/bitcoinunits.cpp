@@ -41,11 +41,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case CRU:
-        return QString("curiumn");
+        return QString("curium");
     case mCRU:
-        return QString("mcuriumn");
+        return QString("mcurium");
     case uCRU:
-        return QString::fromUtf8("ucuriumn");
+        return QString::fromUtf8("ucurium");
     default:
         return QString("???");
     }

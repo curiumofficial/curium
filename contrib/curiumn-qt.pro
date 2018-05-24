@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/curiumn-config.h \
+           src/curium-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/curiumn-config.h \
+           src/config/curium-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -333,7 +333,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/curiumn.moc \
+           src/qt/curium.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -376,7 +376,7 @@ SOURCES += src/activemasternode.cpp \
            src/obfuscation.cpp \
            src/curiumn-cli.cpp \
            src/curiumn-tx.cpp \
-           src/curiumn.cpp \
+           src/curium.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -471,8 +471,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/curiumn.cpp \
-           src/qt/curiumnstrings.cpp \
+           src/qt/curium.cpp \
+           src/qt/curiumstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -550,7 +550,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_curiumn.cpp \
+           src/test/test_curium.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -641,21 +641,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/curiumn.qrc src/qt/curiumn_locale.qrc
+RESOURCES += src/qt/curium.qrc src/qt/curium_locale.qrc
 
-TRANSLATIONS += src/qt/locale/curiumn_bg.ts \
-                src/qt/locale/curiumn_de.ts \
-                src/qt/locale/curiumn_en.ts \
-                src/qt/locale/curiumn_es.ts \
-                src/qt/locale/curiumn_fi.ts \
-                src/qt/locale/curiumn_fr.ts \
-                src/qt/locale/curiumn_it.ts \
-                src/qt/locale/curiumn_ja.ts \
-                src/qt/locale/curiumn_pl.ts \
-                src/qt/locale/curiumn_pt.ts \
-                src/qt/locale/curiumn_ru.ts \
-                src/qt/locale/curiumn_sk.ts \
-                src/qt/locale/curiumn_sv.ts \
-                src/qt/locale/curiumn_vi.ts \
-                src/qt/locale/curiumn_zh_CN.ts \
-                src/qt/locale/curiumn_zh_TW.ts
+TRANSLATIONS += src/qt/locale/curium_bg.ts \
+                src/qt/locale/curium_de.ts \
+                src/qt/locale/curium_en.ts \
+                src/qt/locale/curium_es.ts \
+                src/qt/locale/curium_fi.ts \
+                src/qt/locale/curium_fr.ts \
+                src/qt/locale/curium_it.ts \
+                src/qt/locale/curium_ja.ts \
+                src/qt/locale/curium_pl.ts \
+                src/qt/locale/curium_pt.ts \
+                src/qt/locale/curium_ru.ts \
+                src/qt/locale/curium_sk.ts \
+                src/qt/locale/curium_sv.ts \
+                src/qt/locale/curium_vi.ts \
+                src/qt/locale/curium_zh_CN.ts \
+                src/qt/locale/curium_zh_TW.ts

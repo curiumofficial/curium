@@ -62,12 +62,12 @@
         <translation>Adreces de recepció</translation>
     </message>
     <message>
-        <source>These are your Curiumn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són les teves adreces Curiumn per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
+        <source>These are your Curium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són les teves adreces Curium per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
     </message>
     <message>
-        <source>These are your Curiumn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Aquestes són les teves adreces Curiumn per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
+        <source>These are your Curium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Aquestes són les teves adreces Curium per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>Curiumn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
-        <translation>Curiumn es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus CRU de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
+        <source>Curium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
+        <translation>Curium es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus CRU de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -418,12 +418,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn Core</translation>
+        <source>Curium Core</source>
+        <translation>Curium Core</translation>
     </message>
     <message>
-        <source>Send coins to a Curiumn address</source>
-        <translation>Envia monedes a una adreça Curiumn</translation>
+        <source>Send coins to a Curium address</source>
+        <translation>Envia monedes a una adreça Curium</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -434,8 +434,8 @@
         <translation>&amp;Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Curiumn Core</source>
-        <translation>&amp;Sobre Curiumn Core</translation>
+        <source>&amp;About Curium Core</source>
+        <translation>&amp;Sobre Curium Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -458,12 +458,12 @@
         <translation>Obre el fitxer de configuració del Masternode</translation>
     </message>
     <message>
-        <source>Curiumn Core client</source>
-        <translation>Client Curiumn core</translation>
+        <source>Curium Core client</source>
+        <translation>Client Curium core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Curiumn network</source>
-        <translation><numerusform>%n connexió activa a la xarxa Curiumn</numerusform><numerusform>%n connexions actives a la xarxa Curiumn</numerusform></translation>
+        <source>%n active connection(s) to Curium network</source>
+        <translation><numerusform>%n connexió activa a la xarxa Curium</numerusform><numerusform>%n connexions actives a la xarxa Curium</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -814,8 +814,8 @@
         <translation>Edita l'adreça d'enviament</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Curiumn address.</source>
-        <translation>L'adreça introduïda "%1" no és una adreça Curiumn vàlida.</translation>
+        <source>The entered address "%1" is not a valid Curium address.</source>
+        <translation>L'adreça introduïda "%1" no és una adreça Curium vàlida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -860,16 +860,16 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn Core</translation>
+        <source>Curium Core</source>
+        <translation>Curium Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Curiumn Core</source>
-        <translation>Sobre Curiumn Core</translation>
+        <source>About Curium Core</source>
+        <translation>Sobre Curium Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -915,12 +915,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to Curiumn Core.</source>
-        <translation>Benvingut a Curiumn Core.</translation>
+        <source>Welcome to Curium Core.</source>
+        <translation>Benvingut a Curium Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Curiumn Core will store its data.</source>
-        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del Curiumn Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Curium Core will store its data.</source>
+        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del Curium Core.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -931,8 +931,8 @@
         <translation>Usar una carpeta de dades personalitzada:</translation>
     </message>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn Core</translation>
+        <source>Curium Core</source>
+        <translation>Curium Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1208,8 +1208,8 @@
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Curiumn after logging in to the system.</source>
-        <translation>Inicia Curiumn automàticament després d'identificar-te en el sistema.</translation>
+        <source>Automatically start Curium after logging in to the system.</source>
+        <translation>Inicia Curium automàticament després d'identificar-te en el sistema.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1719,8 +1719,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Curiumn Core is shutting down...</source>
-        <translation>Curiumn Core s'està tancant...</translation>
+        <source>Curium Core is shutting down...</source>
+        <translation>Curium Core s'està tancant...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1785,8 +1785,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Curiumn Core</source>
-        <translation>Curiumn Core</translation>
+        <source>Curium Core</source>
+        <translation>Curium Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1984,7 +1984,7 @@
     </message>
     </context>
 <context>
-    <name>curiumn-core</name>
+    <name>curium-core</name>
     <message>
         <source>Can't mix while sync in progress.</source>
         <translation>No es pot mesclar mentre s'està sincronitzant.</translation>

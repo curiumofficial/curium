@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between curiumn-cli and curiumnd)
- * of a given instance of the Curium system.
+ * of a given instance of the Curiumn system.
  */
 class CBaseChainParams
 {

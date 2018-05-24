@@ -1,34 +1,34 @@
 bin_PROGRAMS += qt/curiumn-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
-# curium qt core #
+# curiumn qt core #
 QT_TS = \
-  qt/locale/curium_bg.ts \
-  qt/locale/curium_ca.ts \
-  qt/locale/curium_cs.ts \
-  qt/locale/curium_da.ts \
-  qt/locale/curium_de.ts \
-  qt/locale/curium_en.ts \
-  qt/locale/curium_en_US.ts \
-  qt/locale/curium_es.ts \
-  qt/locale/curium_fi.ts \
-  qt/locale/curium_fr_FR.ts \
-  qt/locale/curium_hr.ts \
-  qt/locale/curium_it.ts \
-  qt/locale/curium_ja.ts \
-  qt/locale/curium_ko_KR.ts \
-  qt/locale/curium_nl.ts \
-  qt/locale/curium_pl.ts \
-  qt/locale/curium_pt.ts \
-  qt/locale/curium_pt_BR.ts \
-  qt/locale/curium_ro_RO.ts \
-  qt/locale/curium_ru.ts \
-  qt/locale/curium_sk.ts \
-  qt/locale/curium_sv.ts \
-  qt/locale/curium_tr.ts \
-  qt/locale/curium_uk.ts \
-  qt/locale/curium_zh_CN.ts \
-  qt/locale/curium_zh_TW.ts
+  qt/locale/curiumn_bg.ts \
+  qt/locale/curiumn_ca.ts \
+  qt/locale/curiumn_cs.ts \
+  qt/locale/curiumn_da.ts \
+  qt/locale/curiumn_de.ts \
+  qt/locale/curiumn_en.ts \
+  qt/locale/curiumn_en_US.ts \
+  qt/locale/curiumn_es.ts \
+  qt/locale/curiumn_fi.ts \
+  qt/locale/curiumn_fr_FR.ts \
+  qt/locale/curiumn_hr.ts \
+  qt/locale/curiumn_it.ts \
+  qt/locale/curiumn_ja.ts \
+  qt/locale/curiumn_ko_KR.ts \
+  qt/locale/curiumn_nl.ts \
+  qt/locale/curiumn_pl.ts \
+  qt/locale/curiumn_pt.ts \
+  qt/locale/curiumn_pt_BR.ts \
+  qt/locale/curiumn_ro_RO.ts \
+  qt/locale/curiumn_ru.ts \
+  qt/locale/curiumn_sk.ts \
+  qt/locale/curiumn_sv.ts \
+  qt/locale/curiumn_tr.ts \
+  qt/locale/curiumn_uk.ts \
+  qt/locale/curiumn_zh_CN.ts \
+  qt/locale/curiumn_zh_TW.ts
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
@@ -114,16 +114,16 @@ BITCOIN_MM = \
   qt/macnotificationhandler.mm
 
 QT_MOC = \
-  qt/curium.moc \
+  qt/curiumn.moc \
   qt/bitcoinamountfield.moc \
   qt/intro.moc \
   qt/overviewpage.moc \
   qt/rpcconsole.moc
 
-QT_QRC_CPP = qt/qrc_curium.cpp
-QT_QRC = qt/curium.qrc
-QT_QRC_LOCALE_CPP = qt/qrc_curium_locale.cpp
-QT_QRC_LOCALE = qt/curium_locale.qrc
+QT_QRC_CPP = qt/qrc_curiumn.cpp
+QT_QRC = qt/curiumn.qrc
+QT_QRC_LOCALE_CPP = qt/qrc_curiumn_locale.cpp
+QT_QRC_LOCALE = qt/curiumn_locale.qrc
 
 PROTOBUF_CC = qt/paymentrequest.pb.cc
 PROTOBUF_H = qt/paymentrequest.pb.h
@@ -241,12 +241,12 @@ RES_ICONS = \
   qt/res/icons/tx_input.png \
   qt/res/icons/tx_output.png \
   qt/res/icons/tx_mined.png \
-  qt/res/icons/unit_curium.png \
-  qt/res/icons/unit_mcurium.png \
-  qt/res/icons/unit_ucurium.png \
-  qt/res/icons/unit_tcurium.png \
-  qt/res/icons/unit_tmcurium.png \
-  qt/res/icons/unit_tucurium.png
+  qt/res/icons/unit_curiumn.png \
+  qt/res/icons/unit_mcuriumn.png \
+  qt/res/icons/unit_ucuriumn.png \
+  qt/res/icons/unit_tcuriumn.png \
+  qt/res/icons/unit_tmcuriumn.png \
+  qt/res/icons/unit_tucuriumn.png
 
 BITCOIN_QT_CPP = \
   qt/bitcoinaddressvalidator.cpp \
@@ -316,7 +316,7 @@ RES_IMAGES = \
   qt/res/images/about.png \
   qt/res/images/splash.png \
   qt/res/images/splash_testnet.png \
-  qt/res/images/curium_logo_horizontal.png \
+  qt/res/images/curiumn_logo_horizontal.png \
   qt/res/images/downArrow.png \
   qt/res/images/downArrow_small.png \
   qt/res/images/upArrow_small.png \
@@ -363,7 +363,7 @@ $(QT_MOC_CPP): $(PROTOBUF_H)
 qt_curiumn_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
 
-qt_curiumn_qt_SOURCES = qt/curium.cpp
+qt_curiumn_qt_SOURCES = qt/curiumn.cpp
 if TARGET_DARWIN
   qt_curiumn_qt_SOURCES += $(BITCOIN_MM)
 endif
@@ -388,23 +388,23 @@ QT_QM=$(QT_TS:.ts=.qm)
 
 .SECONDARY: $(QT_QM)
 
-qt/curiumstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
+qt/curiumnstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) $(PYTHON) ../share/qt/extract_strings_qt.py $^
 
-translate: qt/curiumstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
+translate: qt/curiumnstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/curium_en.ts
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/curiumn_en.ts
 
 $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 	@test -f $(RCC)
 	@test -f $(@D)/$(<F) || cp -f $< $(@D)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name curium_locale $(@D)/$(<F) | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name curiumn_locale $(@D)/$(<F) | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_MOVIES) $(PROTOBUF_H)
 	@test -f $(RCC)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name curium $< | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name curiumn $< | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno

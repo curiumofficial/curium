@@ -13,7 +13,7 @@
  * for both curiumnd and curiumn-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Curium Core");
+const std::string CLIENT_NAME("Curiumn Core");
 
 /**
  * Client version number

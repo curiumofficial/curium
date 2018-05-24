@@ -7,7 +7,7 @@
 #define BITCOIN_COMPAT_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/curium-config.h"
+#include "config/curiumn-config.h"
 #endif
 
 #ifdef WIN32

@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Curium"
-            VALUE "FileDescription",    "curiumnd (OSS daemon/client for Curium)"
+            VALUE "CompanyName",        "Curiumn"
+            VALUE "FileDescription",    "curiumnd (OSS daemon/client for Curiumn)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "curiumnd"
             VALUE "LegalCopyright",     COPYRIGHT_STR

@@ -74,7 +74,7 @@ if BUILD_BITCOIN_UTILS
 endif
 
 .PHONY: FORCE
-# curium core #
+# curiumn core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   accumulators.h \

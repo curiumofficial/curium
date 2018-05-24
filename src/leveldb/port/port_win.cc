@@ -70,8 +70,8 @@ void Mutex::AssertHeld() {
 CondVar::CondVar(Mutex* mu) :
     waiting_(0), 
     mu_(mu), 
-    sem1_(::CreateSemacurium(NULL, 0, 10000, NULL)), 
-    sem2_(::CreateSemacurium(NULL, 0, 10000, NULL)) {
+    sem1_(::CreateSemacuriumn(NULL, 0, 10000, NULL)), 
+    sem2_(::CreateSemacuriumn(NULL, 0, 10000, NULL)) {
   assert(mu_);
 }
 

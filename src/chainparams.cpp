@@ -3,7 +3,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2017  The Phore Developers
-// Copyright (c) 2018 The Curiumn Developers
+// Copyright (c) 2018 The Curium Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -125,8 +125,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // Curiumn: 1 day
-        nTargetSpacing = 1 * 60;  // Curiumn: 1 minute
+        nTargetTimespan = 1 * 60; // Curium: 1 day
+        nTargetSpacing = 1 * 60;  // Curium: 1 minute
         nMaturity = 50;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 1000000000 * COIN;
@@ -148,7 +148,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "Curiumn May 15 2018 we began our quest for the new network";
+        const char* pszTimestamp = "Curium May 15 2018 we began our quest for the new network";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -168,10 +168,10 @@ public:
         assert(hashGenesisBlock == uint256("0x20438ea808f386bca78de64fc78320312af41d0d828763a9f5dd444d8ba7b54c"));
         assert(genesis.hashMerkleRoot == uint256("0x8738140c726a5ee4eabd99024115280f825c57bae6decc2b14251b917152df4f"));
 
-        vSeeds.push_back(CDNSSeedData("1stdnsseedforcuriumn", "dnsseed.mrmetech.me"));     // Primary DNS Seeder from Fuzzbawls
-        vSeeds.push_back(CDNSSeedData("curiumn1", "207.246.120.137"));    // Secondary DNS Seeder from Fuzzbawls
-        vSeeds.push_back(CDNSSeedData("curiumn2", "159.203.138.56"));         // Single node address
-        vSeeds.push_back(CDNSSeedData("curiumn3", "46.101.62.236"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("1stdnsseedforcurium", "dnsseed.mrmetech.me"));     // Primary DNS Seeder from Fuzzbawls
+        vSeeds.push_back(CDNSSeedData("curium1", "207.246.120.137"));    // Secondary DNS Seeder from Fuzzbawls
+        vSeeds.push_back(CDNSSeedData("curium2", "159.203.138.56"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("curium3", "46.101.62.236"));         // Single node address
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 60);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -236,8 +236,8 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // Curiumn: 1 day
-        nTargetSpacing = 1 * 10;  // Curiumn: 1 minute
+        nTargetTimespan = 1 * 60; // Curium: 1 day
+        nTargetSpacing = 1 * 10;  // Curium: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
@@ -255,14 +255,14 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet curiumn addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet curiumn script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet curium addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet curium script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        // Testnet curiumn BIP32 pubkeys start with 'DRKV'
+        // Testnet curium BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet curiumn BIP32 prvkeys start with 'DRKP'
+        // Testnet curium BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet curiumn BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet curium BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x01)(0x00)(0x00)(0x80).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
@@ -309,8 +309,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // Curiumn: 1 day
-        nTargetSpacing = 1 * 60;        // Curiumn: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // Curium: 1 day
+        nTargetSpacing = 1 * 60;        // Curium: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1526939990;
         genesis.nBits = 0x207fffff;

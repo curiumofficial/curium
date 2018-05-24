@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/curiumn-config.h"
+#include "config/curium-config.h"
 #endif
 
 #include "util.h"
@@ -105,7 +105,7 @@ std::string to_internal(const std::string&);
 
 using namespace std;
 
-// Curiumn only features
+// Curium only features
 // Masternode
 bool fMasterNode = false;
 string strMasterNodePrivKey = "";
@@ -120,7 +120,7 @@ int nZeromintPercentage = 10;
 int nPreferredDenom = 0;
 const int64_t AUTOMINT_DELAY = (60 * 5); // Wait at least 5 minutes until Automint starts
 
-int nAnonymizeCuriumnAmount = 1000;
+int nAnonymizeCuriumAmount = 1000;
 int nLiquidityProvider = 0;
 /** Spork enforcement enabled time */
 int64_t enforceMasternodePaymentsTime = 4085657524;
@@ -237,8 +237,8 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "curiumn" is a composite category enabling all Curiumn-related debug output
-            if (ptrCategory->count(string("curiumn"))) {
+            // "curium" is a composite category enabling all Curium-related debug output
+            if (ptrCategory->count(string("curium"))) {
                 ptrCategory->insert(string("obfuscation"));
                 ptrCategory->insert(string("swiftx"));
                 ptrCategory->insert(string("masternode"));
@@ -403,7 +403,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "curiumn";
+    const char* pszModule = "curium";
 #endif
     if (pex)
         return strprintf(
@@ -424,13 +424,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\Curiumncru
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\Curiumncru
-// Mac: ~/Library/Application Support/Curiumncru
-// Unix: ~/.curiumncru
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\Curiumcru
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\Curiumcru
+// Mac: ~/Library/Application Support/Curiumcru
+// Unix: ~/.curiumcru
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Curiumncru";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Curiumcru";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -442,10 +442,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "Curiumncru";
+    return pathRet / "Curiumcru";
 #else
     // Unix
-    return pathRet / ".curiumncru";
+    return pathRet / ".curiumcru";
 #endif
 #endif
 }
@@ -492,7 +492,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "curiumn.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "curium.conf"));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
@@ -511,7 +511,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good()) {
-        // Create empty curiumn.conf if it does not exist
+        // Create empty curium.conf if it does not exist
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -522,7 +522,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
     setOptions.insert("*");
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it) {
-        // Don't overwrite existing settings so command line settings override curiumn.conf
+        // Don't overwrite existing settings so command line settings override curium.conf
         string strKey = string("-") + it->string_key;
         string strValue = it->value[0];
         InterpretNegativeSetting(strKey, strValue);

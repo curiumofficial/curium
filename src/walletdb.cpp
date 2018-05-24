@@ -843,7 +843,7 @@ DBErrors CWalletDB::ZapWalletTx(CWallet* pwallet, vector<CWalletTx>& vWtx)
 void ThreadFlushWalletDB(const string& strFile)
 {
     // Make this thread recognisable as the wallet flushing thread
-    RenameThread("curiumn-wallet");
+    RenameThread("curium-wallet");
 
     static bool fOneThread;
     if (fOneThread)

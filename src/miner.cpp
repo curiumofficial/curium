@@ -3,7 +3,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2017  The Phore Developers
-// Copyright (c) 2018 The Curiumn Developers
+// Copyright (c) 2018 The Curium Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -34,7 +34,7 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// CuriumnMiner
+// CuriumMiner
 //
 
 //
@@ -476,7 +476,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != chainActive.Tip()->GetBlockHash())
-            return error("CuriumnMiner : generated block is stale");
+            return error("CuriumMiner : generated block is stale");
     }
 
     // Remove key from key pool
@@ -491,7 +491,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     // Process this block the same as if we had received it from another node
     CValidationState state;
     if (!ProcessNewBlock(state, NULL, pblock))
-        return error("CuriumnMiner : ProcessNewBlock, block not accepted");
+        return error("CuriumMiner : ProcessNewBlock, block not accepted");
 
     for (CNode* node : vNodes) {
         node->PushInventory(CInv(MSG_BLOCK, pblock->GetHash()));
@@ -506,9 +506,9 @@ bool fGenerateBitcoins = false;
 
 void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
-    LogPrintf("CuriumnMiner started\n");
+    LogPrintf("CuriumMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("curiumn-miner");
+    RenameThread("curium-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -572,7 +572,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
             continue;
         }
 
-        LogPrintf("Running CuriumnMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+        LogPrintf("Running CuriumMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
             ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //

@@ -361,7 +361,7 @@ public:
 
     //check to see if we should vote on this
     void AutoCheck();
-    //total curiumn paid out by this budget
+    //total curium paid out by this budget
     CAmount GetTotalPayout();
     //vote on this finalized budget as a masternode
     void SubmitVote();

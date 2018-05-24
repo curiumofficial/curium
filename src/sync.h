@@ -172,7 +172,7 @@ typedef CMutexLock<CCriticalSection> CCriticalBlock;
         LeaveCritical();           \
     }
 
-class CSemacuriumn
+class CSemacurium
 {
 private:
     boost::condition_variable condition;
@@ -180,7 +180,7 @@ private:
     int value;
 
 public:
-    CSemacuriumn(int init) : value(init) {}
+    CSemacurium(int init) : value(init) {}
 
     void wait()
     {
@@ -210,11 +210,11 @@ public:
     }
 };
 
-/** RAII-style semacuriumn lock */
-class CSemacuriumnGrant
+/** RAII-style semacurium lock */
+class CSemacuriumGrant
 {
 private:
-    CSemacuriumn* sem;
+    CSemacurium* sem;
     bool fHaveGrant;
 
 public:
@@ -241,7 +241,7 @@ public:
         return fHaveGrant;
     }
 
-    void MoveTo(CSemacuriumnGrant& grant)
+    void MoveTo(CSemacuriumGrant& grant)
     {
         grant.Release();
         grant.sem = sem;
@@ -250,9 +250,9 @@ public:
         fHaveGrant = false;
     }
 
-    CSemacuriumnGrant() : sem(NULL), fHaveGrant(false) {}
+    CSemacuriumGrant() : sem(NULL), fHaveGrant(false) {}
 
-    CSemacuriumnGrant(CSemacuriumn& sema, bool fTry = false) : sem(&sema), fHaveGrant(false)
+    CSemacuriumGrant(CSemacurium& sema, bool fTry = false) : sem(&sema), fHaveGrant(false)
     {
         if (fTry)
             TryAcquire();
@@ -260,7 +260,7 @@ public:
             Acquire();
     }
 
-    ~CSemacuriumnGrant()
+    ~CSemacuriumGrant()
     {
         Release();
     }

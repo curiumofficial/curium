@@ -96,7 +96,7 @@ public:
 };
 
 /**
- * Curiumn RPC command dispatcher.
+ * Curium RPC command dispatcher.
  */
 class CRPCTable
 {

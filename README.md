@@ -7,17 +7,10 @@ Curium is a cutting edge cryptocurrency, with many features not available in mos
 - Masternode technology used to secure the network and provide the above features, each Masternode is secured
   with collateral of 10K CRU
 
-17.6M curium was produced for swapping. 500k were mined 1-200 blocks to bring that amount to 18.1M CRU, the amount needed for the swap.
+Old repo https://github.com/curiumofficialold/curium
 
-_Unfortunately, the code was not originally properly forked on GitHub from the PIVX repository. This serves the same purpose. We forked from [PIVX-Project/PIVX](https://github.com/PIVX-Project/PIVX/)._
-
-Since then, the Curium repository has been rebaselined to show the fork relationship properly.
 
 ## BCT Thread ##
-
-https://bitcointalk.org/index.php?topic=2307909.0
-
-Rebrand from KryptKoin [KTK] to Curium [CRU]
 
 ## Coin Specs ##
 <table>

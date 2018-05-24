@@ -46,8 +46,8 @@ Instructions: Homebrew
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/mrmetech/curium.git
-        cd Curium
+        git clone https://github.com/mrmetech/curiumn.git
+        cd Curiumn
 
 2.  Build curiumnd:
         
@@ -86,7 +86,7 @@ Creating a release build
 ------------------------
 You can ignore this section if you are building `curiumnd` for your own use.
 
-curiumnd/curiumn-cli binaries are not included in the curium-Qt.app bundle.
+curiumnd/curiumn-cli binaries are not included in the curiumn-Qt.app bundle.
 
 If you are building `curiumnd` or `curiumn-qt` for others, your build machine should be set up
 as follows for maximum compatibility:
@@ -109,19 +109,19 @@ directory. We have to first create the RPC configuration file, though.
 Run `./curiumnd` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=curiumrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Curium/curium.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/Curium/curium.conf"
+    echo -e "rpcuser=curiumnrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Curiumn/curiumn.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Curiumn/curiumn.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours;
 you can monitor its process by looking at the debug.log file, like this:
 
-    tail -f $HOME/Library/Application\ Support/Curium/debug.log
+    tail -f $HOME/Library/Application\ Support/Curiumn/debug.log
 
 Other commands:
 -------
 
-    ./curiumnd -daemon # to start the curium daemon.
+    ./curiumnd -daemon # to start the curiumn daemon.
     ./curiumn-cli --help  # for a list of command-line options.
     ./curiumn-cli help    # When the daemon is running, to get a list of RPC commands
     
@@ -141,7 +141,7 @@ Troubleshooting:<a name="trouble"></a>
         make
         sudo make install
 
-        Then configure Curium with this build of BerkeleyDB,
+        Then configure Curiumn with this build of BerkeleyDB,
         ./configure --with-gui=qt5  LDFLAGS="-L/usr/local/BerkeleyDB.4.8/lib/" CPPFLAGS="-I/usr/local/BerkeleyDB.4.8/include/"
                 
         
@@ -162,7 +162,7 @@ Otherwise, open Terminal and type in the command to install homebrew:
 
 ```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
 
-The use homebrew to install a number of unix programs and libraries needed to build the Curium wallet:
+The use homebrew to install a number of unix programs and libraries needed to build the Curiumn wallet:
 
 ```brew install autoconf automake berkeley-db@4 boost@1.57 git libevent libtool miniupnpc openssl pkg-config protobuf qt zeromq```
 
@@ -176,8 +176,8 @@ Next, switch into your Downloads folder:
 
 The next step is to download the current version of the wallet from Github and go into that directory:
 
-```git clone https://github.com/mrmetech/curium.git```
-```cd Curium```
+```git clone https://github.com/mrmetech/curiumn.git```
+```cd Curiumn```
 
 Now set some configuration flags:
 
@@ -189,7 +189,7 @@ Then we begin the build process:
 ```./configure```
 ```make```
 
-You have the choice to build the GUI Curium wallet as a Mac OSX app, described in “How to build the Curiumn-Qt App”. If, for whatever reason, you prefer to use the command line tools, continue with “Command line tools”.
+You have the choice to build the GUI Curiumn wallet as a Mac OSX app, described in “How to build the Curiumn-Qt App”. If, for whatever reason, you prefer to use the command line tools, continue with “Command line tools”.
 
 ### How to build the Curiumn-Qt App:
 
@@ -197,7 +197,7 @@ After make is finished, you can create an App bundle inside a disk image with:
 
 ```make deploy```
 
-Once this is done, you’ll find Curiumn-Qt.dmg inside your Curium folder. Open and install the wallet like any typical Mac app.
+Once this is done, you’ll find Curiumn-Qt.dmg inside your Curiumn folder. Open and install the wallet like any typical Mac app.
 
 ### Command line tools
 
@@ -211,4 +211,4 @@ And there you have your wallet – you can start it by running:
 
 You can move the wallet app to another more permanent location. If you have not moved it and want to start your wallet in the future, open Terminal and run this command:
 
-~/Downloads/Curium/src/qt/curiumn-qt
+~/Downloads/Curiumn/src/qt/curiumn-qt

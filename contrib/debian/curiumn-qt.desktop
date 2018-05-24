@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Curium
-Comment=Curium P2P Cryptocurrency
-Comment[fr]=Curium, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Curium, eşten eşe kriptografik sanal para birimi
+Name=Curiumn
+Comment=Curiumn P2P Cryptocurrency
+Comment[fr]=Curiumn, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Curiumn, eşten eşe kriptografik sanal para birimi
 Exec=curiumn-qt %u
 Terminal=false
 Type=Application
-Icon=curium128
-MimeType=x-scheme-handler/curium;
+Icon=curiumn128
+MimeType=x-scheme-handler/curiumn;
 Categories=Office;Finance;

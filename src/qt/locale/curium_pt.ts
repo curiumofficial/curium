@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your Curium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços Curium para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
+        <source>These are your Curiumn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços Curiumn para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your Curium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços Curium para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your Curiumn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços Curiumn para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>Curium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
-        <translation>Curium encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas CRUs contra roubo por malware infectando seu computador.</translation>
+        <source>Curiumn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
+        <translation>Curiumn encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas CRUs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,16 +239,16 @@
         <translation>Encriptar com &amp;BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Digite um endereço Curium que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
+        <source>Enter a Curiumn Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Digite um endereço Curiumn que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The Curium address to sign the message with</source>
-        <translation>Um endereço Curium para assinar a mensagem</translation>
+        <source>The Curiumn address to sign the message with</source>
+        <translation>Um endereço Curiumn para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curium address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço Curium.</translation>
+        <source>Sign the message to prove you own this Curiumn address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço Curiumn.</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,8 +299,8 @@
         <translation>Criptografia BIP 38</translation>
     </message>
     <message>
-        <source>The Curium address the message was signed with</source>
-        <translation>O endereço Curium que foi assinado com</translation>
+        <source>The Curiumn address the message was signed with</source>
+        <translation>O endereço Curiumn que foi assinado com</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -668,8 +668,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Curium address to sign the message with</source>
-        <translation>Um endereço Curium para assinar a mensagem</translation>
+        <source>The Curiumn address to sign the message with</source>
+        <translation>Um endereço Curiumn para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -700,12 +700,12 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curium address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço Curium.</translation>
+        <source>Sign the message to prove you own this Curiumn address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço Curiumn.</translation>
     </message>
     <message>
-        <source>The Curium address the message was signed with</source>
-        <translation>O endereço Curium que foi assinado com</translation>
+        <source>The Curiumn address the message was signed with</source>
+        <translation>O endereço Curiumn que foi assinado com</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -906,14 +906,14 @@
     <name>ZCruControlDialog</name>
     </context>
 <context>
-    <name>curium-core</name>
+    <name>curiumn-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes do blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all Curium specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionacilidades específicas da Curium (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, default %u)</translation>
+        <source>Disable all Curiumn specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionacilidades específicas da Curiumn (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, default %u)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -1272,8 +1272,8 @@
         <translation>Carteira esta bloqueada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Curium Core to complete</source>
-        <translation>Carteira precisa ser reescrita: reinicie o Curium Core para completar.</translation>
+        <source>Wallet needed to be rewritten: restart Curiumn Core to complete</source>
+        <translation>Carteira precisa ser reescrita: reinicie o Curiumn Core para completar.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

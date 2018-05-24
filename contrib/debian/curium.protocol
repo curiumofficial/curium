@@ -1,6 +1,6 @@
 [Protocol]
 exec=curiumn-qt '%u'
-protocol=curium
+protocol=curiumn
 input=none
 output=none
 helper=true

@@ -2,12 +2,12 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2017  The Phore Developers
-// Copyright (c) 2018 The Curium Developers
+// Copyright (c) 2018 The Curiumn Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/curium-config.h"
+#include "config/curiumn-config.h"
 #endif
 
 #include "util.h"

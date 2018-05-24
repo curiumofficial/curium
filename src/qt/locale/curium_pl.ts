@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curium address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Curium jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this Curiumn address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Curiumn jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,16 +518,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>Curium Core</source>
-        <translation>&amp;Rdzeń Curium</translation>
+        <source>Curiumn Core</source>
+        <translation>&amp;Rdzeń Curiumn</translation>
     </message>
     <message>
-        <source>Send coins to a Curium address</source>
-        <translation>Wyślij monety do adresu Curium</translation>
+        <source>Send coins to a Curiumn address</source>
+        <translation>Wyślij monety do adresu Curiumn</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and curium: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i curium:URI)</translation>
+        <source>Request payments (generates QR codes and curiumn: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i curiumn:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -538,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Curium Core</source>
+        <source>&amp;About Curiumn Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about Curium Core</source>
+        <source>Show information about Curiumn Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for Curium</source>
-        <translation>Modyfikuj opcje konfiguracji Curium</translation>
+        <source>Modify configuration options for Curiumn</source>
+        <translation>Modyfikuj opcje konfiguracji Curiumn</translation>
     </message>
     <message>
-        <source>Sign messages with your Curium addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami Curium, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your Curiumn addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami Curiumn, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Curium addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu Curium</translation>
+        <source>Verify messages to ensure they were signed with specified Curiumn addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu Curiumn</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,7 +582,7 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a Curium: URI or payment request</source>
+        <source>Open a Curiumn: URI or payment request</source>
         <translation>OtwórzCRUX: URI i żądanie zapłaty</translation>
     </message>
     <message>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the Curium Core help message to get a list with possible Curium command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia Curium, aby dostać listę możliwych opcji Curium command-line</translation>
+        <source>Show the Curiumn Core help message to get a list with possible Curiumn command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia Curiumn, aby dostać listę możliwych opcji Curiumn command-line</translation>
     </message>
     <message>
-        <source>Curium Core client</source>
-        <translation>Rdzeń Curium klient</translation>
+        <source>Curiumn Core client</source>
+        <translation>Rdzeń Curiumn klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -912,8 +912,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Curium Core</source>
-        <translation>&amp;Rdzeń Curium</translation>
+        <source>Curiumn Core</source>
+        <translation>&amp;Rdzeń Curiumn</translation>
     </message>
     </context>
 <context>
@@ -927,8 +927,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>Curium Core</source>
-        <translation>&amp;Rdzeń Curium</translation>
+        <source>Curiumn Core</source>
+        <translation>&amp;Rdzeń Curiumn</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1188,12 +1188,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start Curium after logging in to the system.</source>
-        <translation>Automatycznie uruchom Curium po zalogowaniu do systemu</translation>
+        <source>Automatically start Curiumn after logging in to the system.</source>
+        <translation>Automatycznie uruchom Curiumn po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start Curium on system login</source>
-        <translation>&amp;Uruchom Curium podczas logowania do systemu</translation>
+        <source>&amp;Start Curiumn on system login</source>
+        <translation>&amp;Uruchom Curiumn podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1212,18 +1212,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Curium.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Curium</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Curiumn.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Curiumn</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/curium-project/curium-project-translations</source>
+https://www.transifex.com/curiumn-project/curiumn-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/curium-project/curium-project-translations </translation>
+https://www.transifex.com/curiumn-project/curiumn-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the Curium network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią Curium poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the Curiumn network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią Curiumn poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1461,8 +1461,8 @@ https://www.transifex.com/curium-project/curium-project-translations </translati
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a Curium address (e.g. %1)</source>
-        <translation>Wprowadź adres Curium (np. %1)</translation>
+        <source>Enter a Curiumn address (e.g. %1)</source>
+        <translation>Wprowadź adres Curiumn (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1900,8 +1900,8 @@ https://www.transifex.com/curium-project/curium-project-translations </translati
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curium address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Curium jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this Curiumn address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Curiumn jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1935,8 +1935,8 @@ https://www.transifex.com/curium-project/curium-project-translations </translati
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Curium Core</source>
-        <translation>&amp;Rdzeń Curium</translation>
+        <source>Curiumn Core</source>
+        <translation>&amp;Rdzeń Curiumn</translation>
     </message>
     </context>
 <context>
@@ -2034,7 +2034,7 @@ https://www.transifex.com/curium-project/curium-project-translations </translati
     </message>
     </context>
 <context>
-    <name>curium-core</name>
+    <name>curiumn-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

@@ -3,13 +3,13 @@
 
 **THIS IS A MANDATORY UPDATE. UPGRADE YOUR CLIENTS BEFORE BLOCK 250,000.**
 
-Curium Core version 1.2.2 is now available from:
+Curiumn Core version 1.2.2 is now available from:
 
-  https://curium.io/
+  https://curiumn.io/
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/curiumproject/curium/issues
+  https://github.com/curiumnproject/curiumn/issues
 
 
 How to Upgrade
@@ -24,7 +24,7 @@ curiumnd/curiumn-qt (on Linux).
 1.2.2 changelog
 ----------------
 
-- Updated chain parameters in response to [this governance proposal](https://forum.curium.io/t/block-reward-extension/81).
+- Updated chain parameters in response to [this governance proposal](https://forum.curiumn.io/t/block-reward-extension/81).
   - Updated development rewards to a constant 1 CRU per block.
   - Updated block reward schedule
 - Fixed bug with mempoolnotify important for marketplace launch

@@ -2,13 +2,13 @@
 ====================
 
 
-Curium Core version 1.2.1 is now available from:
+Curiumn Core version 1.2.1 is now available from:
 
-  https://curium.io/
+  https://curiumn.io/
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/curiumproject/curium/issues
+  https://github.com/curiumnproject/curiumn/issues
 
 
 How to Upgrade
@@ -41,7 +41,7 @@ Also:
 Versioning Note
 ---------------
 
-Curium will now be switching to a more standard semantic versioning
+Curiumn will now be switching to a more standard semantic versioning
 system (https://semver.org/). This means that in the future, the version numbers
 will take the form:
 

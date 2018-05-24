@@ -13,7 +13,7 @@ can be found in the contrib/init folder.
 1. Service User
 ---------------------------------
 
-All three startup configurations assume the existence of a "curium" user
+All three startup configurations assume the existence of a "curiumn" user
 and group.  They must be created before attempting to use these scripts.
 
 2. Configuration
@@ -35,10 +35,10 @@ generate one from the shell yourself like this:
 
 bash -c 'tr -dc a-zA-Z0-9 < /dev/urandom | head -c32 && echo'
 
-Once you have a password in hand, set rpcpassword= in /etc/curium/curium.conf
+Once you have a password in hand, set rpcpassword= in /etc/curiumn/curiumn.conf
 
 For an example configuration file that describes the configuration settings,
-see contrib/debian/examples/curium.conf.
+see contrib/debian/examples/curiumn.conf.
 
 3. Paths
 ---------------------------------
@@ -46,15 +46,15 @@ see contrib/debian/examples/curium.conf.
 All three configurations assume several paths that might need to be adjusted.
 
 Binary:              /usr/bin/curiumnd
-Configuration file:  /etc/curium/curium.conf
+Configuration file:  /etc/curiumn/curiumn.conf
 Data directory:      /var/lib/curiumnd
 PID file:            /var/run/curiumnd/curiumnd.pid (OpenRC and Upstart)
                      /var/lib/curiumnd/curiumnd.pid (systemd)
 
 The configuration file, PID directory (if applicable) and data directory
-should all be owned by the curium user and group.  It is advised for security
+should all be owned by the curiumn user and group.  It is advised for security
 reasons to make the configuration file and data directory only readable by the
-curium user and group.  Access to curiumn-cli and other curiumnd rpc clients
+curiumn user and group.  Access to curiumn-cli and other curiumnd rpc clients
 can then be controlled by group membership.
 
 4. Installing Service Configuration
@@ -89,7 +89,7 @@ use old versions of Upstart and do not supply the start-stop-daemon uitility.
 Copy curiumnd.init to /etc/init.d/curiumnd. Test by running "service curiumnd start".
 
 Using this script, you can adjust the path and flags to the curiumnd program by
-setting the CuriumD and FLAGS environment variables in the file
+setting the CuriumnD and FLAGS environment variables in the file
 /etc/sysconfig/curiumnd. You can also use the DAEMONOPTS environment variable here.
 
 5. Auto-respawn

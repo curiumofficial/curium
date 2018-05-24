@@ -1,19 +1,19 @@
-.TH CRU.CONF "5" "January 2011" "curium.conf 3.19"
+.TH CRU.CONF "5" "January 2011" "curiumn.conf 3.19"
 .SH NAME
-curium.conf \- curium configuration file
+curiumn.conf \- curiumn configuration file
 .SH SYNOPSIS
 All command-line options (except for '\-conf') may be specified in a configuration file, and all configuration file options may also be specified on the command line. Command-line options override values set in the configuration file.
 .TP
 The configuration file is a list of 'setting=value' pairs, one per line, with optional comments starting with the '#' character.
 .TP
-The configuration file is not automatically created; you can create it using your favorite plain-text editor. By default, curiumnd(1) will look for a file named curium.conf(5) in the curium data directory, but both the data directory and the configuration file path may be changed using the '\-datadir' and '\-conf' command-line arguments.
+The configuration file is not automatically created; you can create it using your favorite plain-text editor. By default, curiumnd(1) will look for a file named curiumn.conf(5) in the curiumn data directory, but both the data directory and the configuration file path may be changed using the '\-datadir' and '\-conf' command-line arguments.
 .SH LOCATION
-curium.conf should be located in $HOME/.curium
+curiumn.conf should be located in $HOME/.curiumn
 .SH NETWORK-RELATED SETTINGS
 .TP
 .TP
 \fBtestnet=\fR[\fI'1'\fR|\fI'0'\fR]
-Enable or disable run on the test network instead of the real *curium* network.
+Enable or disable run on the test network instead of the real *curiumn* network.
 .TP
 \fBproxy=\fR\fI'127.0.0.1:9050'\fR
 Connect via a socks4 proxy.
@@ -29,7 +29,7 @@ Maximum number of inbound+outbound connections.
 .SH JSON-RPC OPTIONS
 .TP
 \fBserver=\fR[\fI'1'\fR|\fI'0'\fR]
-Tells *curium* to accept or not accept JSON-RPC commands.
+Tells *curiumn* to accept or not accept JSON-RPC commands.
 .TP
 \fBrpcuser=\fR\fI'username'\fR
 You must set *rpcuser* to secure the JSON-RPC api.
@@ -44,10 +44,10 @@ By default, only RPC connections from localhost are allowed. Specify as many *rp
 Listen for RPC connections on this TCP port.
 .TP
 \fBrpcconnect=\fR\fI'127.0.0.1'\fR
-You can use *curium* or *curiumnd(1)* to send commands to *curium*/*curiumnd(1)* running on another host using this option.
+You can use *curiumn* or *curiumnd(1)* to send commands to *curiumn*/*curiumnd(1)* running on another host using this option.
 .TP
 \fBrpcssl=\fR\fI'1'\fR
-Use Secure Sockets Layer (also known as TLS or HTTPS) to communicate with *curium* '\-server' or *curiumnd(1)*. Example of OpenSSL settings used when *rpcssl*='1':
+Use Secure Sockets Layer (also known as TLS or HTTPS) to communicate with *curiumn* '\-server' or *curiumnd(1)*. Example of OpenSSL settings used when *rpcssl*='1':
 .TP
 \fB\-rpcsslciphers=\fR<ciphers>
 Acceptable ciphers (default: TLSv1+HIGH:\:!SSLv2:\:!aNULL:\:!eNULL:\:!AH:\:!3DES:\:@STRENGTH)

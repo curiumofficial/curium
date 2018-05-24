@@ -115,8 +115,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The Curium address the message was signed with</source>
-        <translation>Curium adresa s kojom je potpisana poruka</translation>
+        <source>The Curiumn address the message was signed with</source>
+        <translation>Curiumn adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -150,8 +150,8 @@
         <translation>Otvori konfiguracijsku datoteku</translation>
     </message>
     <message>
-        <source>Curium Core</source>
-        <translation>Curium Core</translation>
+        <source>Curiumn Core</source>
+        <translation>Curiumn Core</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -162,8 +162,8 @@
         <translation>&amp;BIP38 alat</translation>
     </message>
     <message>
-        <source>Curium Core client</source>
-        <translation>Curium Core klijent</translation>
+        <source>Curiumn Core client</source>
+        <translation>Curiumn Core klijent</translation>
     </message>
     <message>
         <source>Error</source>
@@ -256,15 +256,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Curium Core</source>
-        <translation>Curium Core</translation>
+        <source>Curiumn Core</source>
+        <translation>Curiumn Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Curium Core</source>
-        <translation>Curium Core</translation>
+        <source>Curiumn Core</source>
+        <translation>Curiumn Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -597,8 +597,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Curium Core is shutting down...</source>
-        <translation>Curium Core se gasi...</translation>
+        <source>Curiumn Core is shutting down...</source>
+        <translation>Curiumn Core se gasi...</translation>
     </message>
     </context>
 <context>
@@ -620,8 +620,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The Curium address the message was signed with</source>
-        <translation>Curium adresa s kojom je potpisana poruka</translation>
+        <source>The Curiumn address the message was signed with</source>
+        <translation>Curiumn adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Message signed.</source>
@@ -635,8 +635,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Curium Core</source>
-        <translation>Curium Core</translation>
+        <source>Curiumn Core</source>
+        <translation>Curiumn Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -790,7 +790,7 @@
     </message>
     </context>
 <context>
-    <name>curium-core</name>
+    <name>curiumn-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>

@@ -6,7 +6,7 @@
 have curiumnd && {
 
 # call $curiumnd for RPC
-_curium_rpc() {
+_curiumn_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
     for i in ${COMP_LINE}; do
@@ -19,10 +19,10 @@ _curium_rpc() {
     $curiumnd "${rpcargs[@]}" "$@"
 }
 
-# Add curium accounts to COMPREPLY
-_curium_accounts() {
+# Add curiumn accounts to COMPREPLY
+_curiumn_accounts() {
     local accounts
-    accounts=$(_curium_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
+    accounts=$(_curiumn_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
@@ -53,7 +53,7 @@ _curiumnd() {
     if ((cword > 3)); then
         case ${words[cword-3]} in
             addmultisigaddress)
-                _curium_accounts
+                _curiumn_accounts
                 return 0
                 ;;
             getbalance|gettxout|importaddress|importprivkey|listreceivedbyaccount|listreceivedbyaddress|listsinceblock)
@@ -74,7 +74,7 @@ _curiumnd() {
                 return 0
                 ;;
             move|setaccount)
-                _curium_accounts
+                _curiumn_accounts
                 return 0
                 ;;
         esac
@@ -90,7 +90,7 @@ _curiumnd() {
             return 0
             ;;
         getaccountaddress|getaddressesbyaccount|getbalance|getnewaddress|getreceivedbyaccount|listtransactions|move|sendfrom|sendmany)
-            _curium_accounts
+            _curiumn_accounts
             return 0
             ;;
     esac
@@ -119,7 +119,7 @@ _curiumnd() {
 
             # only parse help if senseful
             if [[ -z "$cur" || "$cur" =~ ^[a-z] ]]; then
-                commands=$(_curium_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
+                commands=$(_curiumn_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
             fi
 
             COMPREPLY=( $( compgen -W "$helpopts $commands" -- "$cur" ) )

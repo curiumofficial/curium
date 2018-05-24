@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your Curium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina Curium adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your Curiumn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina Curiumn adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your Curium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina Curium adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your Curiumn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina Curiumn adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,8 +160,8 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>Curium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
-        <translation>Curium kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina CRUs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>Curiumn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
+        <translation>Curiumn kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina CRUs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Ange en Curium adress som du vill kryptera med BIP 38.
+        <source>Enter a Curiumn Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Ange en Curiumn adress som du vill kryptera med BIP 38.
 Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The Curium address to sign the message with</source>
-        <translation>Curium adressen för signera meddelandet med</translation>
+        <source>The Curiumn address to sign the message with</source>
+        <translation>Curiumn adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curium address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Curium adress</translation>
+        <source>Sign the message to prove you own this Curiumn address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Curiumn adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Ange BIP 38 krypterade privata nyckeln. Ange lösenfrasen i med mittersta boxen. Tryck på krypetra nyckel för att beräkna den privata nyckeln. Efter att nyckeln är avkrypterad, Tryck på 'Importera Adress' kommer att lägga till denna privata nyckel till plånboken.</translation>
     </message>
     <message>
-        <source>The Curium address the message was signed with</source>
-        <translation>Curium adressen meddelandet blev signerat med</translation>
+        <source>The Curiumn address the message was signed with</source>
+        <translation>Curiumn adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Curium address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Curium adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Curiumn address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Curiumn adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,16 +583,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>Curium Core</source>
-        <translation>Curium Kärna</translation>
+        <source>Curiumn Core</source>
+        <translation>Curiumn Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a Curium address</source>
-        <translation>Skicka mynt till en Curium adress</translation>
+        <source>Send coins to a Curiumn address</source>
+        <translation>Skicka mynt till en Curiumn adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and curium: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och curium: URls)</translation>
+        <source>Request payments (generates QR codes and curiumn: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och curiumn: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,24 +603,24 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Curium Core</source>
-        <translation>Om Curium Kärnan</translation>
+        <source>&amp;About Curiumn Core</source>
+        <translation>Om Curiumn Kärnan</translation>
     </message>
     <message>
-        <source>Show information about Curium Core</source>
-        <translation>Visa information om Curium Kärnan</translation>
+        <source>Show information about Curiumn Core</source>
+        <translation>Visa information om Curiumn Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for Curium</source>
-        <translation>Ändra konfigurationsval för Curium</translation>
+        <source>Modify configuration options for Curiumn</source>
+        <translation>Ändra konfigurationsval för Curiumn</translation>
     </message>
     <message>
-        <source>Sign messages with your Curium addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Curium adress för att visa att du äger dem</translation>
+        <source>Sign messages with your Curiumn addresses to prove you own them</source>
+        <translation>Signera meddelanden med din Curiumn adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Curium addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Curium adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified Curiumn addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Curiumn adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>Curium Core client</source>
-        <translation>Curium kärn klient</translation>
+        <source>Curiumn Core client</source>
+        <translation>Curiumn kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -837,15 +837,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Curium Core</source>
-        <translation>Curium Kärna</translation>
+        <source>Curiumn Core</source>
+        <translation>Curiumn Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Curium Core</source>
-        <translation>Curium Kärna</translation>
+        <source>Curiumn Core</source>
+        <translation>Curiumn Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1157,8 +1157,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Curium address to sign the message with</source>
-        <translation>Curium adressen för signera meddelandet med</translation>
+        <source>The Curiumn address to sign the message with</source>
+        <translation>Curiumn adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1181,16 +1181,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curium address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Curium adress</translation>
+        <source>Sign the message to prove you own this Curiumn address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Curiumn adress</translation>
     </message>
     <message>
-        <source>The Curium address the message was signed with</source>
-        <translation>Curium adressen meddelandet blev signerat med</translation>
+        <source>The Curiumn address the message was signed with</source>
+        <translation>Curiumn adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Curium address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Curium adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Curiumn address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Curiumn adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1232,8 +1232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Curium Core</source>
-        <translation>Curium Kärna</translation>
+        <source>Curiumn Core</source>
+        <translation>Curiumn Kärna</translation>
     </message>
     </context>
 <context>
@@ -1419,7 +1419,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     <name>ZCruControlDialog</name>
     </context>
 <context>
-    <name>curium-core</name>
+    <name>curiumn-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

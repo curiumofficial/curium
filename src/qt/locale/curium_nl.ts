@@ -62,12 +62,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your Curium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Curiumadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
+        <source>These are your Curiumn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw Curiumnadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
     </message>
     <message>
-        <source>These are your Curium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw Curiumadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your Curiumn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw Curiumnadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>Curium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
-        <translation>Curium zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw CRUs stelen.</translation>
+        <source>Curiumn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
+        <translation>Curiumn zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw CRUs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Versleuteling</translation>
     </message>
     <message>
-        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een Curium adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
+        <source>Enter a Curiumn Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Voer een Curiumn adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>The Curium address to sign the message with</source>
-        <translation>Het Curium adres om het bericht met te ondertekenen</translation>
+        <source>The Curiumn address to sign the message with</source>
+        <translation>Het Curiumn adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curium address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het Curium adres bezit</translation>
+        <source>Sign the message to prove you own this Curiumn address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het Curiumn adres bezit</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer het wachtwoord in, in het middelste veld. Druk op Ontsleutelen Sleutel om de geheime sleutel te berekenen.  Nadat de geheime sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de geheime sleutel toevoegen aan de portemonnee.</translation>
     </message>
     <message>
-        <source>The Curium address the message was signed with</source>
-        <translation>Het Curium adres waarmee het bericht was ondertekend</translation>
+        <source>The Curiumn address the message was signed with</source>
+        <translation>Het Curiumn adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Curium address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde Curium adres</translation>
+        <source>Verify the message to ensure it was signed with the specified Curiumn address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde Curiumn adres</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,16 +602,16 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>Curium Core</source>
-        <translation>Curium Kern</translation>
+        <source>Curiumn Core</source>
+        <translation>Curiumn Kern</translation>
     </message>
     <message>
-        <source>Send coins to a Curium address</source>
-        <translation>Verstuur munten naar een Curium adres</translation>
+        <source>Send coins to a Curiumn address</source>
+        <translation>Verstuur munten naar een Curiumn adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and curium: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en Curium: URI's)</translation>
+        <source>Request payments (generates QR codes and curiumn: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en Curiumn: URI's)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -630,24 +630,24 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Curium Core</source>
-        <translation>&amp;Over Curium Kern</translation>
+        <source>&amp;About Curiumn Core</source>
+        <translation>&amp;Over Curiumn Kern</translation>
     </message>
     <message>
-        <source>Show information about Curium Core</source>
-        <translation>Toon informatie over Curium Kern</translation>
+        <source>Show information about Curiumn Core</source>
+        <translation>Toon informatie over Curiumn Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for Curium</source>
-        <translation>Wijzig Curium configuratie opties</translation>
+        <source>Modify configuration options for Curiumn</source>
+        <translation>Wijzig Curiumn configuratie opties</translation>
     </message>
     <message>
-        <source>Sign messages with your Curium addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Curium adressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your Curiumn addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw Curiumn adressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Curium addresses</source>
-        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde Curium adressen</translation>
+        <source>Verify messages to ensure they were signed with specified Curiumn addresses</source>
+        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde Curiumn adressen</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -678,8 +678,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a Curium: URI or payment request</source>
-        <translation>Open een Curium: URI of betaalverzoek</translation>
+        <source>Open a Curiumn: URI or payment request</source>
+        <translation>Open een Curiumn: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -690,16 +690,16 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-        <source>Show the Curium Core help message to get a list with possible Curium command-line options</source>
-        <translation>Toon het Curium Core help bericht om een ​​lijst te krijgen met mogelijke Curium command line opties</translation>
+        <source>Show the Curiumn Core help message to get a list with possible Curiumn command-line options</source>
+        <translation>Toon het Curiumn Core help bericht om een ​​lijst te krijgen met mogelijke Curiumn command line opties</translation>
     </message>
     <message>
-        <source>Curium Core client</source>
-        <translation>Curium Core client</translation>
+        <source>Curiumn Core client</source>
+        <translation>Curiumn Core client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Curium network</source>
-        <translation><numerusform>%n actieve verbinding(en) naar het Curium netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het Curium netwerk</numerusform></translation>
+        <source>%n active connection(s) to Curiumn network</source>
+        <translation><numerusform>%n actieve verbinding(en) naar het Curiumn netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het Curiumn netwerk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -849,8 +849,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (curium.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (curium.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (curiumn.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (curiumn.conf).</translation>
     </message>
 </context>
 <context>
@@ -1134,8 +1134,8 @@ MultiSend: %1</translation>
         <translation>Wijzig verzendadres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Curium address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig Curium adres.</translation>
+        <source>The entered address "%1" is not a valid Curiumn address.</source>
+        <translation>Het ingevoerde adres: "%1" is geen geldig Curiumn adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1180,16 +1180,16 @@ MultiSend: %1</translation>
         <translation>versie</translation>
     </message>
     <message>
-        <source>Curium Core</source>
-        <translation>Curium Kern</translation>
+        <source>Curiumn Core</source>
+        <translation>Curiumn Kern</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Curium Core</source>
-        <translation>Over Curium Core</translation>
+        <source>About Curiumn Core</source>
+        <translation>Over Curiumn Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1227,16 +1227,16 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to Curium Core.</source>
-        <translation>Welkom bij Curium Core</translation>
+        <source>Welcome to Curiumn Core.</source>
+        <translation>Welkom bij Curiumn Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Curium Core will store its data.</source>
-        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar Curium Core zijn gegevens opslaat.</translation>
+        <source>As this is the first time the program is launched, you can choose where Curiumn Core will store its data.</source>
+        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar Curiumn Core zijn gegevens opslaat.</translation>
     </message>
     <message>
-        <source>Curium Core will download and store a copy of the Curium block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Curium Core zal een kopie van de Curium blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee wordt ook in deze map opgeslagen.</translation>
+        <source>Curiumn Core will download and store a copy of the Curiumn block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Curiumn Core zal een kopie van de Curiumn blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee wordt ook in deze map opgeslagen.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1247,8 +1247,8 @@ MultiSend: %1</translation>
         <translation>Gebruik een aangepaste data directory:</translation>
     </message>
     <message>
-        <source>Curium Core</source>
-        <translation>Curium Kern</translation>
+        <source>Curiumn Core</source>
+        <translation>Curiumn Kern</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1389,12 +1389,12 @@ MultiSend: %1</translation>
         <translation>Vul het verzendadres in</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Curium addresses after it matures.
-To Add: enter percentage to give and Curium address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Curiumn addresses after it matures.
+To Add: enter percentage to give and Curiumn address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend stelt je in staat om automatisch 100% van uw inzet of masternode-beloning automatisch te verzenden naar een lijst van andere Curium adressen nadat het volwassen is. 
-Toevoegen: voer percentage in om te geven en Curium adres om toe te voegen aan de MultiSend vector.
+        <translation>MultiSend stelt je in staat om automatisch 100% van uw inzet of masternode-beloning automatisch te verzenden naar een lijst van andere Curiumn adressen nadat het volwassen is. 
+Toevoegen: voer percentage in om te geven en Curiumn adres om toe te voegen aan de MultiSend vector.
 Verwijderen: Voer adres in om te verwijderen en druk op delete.
 MultiSend wordt niet geactiveerd, tenzij je op Activeer hebt geklikt</translation>
     </message>
@@ -1563,16 +1563,16 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
         <translation>Verduistering configuratie</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Curium's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op basic (%1 en 2 rondes). Je kunt dit op elk gewenst moment wijzigen door het configuratiescherm van Curium te openen.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Curiumn's configuration screen.</source>
+        <translation>Verduistering is succesvol ingesteld op basic (%1 en 2 rondes). Je kunt dit op elk gewenst moment wijzigen door het configuratiescherm van Curiumn te openen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Curium's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 8 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van Curium te openen.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Curiumn's configuration screen.</source>
+        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 8 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van Curiumn te openen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Curium's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 16 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van Curium te openen.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Curiumn's configuration screen.</source>
+        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 16 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van Curiumn te openen.</translation>
     </message>
 </context>
 <context>
@@ -1633,8 +1633,8 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
         <translation>Als je de uitgaven van onbevestigde wijzigingen uitschakelt, de wijziging van een transactie&lt;br/&gt;kan niet worden gebruikt tot die transactie tenminste één bevestiging heeft.&lt;br/&gt;Dit beïnvloedt ook hoe uw saldo is berekend.</translation>
     </message>
     <message>
-        <source>Automatically open the Curium client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Curium client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
+        <source>Automatically open the Curiumn client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de Curiumn client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1653,12 +1653,12 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Curium after logging in to the system.</source>
-        <translation>Curium automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start Curiumn after logging in to the system.</source>
+        <translation>Curiumn automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start Curium on system login</source>
-        <translation>&amp;Curium starten bij systeemlogin</translation>
+        <source>&amp;Start Curiumn on system login</source>
+        <translation>&amp;Curiumn starten bij systeemlogin</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1685,14 +1685,14 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Curium.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van Curium.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Curiumn.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van Curiumn.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/curium-project/curium-project-translations</source>
+https://www.transifex.com/curiumn-project/curiumn-project-translations</source>
         <translation>Taal ontbreekt of vertaling onvolledig? Help om bij te dragen aan vertalingen:
-https://www.transifex.com/curium-project/curium-project-translations</translation>
+https://www.transifex.com/curiumn-project/curiumn-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1715,8 +1715,8 @@ https://www.transifex.com/curium-project/curium-project-translations</translatio
         <translation>Gewenste Automint zCRU denominatie</translation>
     </message>
     <message>
-        <source>Connect to the Curium network through a SOCKS5 proxy.</source>
-        <translation>Maak verbinding met het Curium netwerk via een SOCKS5 proxy.</translation>
+        <source>Connect to the Curiumn network through a SOCKS5 proxy.</source>
+        <translation>Maak verbinding met het Curiumn netwerk via een SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1874,8 +1874,8 @@ https://www.transifex.com/curium-project/curium-project-translations</translatio
         <translation>Staked of masternode beloningen die nog niet volwassen zijn</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Curium network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het Curium netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Curiumn network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het Curiumn netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1961,12 +1961,12 @@ https://www.transifex.com/curium-project/curium-project-translations</translatio
         <translation>Ongeldig betalingsadres %1</translation>
     </message>
     <message>
-        <source>Cannot start curium: click-to-pay handler</source>
-        <translation>Kan curium niet starten: click-to-pay handler</translation>
+        <source>Cannot start curiumn: click-to-pay handler</source>
+        <translation>Kan curiumn niet starten: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Curium address or malformed URI parameters.</source>
-        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig Curium adres of misvormde URL parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Curiumn address or malformed URI parameters.</source>
+        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig Curiumn adres of misvormde URL parameters.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2059,8 +2059,8 @@ https://www.transifex.com/curium-project/curium-project-translations</translatio
         <translation>Zerocoin Acties:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Curium network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het Curium netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Curiumn network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het Curiumn netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
     </message>
     <message>
         <source>Enter an amount of Cru to convert to zCru</source>
@@ -2163,8 +2163,8 @@ https://www.transifex.com/curium-project/curium-project-translations</translatio
         <translation>Betaal &amp;Naar:</translation>
     </message>
     <message>
-        <source>The Curium address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Het Curium adres om de betaling naar te verzenden. Maakt lokale betaling aan jezelf als je leeg bent.</translation>
+        <source>The Curiumn address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>Het Curiumn adres om de betaling naar te verzenden. Maakt lokale betaling aan jezelf als je leeg bent.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2363,8 +2363,8 @@ https://www.transifex.com/curium-project/curium-project-translations</translatio
         <translation>Kopieer hoeveelheid</translation>
     </message>
     <message>
-        <source>Zerocoin functionality is not enabled on the Curium network yet.</source>
-        <translation>Zerocoin functionaliteit is nog niet ingeschakeld op het Curium netwerk.</translation>
+        <source>Zerocoin functionality is not enabled on the Curiumn network yet.</source>
+        <translation>Zerocoin functionaliteit is nog niet ingeschakeld op het Curiumn netwerk.</translation>
     </message>
     <message>
         <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
@@ -2417,8 +2417,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Geen 'Betaal aan' adres verstrekt, lokale betaling wordt gemaakt</translation>
     </message>
     <message>
-        <source>Invalid Curium Address</source>
-        <translation>Ongeldig Curium addres</translation>
+        <source>Invalid Curiumn Address</source>
+        <translation>Ongeldig Curiumn addres</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2509,8 +2509,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Hoeveelheid</translation>
     </message>
     <message>
-        <source>Enter a Curium address (e.g. %1)</source>
-        <translation>Voer een Curium adres in (b.v. %1)</translation>
+        <source>Enter a Curiumn address (e.g. %1)</source>
+        <translation>Voer een Curiumn adres in (b.v. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2647,8 +2647,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Blockchain</translation>
     </message>
     <message>
-        <source>Open the Curium debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het Curium debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
+        <source>Open the Curiumn debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het Curiumn debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2815,8 +2815,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the Curium RPC console.</source>
-        <translation>Welkom bij de Curium RPC console.</translation>
+        <source>Welcome to the Curiumn RPC console.</source>
+        <translation>Welkom bij de Curiumn RPC console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2886,12 +2886,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Een optioneel label om te associëren met het nieuwe ontvangstadres.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Curium network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend. Opmerking: het bericht wordt niet verzonden met de betaling via het Curium netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Curiumn network.</source>
+        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend. Opmerking: het bericht wordt niet verzonden met de betaling via het Curiumn netwerk.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Curium network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend.&lt;br&gt;Opmerking: het bericht wordt niet verzonden met de betaling via het Curium netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Curiumn network.</source>
+        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend.&lt;br&gt;Opmerking: het bericht wordt niet verzonden met de betaling via het Curiumn netwerk.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3175,8 +3175,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Als de aangepaste vergoeding is ingesteld op 1000 uCRUs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uCRU's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uCRU's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Curium transactions than the network can process.</source>
-        <translation>Alleen de minimale vergoeding betalen is prima, zolang er minder transactie volume is dan ruimte in de blokken. &lt;br /&gt;Maar wees ervan bewust dat dit kan leiden tot een nooit bevestigende transactie wanneer er meer vraag is naar Curium transacties dan het netwerk kan verwerken.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Curiumn transactions than the network can process.</source>
+        <translation>Alleen de minimale vergoeding betalen is prima, zolang er minder transactie volume is dan ruimte in de blokken. &lt;br /&gt;Maar wees ervan bewust dat dit kan leiden tot een nooit bevestigende transactie wanneer er meer vraag is naar Curiumn transacties dan het netwerk kan verwerken.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3283,8 +3283,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>anonieme financiën</translation>
     </message>
     <message>
-        <source>Warning: Invalid Curium address</source>
-        <translation>Waarschuwing: Ongeldig Curium adres</translation>
+        <source>Warning: Invalid Curiumn address</source>
+        <translation>Waarschuwing: Ongeldig Curiumn adres</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3390,8 +3390,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Betaal &amp;Naar:</translation>
     </message>
     <message>
-        <source>The Curium address to send the payment to</source>
-        <translation>Het Curium adres om de betaling naar te verzenden</translation>
+        <source>The Curiumn address to send the payment to</source>
+        <translation>Het Curiumn adres om de betaling naar te verzenden</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3430,8 +3430,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Bericht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Curium: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Curium network.</source>
-        <translation>Een bericht dat is gehecht aan de Curium: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het Curium netwerk.</translation>
+        <source>A message that was attached to the Curiumn: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Curiumn network.</source>
+        <translation>Een bericht dat is gehecht aan de Curiumn: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het Curiumn netwerk.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3457,8 +3457,8 @@ Wees alsjeblieft geduldig...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Curium Core is shutting down...</source>
-        <translation>Curium Core is aan het afsluiten...</translation>
+        <source>Curiumn Core is shutting down...</source>
+        <translation>Curiumn Core is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3480,8 +3480,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Je kunt berichten met je adressen ondertekenen om te bewijzen dat je ze bezit. Wees voorzichtig om niets vaags te ondertekenen, omdat phishing aanvallen je misschien kunnen proberen om je identiteit over te geven. Teken alleen volledig gedetailleerde verklaringen aan waar je mee akkoord gaat.</translation>
     </message>
     <message>
-        <source>The Curium address to sign the message with</source>
-        <translation>Het Curium adres om het bericht met te ondertekenen</translation>
+        <source>The Curiumn address to sign the message with</source>
+        <translation>Het Curiumn adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3512,16 +3512,16 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curium address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het Curium adres bezit</translation>
+        <source>Sign the message to prove you own this Curiumn address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het Curiumn adres bezit</translation>
     </message>
     <message>
-        <source>The Curium address the message was signed with</source>
-        <translation>Het Curium adres waarmee het bericht was ondertekend</translation>
+        <source>The Curiumn address the message was signed with</source>
+        <translation>Het Curiumn adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Curium address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde Curium adres</translation>
+        <source>Verify the message to ensure it was signed with the specified Curiumn address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde Curiumn adres</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3607,8 +3607,8 @@ Wees alsjeblieft geduldig...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Curium Core</source>
-        <translation>Curium Kern</translation>
+        <source>Curiumn Core</source>
+        <translation>Curiumn Kern</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3623,8 +3623,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>De Dash Kernontwikkelaars</translation>
     </message>
     <message>
-        <source>The Curium Core developers</source>
-        <translation>De Curium Kernontwikkelaars</translation>
+        <source>The Curiumn Core developers</source>
+        <translation>De Curiumn Kernontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4282,7 +4282,7 @@ Wees alsjeblieft geduldig...</translation>
     </message>
 </context>
 <context>
-    <name>curium-core</name>
+    <name>curiumn-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = houd tx meta data, bijvoorbeeld account eigenaar en betalingsverzoek informatie, 2 = drop tx meta data)</translation>
@@ -4312,8 +4312,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Het berekende accumulatie controlepunt is niet wat wordt geregistreerd door de blokindex</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Curium Core is probably already running.</source>
-        <translation>Kan geen vergrendeling op data directory %s verkrijgen. Curium Core loopt waarschijnlijk al.</translation>
+        <source>Cannot obtain a lock on data directory %s. Curiumn Core is probably already running.</source>
+        <translation>Kan geen vergrendeling op data directory %s verkrijgen. Curiumn Core loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4332,8 +4332,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Verwijder alle portemonnee transacties en herstel alleen die delen van de blockchain via -rescan bij opstarten</translation>
     </message>
     <message>
-        <source>Disable all Curium specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Schakel alle Curium specifieke functionaliteit uit (Masternodes, Verduistering, SwiftTX, Budgeting) (0-1, standaard: %u)</translation>
+        <source>Disable all Curiumn specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Schakel alle Curiumn specifieke functionaliteit uit (Masternodes, Verduistering, SwiftTX, Budgeting) (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -4479,29 +4479,29 @@ Wees alsjeblieft geduldig...</translation>
         <source>To use curiumnd, or the -server option to curiumn-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=curiumrpc
+rpcuser=curiumnrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Curium Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Curiumn Alert" admin@foo.com
 </source>
         <translation>Om curiumnd of de -server optie om curiumn-qt te gebruiken, moet je een rpcpassword instellen in het configuratiebestand:
 %s
 Het is aan te raden het volgende willekeurige wachtwoord te gebruiken:
-rpcuser=curiumrpc
+rpcuser=curiumnrpc
 rpcpassword=%s
 (je hoeft dit wachtwoord niet te onthouden)
 De gebruikersnaam en het wachtwoord MOETEN NIET hetzelfde zijn.
 Als het bestand niet bestaat, creëer het dan met owner-readable-only bestandsrechten.
 Het is ook aan te raden om alertnotify in te stellen, zodat je van problemen op de hoogte wordt gebracht;
-bijvoorbeeld: alertnotify = echo %%s | mail -s "Curium Alert" admin@foo.com
+bijvoorbeeld: alertnotify = echo %%s | mail -s "Curiumn Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Curium Core is probably already running.</source>
-        <translation>Niet mogelijk te binden aan %s op deze computer. Curium Core loopt waarschijnlijk al.</translation>
+        <source>Unable to bind to %s on this computer. Curiumn Core is probably already running.</source>
+        <translation>Niet mogelijk te binden aan %s op deze computer. Curiumn Core loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -4528,8 +4528,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "Curium Alert" admin@foo.com
         <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld! Dit zijn de transactie kosten die je betaalt als je een transactie verstuurt.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Curium Core will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt Curium Core niet goed.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Curiumn Core will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt Curiumn Core niet goed.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4684,8 +4684,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "Curium Alert" admin@foo.com
         <translation>Copyright (C) 2014-%i The Dash Kernontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Curium Core Developers</source>
-        <translation>Copyright (C) 2015-%i The Curium Kernontwikkelaars</translation>
+        <source>Copyright (C) 2015-%i The Curiumn Core Developers</source>
+        <translation>Copyright (C) 2015-%i The Curiumn Kernontwikkelaars</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4764,8 +4764,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "Curium Alert" admin@foo.com
         <translation>Error tijdens het laden van wallet.dat: Portemonnee corrupt</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Curium Core</source>
-        <translation>Fout bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van Curium Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Curiumn Core</source>
+        <translation>Fout bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van Curiumn Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4876,8 +4876,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "Curium Alert" admin@foo.com
         <translation>Informatie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Curium Core is shutting down.</source>
-        <translation>Initialisatie saniteitscontrole mislukt. Curium Core wordt afgesloten.</translation>
+        <source>Initialization sanity check failed. Curiumn Core is shutting down.</source>
+        <translation>Initialisatie saniteitscontrole mislukt. Curiumn Core wordt afgesloten.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5552,8 +5552,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "Curium Alert" admin@foo.com
         <translation>Portemonnee is vergrendeld.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Curium Core to complete</source>
-        <translation>Wallet moest worden herschreven: start Curium Core opnieuw om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart Curiumn Core to complete</source>
+        <translation>Wallet moest worden herschreven: start Curiumn Core opnieuw om te voltooien</translation>
     </message>
     <message>
         <source>Wallet options:</source>

@@ -174,7 +174,7 @@ bool Intro::pickDataDirectory()
                 TryCreateDirectory(GUIUtil::qstringToBoostPath(dataDir));
                 break;
             } catch (fs::filesystem_error& e) {
-                QMessageBox::critical(0, tr("Curium Core"),
+                QMessageBox::critical(0, tr("Curiumn Core"),
                     tr("Error: Specified data directory \"%1\" cannot be created.").arg(dataDir));
                 /* fall through, back to choosing screen */
             }
@@ -183,7 +183,7 @@ bool Intro::pickDataDirectory()
         settings.setValue("strDataDir", dataDir);
     }
     /* Only override -datadir if different from the default, to make it possible to
-     * override -datadir in the curium.conf file in the default data directory
+     * override -datadir in the curiumn.conf file in the default data directory
      * (to be consistent with curiumnd behavior)
      */
     if (dataDir != getDefaultDataDirectory())

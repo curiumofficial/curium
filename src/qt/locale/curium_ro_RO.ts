@@ -186,6 +186,6 @@
     <name>ZCruControlDialog</name>
     </context>
 <context>
-    <name>curium-core</name>
+    <name>curiumn-core</name>
     </context>
 </TS>

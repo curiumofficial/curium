@@ -62,12 +62,12 @@
         <translation>Alıcı Adres</translation>
     </message>
     <message>
-        <source>These are your Curium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödemeleri göndermek için olan Curium adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
+        <source>These are your Curiumn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödemeleri göndermek için olan Curiumn adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
     </message>
     <message>
-        <source>These are your Curium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödemeleri almak için olan Curium adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
+        <source>These are your Curiumn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Bunlar ödemeleri almak için olan Curiumn adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>cüzdan şifrelemesini onayla</translation>
     </message>
     <message>
-        <source>Curium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
-        <translation>Curium şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, CRU'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>Curiumn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRUs from being stolen by malware infecting your computer.</source>
+        <translation>Curiumn şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, CRU'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -242,8 +242,8 @@
         <translation>&amp;BIP 38 şifrele</translation>
     </message>
     <message>
-        <source>Enter a Curium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>BIP 38'i kullanarak şifrelemek istediğiniz bir Curium Adresi girin. Orta kutuya bir parola girin. Şifreli özel anahtarı hesaplamak için şifreleme tuşuna basın.
+        <source>Enter a Curiumn Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>BIP 38'i kullanarak şifrelemek istediğiniz bir Curiumn Adresi girin. Orta kutuya bir parola girin. Şifreli özel anahtarı hesaplamak için şifreleme tuşuna basın.
 </translation>
     </message>
     <message>
@@ -251,8 +251,8 @@
         <translation>adres</translation>
     </message>
     <message>
-        <source>The Curium address to sign the message with</source>
-        <translation>Ile mesaj imzalamak için Curium adresi
+        <source>The Curiumn address to sign the message with</source>
+        <translation>Ile mesaj imzalamak için Curiumn adresi
 </translation>
     </message>
     <message>
@@ -289,8 +289,8 @@
 </translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curium address</source>
-        <translation>Bu Curium adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
+        <source>Sign the message to prove you own this Curiumn address</source>
+        <translation>Bu Curiumn adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
 </translation>
     </message>
     <message>
@@ -316,12 +316,12 @@
         <translation>BIP 38 şifreli özel anahtarını girin. Orta kutuya şifreyi  girin. Özel anahtarı hesaplamak için Anahtarın Çözülmesini tıklayın. Anahtar çözüldükten sonra 'Alma Adresi'ni tıklamak, bu özel anahtarı cüzdana ekleyecektir.</translation>
     </message>
     <message>
-        <source>The Curium address the message was signed with</source>
-        <translation>Mesajın imzalandığı Curium adresi</translation>
+        <source>The Curiumn address the message was signed with</source>
+        <translation>Mesajın imzalandığı Curiumn adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Curium address</source>
-        <translation>Belirtilen Curium adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
+        <source>Verify the message to ensure it was signed with the specified Curiumn address</source>
+        <translation>Belirtilen Curiumn adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -613,16 +613,16 @@
         <translation>Sekme tablosu</translation>
     </message>
     <message>
-        <source>Curium Core</source>
-        <translation>Curium CORE</translation>
+        <source>Curiumn Core</source>
+        <translation>Curiumn CORE</translation>
     </message>
     <message>
-        <source>Send coins to a Curium address</source>
-        <translation>Koinleri Curium adresine gönder</translation>
+        <source>Send coins to a Curiumn address</source>
+        <translation>Koinleri Curiumn adresine gönder</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and curium: URIs)</source>
-        <translation>Ödeme talep etme (QR kodları ve curium üretir: URI'ler)</translation>
+        <source>Request payments (generates QR codes and curiumn: URIs)</source>
+        <translation>Ödeme talep etme (QR kodları ve curiumn üretir: URI'ler)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -637,24 +637,24 @@
         <translation>Masternodları ara</translation>
     </message>
     <message>
-        <source>&amp;About Curium Core</source>
+        <source>&amp;About Curiumn Core</source>
         <translation>Pıvx core Hakkında</translation>
     </message>
     <message>
-        <source>Show information about Curium Core</source>
+        <source>Show information about Curiumn Core</source>
         <translation>Pıvx Core hakkında bilgi göster</translation>
     </message>
     <message>
-        <source>Modify configuration options for Curium</source>
-        <translation>Curium için yapılandırma seçeneklerini değiştirin</translation>
+        <source>Modify configuration options for Curiumn</source>
+        <translation>Curiumn için yapılandırma seçeneklerini değiştirin</translation>
     </message>
     <message>
-        <source>Sign messages with your Curium addresses to prove you own them</source>
-        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı Curium adresleriyle imzalayın</translation>
+        <source>Sign messages with your Curiumn addresses to prove you own them</source>
+        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı Curiumn adresleriyle imzalayın</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Curium addresses</source>
-        <translation>Belirtilen Curium adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
+        <source>Verify messages to ensure they were signed with specified Curiumn addresses</source>
+        <translation>Belirtilen Curiumn adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -686,8 +686,8 @@
         <translation>Açık Masternode yapılandırma dosyası</translation>
     </message>
     <message>
-        <source>Open a Curium: URI or payment request</source>
-        <translation>Bir Curium: URI veya ödeme isteği açın</translation>
+        <source>Open a Curiumn: URI or payment request</source>
+        <translation>Bir Curiumn: URI veya ödeme isteği açın</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -698,12 +698,12 @@
         <translation>Kaşif penceresini engelle</translation>
     </message>
     <message>
-        <source>Show the Curium Core help message to get a list with possible Curium command-line options</source>
-        <translation>Olası Curium komut satırı seçeneklerine sahip bir liste almak için Curium Core yardım mesajını gösterin</translation>
+        <source>Show the Curiumn Core help message to get a list with possible Curiumn command-line options</source>
+        <translation>Olası Curiumn komut satırı seçeneklerine sahip bir liste almak için Curiumn Core yardım mesajını gösterin</translation>
     </message>
     <message>
-        <source>Curium Core client</source>
-        <translation>Curium Core istemci</translation>
+        <source>Curiumn Core client</source>
+        <translation>Curiumn Core istemci</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -834,8 +834,8 @@ Adres: %4</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (curium.conf).</source>
-        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (curium.conf).
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (curiumn.conf).</source>
+        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (curiumn.conf).
 </translation>
     </message>
 </context>
@@ -1121,8 +1121,8 @@ Adres: %4</translation>
         <translation>versiyon</translation>
     </message>
     <message>
-        <source>Curium Core</source>
-        <translation>Curium CORE</translation>
+        <source>Curiumn Core</source>
+        <translation>Curiumn CORE</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -1144,16 +1144,16 @@ Adres: %4</translation>
         <translation>Hoşgeldiniz</translation>
     </message>
     <message>
-        <source>Welcome to Curium Core.</source>
-        <translation>Curium Core'a hoşgeldiniz.</translation>
+        <source>Welcome to Curiumn Core.</source>
+        <translation>Curiumn Core'a hoşgeldiniz.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Varsayılan veri dosyasını kullanınız</translation>
     </message>
     <message>
-        <source>Curium Core</source>
-        <translation>Curium CORE</translation>
+        <source>Curiumn Core</source>
+        <translation>Curiumn CORE</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1508,8 +1508,8 @@ Adres: %4</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Curium address to sign the message with</source>
-        <translation>Ile mesaj imzalamak için Curium adresi
+        <source>The Curiumn address to sign the message with</source>
+        <translation>Ile mesaj imzalamak için Curiumn adresi
 </translation>
     </message>
     <message>
@@ -1538,17 +1538,17 @@ Adres: %4</translation>
 </translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Curium address</source>
-        <translation>Bu Curium adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
+        <source>Sign the message to prove you own this Curiumn address</source>
+        <translation>Bu Curiumn adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
 </translation>
     </message>
     <message>
-        <source>The Curium address the message was signed with</source>
-        <translation>Mesajın imzalandığı Curium adresi</translation>
+        <source>The Curiumn address the message was signed with</source>
+        <translation>Mesajın imzalandığı Curiumn adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Curium address</source>
-        <translation>Belirtilen Curium adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
+        <source>Verify the message to ensure it was signed with the specified Curiumn address</source>
+        <translation>Belirtilen Curiumn adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1587,8 +1587,8 @@ Adres: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Curium Core</source>
-        <translation>Curium CORE</translation>
+        <source>Curiumn Core</source>
+        <translation>Curiumn CORE</translation>
     </message>
     </context>
 <context>
@@ -1694,7 +1694,7 @@ Adres: %4</translation>
     </message>
     </context>
 <context>
-    <name>curium-core</name>
+    <name>curiumn-core</name>
     <message>
         <source>Error</source>
         <translation>hata</translation>

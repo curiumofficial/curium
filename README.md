@@ -24,7 +24,7 @@ Old repo https://github.com/curiumofficialold/curium
 
 <table>
 <th>Block Height</th><th>Reward</th><th>Masternodes</th><th>Stakers</th><th>Budget</th>
-<tr><td><=775,600</td><td>7.7 CRU</td><td>4.2 CRU</td><td>2.8 CRU</td><td>1 CRU</td></tr>
+<tr><td><=775,600</td><td>5 CRU</td><td>3 CRU</td><td>2.8 CRU</td><td>2 CRU</td></tr>
 <tr><td>775,601-1,043,999</td><td>5 CRU</td><td>2.7 CRU</td><td>1.8 CRU</td><td>1 CRU</td></tr>
 <tr><td>1,044,000-1,562,398</td><td>4 CRU</td><td>2.16 CRU</td><td>1.44 CRU</td><td>1 CRU</td></tr>
 <tr><td>>1036798</td><td>3 CRU</td><td>1.62 CRU</td><td>1.08 CRU</td><td>1 CRU</td></tr>

@@ -3490,8 +3490,8 @@ https://www.transifex.com/curium-project/curium-project-translations</translatio
         <translation>Você deve especificar uma masternodeprivkey na configuração. Favor verificar o manual para obter ajuda.</translation>
     </message>
     <message>
-        <source>(11771 could be used only on mainnet)</source>
-        <translation>(11771 could be used only on mainnet)</translation>
+        <source>(18745 could be used only on mainnet)</source>
+        <translation>(18745 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3502,8 +3502,8 @@ https://www.transifex.com/curium-project/curium-project-translations</translatio
         <translation>(padrão: 1)</translation>
     </message>
     <message>
-        <source>(must be 11771 for mainnet)</source>
-        <translation>(deve ser 11771 para mainnet)</translation>
+        <source>(must be 18745 for mainnet)</source>
+        <translation>(deve ser 18745 para mainnet)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>

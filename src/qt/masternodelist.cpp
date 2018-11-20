@@ -343,7 +343,8 @@ void MasternodeList::openEditConfigureMasternodePage(QString strAlias, QString s
 	dlg.loadTxHash(strTxHash);
 	dlg.loadOutputIndex(strOutputIndex);
 	dlg.counter(count);
-	dlg.MNAliasCache(strAlias.toStdString());
+	std::string mnalias = strAlias.toStdString();
+	dlg.MNAliasCache(mnalias);
     if ( QDialog::Accepted == dlg.exec() )
     {
       updateMyNodeList(true);

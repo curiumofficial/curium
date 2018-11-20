@@ -367,7 +367,8 @@ void MasternodeList::deleteAlias()
 			vector<COutPoint> confLockedCoins;
 			uint256 mnTxHash;
 			mnTxHash.SetHex(mne.getTxHash());
-			COutPoint outpoint = COutPoint(mnTxHash, std::to_string(mne.getOutputIndex()));
+			std::string Nindex = std::to_string(mne.getOutputIndex());
+			COutPoint outpoint = COutPoint(mnTxHash, Nindex);
 			confLockedCoins.push_back(outpoint);
 			pwalletMain->UnlockCoin(outpoint);
 			masternodeConfig.deleteAlias(count);

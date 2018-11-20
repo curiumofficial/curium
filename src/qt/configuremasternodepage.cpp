@@ -128,6 +128,7 @@ void ConfigureMasternodePage::accept()
 
 void ConfigureMasternodePage::updateAlias(std::string Alias, std::string IP, std::string PrivKey, std::string TxHash, std::string OutputIndex)
 {
+
 	std::string MnAlias = getMnAliasCache();
 	BOOST_FOREACH (CMasternodeConfig::CMasternodeEntry mne, masternodeConfig.getEntries()) {
 		if(MnAlias == mne.getAlias()) {

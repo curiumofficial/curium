@@ -77,6 +77,7 @@ void ConfigureMasternodePage::MNAliasCache(QString MnAliasCache)
 {
 	LogPrintf("Test 2.1 autofill outid2: %s\n", MnAliasCache.toStdString());
    setMnAliasCache(MnAliasCache.toStdString());
+   LogPrintf("Test 2.2 autofill outid2: %s\n", MnAliasCache.toStdString());
 }
 
 void ConfigureMasternodePage::loadIP(QString strIP)
@@ -112,10 +113,13 @@ void ConfigureMasternodePage::saveCurrentRow()
 		masternodeConfig.writeToMasternodeConf();
         break;
     case EditConfigureMasternode:
+		LogPrintf("Test 4.1 autofill outid2: \n");
 		if(ui->aliasEdit->text().toStdString().empty() || ui->vpsIpEdit->text().toStdString().empty() || ui->privKeyEdit->text().toStdString().empty() || ui->outputEdit->text().toStdString().empty() || ui->outputIdEdit->text().toStdString().empty()) {
 			break;
 		}
+		LogPrintf("Test 4.2 autofill outid2: \n");
 		ConfigureMasternodePage::updateAlias(ui->aliasEdit->text().toStdString(), ui->vpsIpEdit->text().toStdString(), ui->privKeyEdit->text().toStdString(), ui->outputEdit->text().toStdString(), ui->outputIdEdit->text().toStdString());
+		LogPrintf("Test 4.3 autofill outid2: \n");
 		break;
     }
 }

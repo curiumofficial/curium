@@ -48,7 +48,7 @@ public:
     ~ConfigureMasternodePage();
 
 	void counter(int counter);
-	void MNAliasCache(QString MnAliasCache);
+	void MNAliasCache(std::string MnAliasCache);
     void loadAlias(QString strAlias);
     void loadIP(QString strIP);
     void loadPrivKey(QString strPrivKey);
@@ -70,9 +70,9 @@ public:
 		return mnAliasCache;
 	}
 	
-	std::string setMnAliasCache(std::string MnAliasCache)
+	std::string setMnAliasCache(std::string mnAliasCaches)
 	{
-		mnAliasCache = MnAliasCache;
+		mnAliasCache = mnAliasCaches;
 	}
 
     QString getAddress() const;

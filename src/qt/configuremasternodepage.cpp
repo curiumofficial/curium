@@ -72,6 +72,7 @@ void ConfigureMasternodePage::counter(int counter)
    setCounters(counter);
 }
 
+
 void ConfigureMasternodePage::MNAliasCache(QString MnAliasCache)
 {
 	LogPrintf("Test 2.1 autofill outid2: %s\n", MnAliasCache.toStdString());

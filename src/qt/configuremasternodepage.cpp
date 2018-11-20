@@ -154,22 +154,30 @@ void ConfigureMasternodePage::on_AutoFillOutputs_clicked()
 {
     // Find possible candidates
     vector<COutput> possibleCoins = activeMasternode.SelectCoinsMasternode();
-	int test = 0;
+        int test = 0;
+    LogPrintf("Test 1.1 autofill: \n");
     BOOST_FOREACH (COutput& out, possibleCoins) {
         std::string TXHash = out.tx->GetHash().ToString();
         std::string OutputID = std::to_string(out.i);
-		BOOST_FOREACH (CMasternodeConfig::CMasternodeEntry mne, masternodeConfig.getEntries()) {
-			
-			if(TXHash == mne.getOutputIndex() && OutputID == mne.getTxHash()) {
-				test = 1;
-			}
-		}
-		if(test = 0) {
-			ui->outputEdit->setText(QString::fromStdString(out.tx->GetHash().ToString()));
-			ui->outputIdEdit->setText(QString::fromStdString(std::to_string(out.i)));		
-			break;
-		}				
-    }	
+        LogPrintf("Test 1.2 autofill txhash: %s\n", TXHash);
+        LogPrintf("Test 1.3 autofill outid: %s\n", OutputID);
+                BOOST_FOREACH (CMasternodeConfig::CMasternodeEntry mne, masternodeConfig.getEntries()) {
+                        LogPrintf("Test 1.3 autofill outid2: %s\n", mne.getOutputIndex());
+                        LogPrintf("Test 1.3 autofill txhash2: %s\n", mne.getTxHash());
+                        if(OutputID == mne.getOutputIndex() && TXHash == mne.getTxHash()) {
+                                test = 1;
+                                LogPrintf("Test 1.4 helo helo autofill: %s\n");
+                        }
+                }
 
+                LogPrintf("Test 1.5 autofill: %s\n", std::to_string(test));
+                if(test == 0) {
+                        ui->outputEdit->setText(QString::fromStdString(out.tx->GetHash().ToString()));
+                        ui->outputIdEdit->setText(QString::fromStdString(std::to_string(out.i)));
+
+                        break;
+                }
+                test = 0;
+    }
 }
 

@@ -48,7 +48,7 @@ public:
     ~ConfigureMasternodePage();
 
 	void counter(int counter);
-	void MNAliasCache(QString MnAliasCache);
+	void MNAliasCache(std::string MnAliasCache);
     void loadAlias(QString strAlias);
     void loadIP(QString strIP);
     void loadPrivKey(QString strPrivKey);

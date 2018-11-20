@@ -74,6 +74,7 @@ void ConfigureMasternodePage::counter(int counter)
 
 void ConfigureMasternodePage::MNAliasCache(QString MnAliasCache)
 {
+	LogPrintf("Test 2.1 autofill outid2: %s\n", MnAliasCache.toStdString());
    setMnAliasCache(MnAliasCache.toStdString());
 }
 
@@ -128,10 +129,13 @@ void ConfigureMasternodePage::accept()
 
 void ConfigureMasternodePage::updateAlias(std::string Alias, std::string IP, std::string PrivKey, std::string TxHash, std::string OutputIndex)
 {
-
+	LogPrintf("Test 3.1 autofill outid2: \n");
 	std::string MnAlias = getMnAliasCache();
+	LogPrintf("Test 3.2 autofill outid2: %s\n", MnAlias);
 	BOOST_FOREACH (CMasternodeConfig::CMasternodeEntry mne, masternodeConfig.getEntries()) {
+		LogPrintf("Test 3.3 autofill outid2: \n");
 		if(MnAlias == mne.getAlias()) {
+			LogPrintf("Test 3.4 autofill outid2: \n");
 			int count = 0;
 			count = getCounters();
 			vector<COutPoint> confLockedCoins;

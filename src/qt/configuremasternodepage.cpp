@@ -75,9 +75,9 @@ void ConfigureMasternodePage::counter(int counter)
 
 void ConfigureMasternodePage::MNAliasCache(std::string MnAliasCache)
 {
-	LogPrintf("Test 2.1 autofill outid2: %s\n", MnAliasCache.toStdString());
+	LogPrintf("Test 2.1 autofill outid2: %s\n", MnAliasCache);
    setMnAliasCache(MnAliasCache);
-   LogPrintf("Test 2.2 autofill outid2: %s\n", MnAliasCache.toStdString());
+   LogPrintf("Test 2.2 autofill outid2: %s\n", MnAliasCache);
 }
 
 void ConfigureMasternodePage::loadIP(QString strIP)

@@ -72,7 +72,7 @@ void ConfigureMasternodePage::counter(int counter)
    setCounters(counter);
 }
 
-void ConfigureMasternodePage::MNAliasCache(std::string MnAliasCache)
+void ConfigureMasternodePage::MNAliasCache(QString MnAliasCache)
 {
    setMnAliasCache(MnAliasCache.toStdString());
 }

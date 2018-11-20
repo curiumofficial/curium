@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The PIVX Core developers, 2017-@COPYRIGHT_YEAR@ The Curium Developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The PIVX Core developers, 2017-@COPYRIGHT_YEAR@ The Phore Developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Curium-Qt</string>
+  <string>Phore-Qt</string>
 
   <key>CFBundleName</key>
-  <string>Curium-Qt</string>
+  <string>Phore-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>io.curium.Curium-Qt</string>
+  <string>io.phore.Phore-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,10 +46,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.curium.CuriumPayment</string>
+      <string>io.phore.PhorePayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>curium</string>
+        <string>phore</string>
       </array>
     </dict>
   </array>
@@ -58,9 +58,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.curium.paymentrequest</string>
+      <string>io.phore.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Curium payment request</string>
+      <string>Phore payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -68,10 +68,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-curium-payment-request</string>
+        <string>application/x-phore-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>curiumpaymentrequest</string>
+          <string>phorepaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -84,7 +84,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.curium.paymentrequest</string>
+        <string>io.phore.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

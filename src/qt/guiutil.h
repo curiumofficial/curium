@@ -30,7 +30,7 @@ class QUrl;
 class QWidget;
 QT_END_NAMESPACE
 
-/** Utility functions used by the Curium Qt UI.
+/** Utility functions used by the Phore Qt UI.
  */
 namespace GUIUtil
 {
@@ -38,7 +38,7 @@ namespace GUIUtil
 QString dateTimeStr(const QDateTime& datetime);
 QString dateTimeStr(qint64 nTime);
 
-// Render Curium addresses in monospace font
+// Render Phore addresses in monospace font
 QFont bitcoinAddressFont();
 
 // Set up widgets for address and amounts
@@ -116,7 +116,7 @@ bool isObscured(QWidget* w);
 // Open debug.log
 void openDebugLogfile();
 
-// Open curium.conf
+// Open phore.conf
 void openConfigfile();
 
 // Open masternode.conf

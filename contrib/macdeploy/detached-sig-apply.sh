@@ -5,7 +5,7 @@ UNSIGNED=$1
 SIGNATURE=$2
 ARCH=x86_64
 ROOTDIR=dist
-BUNDLE=${ROOTDIR}/Curium-Qt.app
+BUNDLE=${ROOTDIR}/Phore-Qt.app
 TEMPDIR=signed.temp
 OUTDIR=signed-app
 

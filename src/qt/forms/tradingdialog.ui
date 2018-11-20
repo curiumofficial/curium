@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="CRUSupply">
+    <widget class="QLabel" name="PHRSupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -197,7 +197,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="CRUDemand">
+    <widget class="QLabel" name="PHRDemand">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="BuyCRU">
+    <widget class="QPushButton" name="BuyPHR">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -442,10 +442,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Buy CRU</string>
+      <string>Buy PHR</string>
      </property>
      <property name="icon">
-      <iconset resource="../curium.qrc">
+      <iconset resource="../phore.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -512,7 +512,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>CRU</string>
+      <string>PHR</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1704,10 +1704,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>CRU</string>
+      <string>PHR</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputCRU">
+    <widget class="QLineEdit" name="UnitsInputPHR">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellCRUBTN">
+    <widget class="QPushButton" name="SellPHRBTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1751,10 +1751,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Sell CRU</string>
+      <string>Sell PHR</string>
      </property>
      <property name="icon">
-      <iconset resource="../curium">
+      <iconset resource="../phore">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -1777,12 +1777,12 @@
          </font>
         </property>
         <property name="text">
-         <string>CRU Available:</string>
+         <string>PHR Available:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="CRUAvailableLabel">
+       <widget class="QLabel" name="PHRAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelCRU">
+       <widget class="QLabel" name="labelPHR">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2221,7 +2221,7 @@
          </font>
         </property>
         <property name="text">
-         <string>CRU</string>
+         <string>PHR</string>
         </property>
        </widget>
       </item>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="CRUBalanceLabel">
+    <widget class="QLabel" name="PHRBalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>CRU Balance:</string>
+      <string>PHR Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="CRUAvailableLabel_2">
+    <widget class="QLabel" name="PHRAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2813,7 +2813,7 @@
       </font>
      </property>
      <property name="text">
-      <string>CRU Available:</string>
+      <string>PHR Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2832,10 +2832,10 @@
       </font>
      </property>
      <property name="text">
-      <string>CRU Pending:</string>
+      <string>PHR Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="CRUPendingLabel">
+    <widget class="QLabel" name="PHRPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2928,7 +2928,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bittrex CRU Deposit Address:</string>
+      <string>Bittrex PHR Deposit Address:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="GenDepositBTN">
@@ -2941,10 +2941,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Generate Curium Deposit Address</string>
+      <string>Generate Phore Deposit Address</string>
      </property>
      <property name="icon">
-      <iconset resource="../curium.qrc">
+      <iconset resource="../phore.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3155,7 +3155,7 @@
        <string notr="true">border: 1px solid #61696c;margin-left:4px;</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnConvertCurium">
+     <widget class="QPushButton" name="btnConvertPhore">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -3206,7 +3206,7 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="../curium.qrc">:/icons/transaction_1</pixmap>
+       <pixmap resource="../phore.qrc">:/icons/transaction_1</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -3253,7 +3253,7 @@
       <string>Update API Keys</string>
      </property>
      <property name="icon">
-      <iconset resource="../curium.qrc">
+      <iconset resource="../phore.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3408,7 +3408,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="../curium.qrc"/>
+  <include location="../phore.qrc"/>
  </resources>
  <connections/>
 </ui>

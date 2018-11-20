@@ -129,7 +129,10 @@ void ConfigureMasternodePage::updateAlias(std::string Alias, std::string IP, std
 	vector<COutPoint> confLockedCoins;
     uint256 mnTxHash;
     mnTxHash.SetHex(TxHash);
-    COutPoint outpoint = COutPoint(mnTxHash, std::stoi(OutputIndex));
+    int nIndex;
+    if(!mne.castOutputIndex(nIndex))
+        continue;
+    COutPoint outpoint = COutPoint(mnTxHash, nIndex);
     confLockedCoins.push_back(outpoint);
     pwalletMain->UnlockCoin(outpoint);
 

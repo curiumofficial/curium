@@ -19,6 +19,7 @@
 
 #include <QMessageBox>
 #include <QTimer>
+#include <fstream>
 #include <iostream>
 #include <string>
 
@@ -366,7 +367,7 @@ void MasternodeList::deleteAlias()
 			vector<COutPoint> confLockedCoins;
 			uint256 mnTxHash;
 			mnTxHash.SetHex(mne.getTxHash());
-			COutPoint outpoint = COutPoint(mnTxHash, mne.getOutputIndex());
+			COutPoint outpoint = COutPoint(mnTxHash, std::to_string(mne.getOutputIndex()));
 			confLockedCoins.push_back(outpoint);
 			pwalletMain->UnlockCoin(outpoint);
 			masternodeConfig.deleteAlias(count);

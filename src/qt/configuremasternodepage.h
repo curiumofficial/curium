@@ -7,6 +7,7 @@
 #define BITCOIN_QT_CONFIGUREMASTERNODEPAGE_H
 
 #include "masternodelist.h"
+#include "wallet.h"
 
 #include <QAbstractButton>
 #include <QAction>
@@ -18,7 +19,6 @@
 #include <QString>
 #include <QTreeWidgetItem>
 #include <univalue.h>
-#include "wallet.h"
 
 class WalletModel;
 class MasternodeList;
@@ -48,6 +48,7 @@ public:
     ~ConfigureMasternodePage();
 
 	void counter(int counter);
+	void MNAliasCache(std::string MnAliasCache);
     void loadAlias(QString strAlias);
     void loadIP(QString strIP);
     void loadPrivKey(QString strPrivKey);
@@ -63,6 +64,16 @@ public:
 	{
 		counters = counter;
 	}
+	
+	std::string getMnAliasCache()
+	{
+		return mnAliasCache;
+	}
+	
+	std::string setMnAliasCache(std::string MnAliasCache)
+	{
+		mnAliasCache = MnAliasCache;
+	}
 
     QString getAddress() const;
     void setAddress(const QString& address);
@@ -75,6 +86,7 @@ public slots:
 private:
     void saveCurrentRow();
 	int counters;
+	std::string mnAliasCache;
     Ui::ConfigureMasternodePage* ui;
     QDataWidgetMapper* mapper;
     Mode mode;

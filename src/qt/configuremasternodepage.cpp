@@ -72,6 +72,11 @@ void ConfigureMasternodePage::counter(int counter)
    setCounters(counter);
 }
 
+void ConfigureMasternodePage::MNAliasCache(std::string MnAliasCache)
+{
+   setMnAliasCache(MnAliasCache.toStdString());
+}
+
 void ConfigureMasternodePage::loadIP(QString strIP)
 {
    ui->vpsIpEdit->setText(strIP);
@@ -123,24 +128,27 @@ void ConfigureMasternodePage::accept()
 
 void ConfigureMasternodePage::updateAlias(std::string Alias, std::string IP, std::string PrivKey, std::string TxHash, std::string OutputIndex)
 {
+	std::string MnAlias = getMnAliasCache();
+	BOOST_FOREACH (CMasternodeConfig::CMasternodeEntry mne, masternodeConfig.getEntries()) {
+		if(MnAlias == mne.getAlias()) {
+			int count = 0;
+			count = getCounters();
+			vector<COutPoint> confLockedCoins;
+			uint256 mnTxHash;
+			mnTxHash.SetHex(TxHash);
+			int nIndex;
+			if(!mne.castOutputIndex(nIndex))
+				continue;
+			COutPoint outpoint = COutPoint(mnTxHash, nIndex);
+			confLockedCoins.push_back(outpoint);
+			pwalletMain->UnlockCoin(outpoint);
 
-	int count = 0;
-	count = getCounters();
-	vector<COutPoint> confLockedCoins;
-    uint256 mnTxHash;
-    mnTxHash.SetHex(TxHash);
-    int nIndex;
-    if(!mne.castOutputIndex(nIndex))
-        continue;
-    COutPoint outpoint = COutPoint(mnTxHash, nIndex);
-    confLockedCoins.push_back(outpoint);
-    pwalletMain->UnlockCoin(outpoint);
-
-	masternodeConfig.deleteAlias(count);
-	masternodeConfig.add(Alias, IP, PrivKey, TxHash, OutputIndex);
-	// write to masternode.conf
-	masternodeConfig.writeToMasternodeConf();
-			
+			masternodeConfig.deleteAlias(count);
+			masternodeConfig.add(Alias, IP, PrivKey, TxHash, OutputIndex);
+			// write to masternode.conf
+			masternodeConfig.writeToMasternodeConf();
+		}
+	}	
 
 }
 

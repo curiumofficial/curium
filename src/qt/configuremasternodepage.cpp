@@ -20,6 +20,7 @@
 #include "masternodeconfig.h"
 #include "masternodeman.h"
 #include "masternodelist.h"
+#include "wallet.h"
 
 #include <univalue.h>
 #include <QIcon>
@@ -146,7 +147,7 @@ void ConfigureMasternodePage::updateAlias(std::string Alias, std::string IP, std
 			count = getCounters();
 			vector<COutPoint> confLockedCoins;
 			uint256 mnTxHash;
-			mnTxHash.SetHex(TxHash);
+			mnTxHash.SetHex(mne.getTxHash());
 			int nIndex;
 			if(!mne.castOutputIndex(nIndex))
 				continue;

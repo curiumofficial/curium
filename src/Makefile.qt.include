@@ -36,8 +36,6 @@ QT_TS = \
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
-  qt/forms/privkeypage.ui \
-  qt/forms/outputspage.ui \
   qt/forms/configuremasternodepage.ui \
   qt/forms/askpassphrasedialog.ui \
   qt/forms/bip38tooldialog.ui \
@@ -55,6 +53,7 @@ QT_FORMS_UI = \
   qt/forms/overviewpage.ui \
   qt/forms/receivecoinsdialog.ui \
   qt/forms/privacydialog.ui \
+  qt/forms/proposaldialog.ui \
   qt/forms/receiverequestdialog.ui \
   qt/forms/rpcconsole.ui \
   qt/forms/sendcoinsdialog.ui \
@@ -65,8 +64,6 @@ QT_FORMS_UI = \
 
 QT_MOC_CPP = \
   qt/moc_addressbookpage.cpp \
-  qt/moc_privkeypage.cpp \
-  qt/moc_outputspage.cpp \
   qt/moc_configuremasternodepage.cpp \
   qt/moc_addresstablemodel.cpp \
   qt/moc_askpassphrasedialog.cpp \
@@ -98,6 +95,7 @@ QT_MOC_CPP = \
   qt/moc_peertablemodel.cpp \
   qt/moc_paymentserver.cpp \
   qt/moc_columnalignedlayout.cpp \
+  qt/moc_proposaldialog.cpp \
   qt/moc_proposalfilterproxy.cpp \
   qt/moc_proposaltablemodel.cpp \
   qt/moc_proposallist.cpp \
@@ -178,6 +176,7 @@ BITCOIN_QT_H = \
   qt/paymentrequestplus.h \
   qt/paymentserver.h \
   qt/columnalignedlayout.h \
+  qt/proposaldialog.h \
   qt/proposalfilterproxy.h \
   qt/proposallist.h \
   qt/proposalrecord.h \
@@ -193,8 +192,6 @@ BITCOIN_QT_H = \
   qt/rpcconsole.h \
   qt/sendcoinsdialog.h \
   qt/sendcoinsentry.h \
-  qt/privkeypage.h \
-  qt/outputspage.h \
   qt/configuremasternodepage.h \
   qt/signverifymessagedialog.h \
   qt/splashscreen.h \
@@ -244,7 +241,6 @@ RES_ICONS = \
   qt/res/icons/eye_minus.png \
   qt/res/icons/eye_plus.png \
   qt/res/icons/filesave.png \
-  qt/res/icons/proposal.png \  
   qt/res/icons/history.png \
   qt/res/icons/history_off.png \
   qt/res/icons/key.png \
@@ -303,6 +299,7 @@ BITCOIN_QT_CPP = \
   qt/optionsmodel.cpp \
   qt/peertablemodel.cpp \
   qt/platformstyle.cpp \
+  qt/proposaldialog.cpp \
   qt/qvalidatedlineedit.cpp \
   qt/qvaluecombobox.cpp \
   qt/rpcconsole.cpp \
@@ -317,8 +314,6 @@ endif
 if ENABLE_WALLET
 BITCOIN_QT_CPP += \
   qt/addressbookpage.cpp \
-  qt/privkeypage.cpp \
-  qt/outputspage.cpp \
   qt/configuremasternodepage.cpp \
   qt/addresstablemodel.cpp \
   qt/askpassphrasedialog.cpp \
@@ -336,6 +331,7 @@ BITCOIN_QT_CPP += \
   qt/paymentrequestplus.cpp \
   qt/paymentserver.cpp \
   qt/columnalignedlayout.cpp \
+  qt/proposaldialog.cpp \
   qt/proposalfilterproxy.cpp \
   qt/proposallist.cpp \
   qt/proposalrecord.cpp \

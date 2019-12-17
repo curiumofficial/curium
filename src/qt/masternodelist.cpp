@@ -1,8 +1,11 @@
+// Copyright (c) 2017 The PIVX developers
+// Copyright (c) 2019 The Phore Developers
+// Distributed under the MIT/X11 software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
 #include "masternodelist.h"
 #include "ui_masternodelist.h"
 
-#include "privkeypage.h"
-#include "outputspage.h"
 #include "configuremasternodepage.h"
 
 #include "activemasternode.h"
@@ -99,18 +102,6 @@ void MasternodeList::showContextMenu(const QPoint& point)
 {
     QTableWidgetItem* item = ui->tableWidgetMyMasternodes->itemAt(point);
     if (item) contextMenu->exec(QCursor::pos());
-}
-
-void MasternodeList::on_getMNPrivKeyButton_clicked()
-{
-    PrivKeyPage dlg(this);
-    dlg.exec();
-}
-
-void MasternodeList::on_getOutputsButton_clicked()
-{
-    OutPutsPage dlg(this);
-    dlg.exec();
 }
 
 void MasternodeList::StartAlias(std::string strAlias)
@@ -237,19 +228,6 @@ void MasternodeList::updateMyNodeList(bool fForce)
 
     if (nSecondsTillUpdate > 0 && !fForce) return;
     nTimeMyListUpdated = GetTime();
-	
-	while (ui->tableWidgetMyMasternodes->rowCount() > 0)
-	{
-		ui->tableWidgetMyMasternodes->removeRow(0);
-	}		
-	
-	// clear cache
-	masternodeConfig.clear();
-    // parse masternode.conf
-    std::string strErr;
-    if (!masternodeConfig.read(strErr)) {
-        LogPrintf("Error reading masternode configuration file: \n");
-    }	
 
     ui->tableWidgetMyMasternodes->setSortingEnabled(false);
     BOOST_FOREACH (CMasternodeConfig::CMasternodeEntry mne, masternodeConfig.getEntries()) {
@@ -330,6 +308,18 @@ void MasternodeList::on_configureMasternodeButton_clicked()
     ConfigureMasternodePage dlg(ConfigureMasternodePage::NewConfigureMasternode, this);
     if ( QDialog::Accepted == dlg.exec() )
     {
+while (ui->tableWidgetMyMasternodes->rowCount() > 0)
+	{
+		ui->tableWidgetMyMasternodes->removeRow(0);
+	}		
+	
+	// clear cache
+	masternodeConfig.clear();
+    // parse masternode.conf
+    std::string strErr;
+    if (!masternodeConfig.read(strErr)) {
+        LogPrintf("Error reading masternode configuration file: \n");
+    }	
       updateMyNodeList(true);
     }
 }
@@ -346,6 +336,18 @@ void MasternodeList::openEditConfigureMasternodePage(QString strAlias, QString s
 	dlg.MNAliasCache(strAlias);
     if ( QDialog::Accepted == dlg.exec() )
     {
+while (ui->tableWidgetMyMasternodes->rowCount() > 0)
+	{
+		ui->tableWidgetMyMasternodes->removeRow(0);
+	}		
+	
+	// clear cache
+	masternodeConfig.clear();
+    // parse masternode.conf
+    std::string strErr;
+    if (!masternodeConfig.read(strErr)) {
+        LogPrintf("Error reading masternode configuration file: \n");
+    }	
       updateMyNodeList(true);
     }
 }
@@ -377,6 +379,18 @@ void MasternodeList::deleteAlias()
 			masternodeConfig.deleteAlias(count);
 			// write to masternode.conf
 			masternodeConfig.writeToMasternodeConf();
+while (ui->tableWidgetMyMasternodes->rowCount() > 0)
+	{
+		ui->tableWidgetMyMasternodes->removeRow(0);
+	}		
+	
+	// clear cache
+	masternodeConfig.clear();
+    // parse masternode.conf
+    std::string strErr;
+    if (!masternodeConfig.read(strErr)) {
+        LogPrintf("Error reading masternode configuration file: \n");
+    }			
 			updateMyNodeList(true);
 			break;
 			

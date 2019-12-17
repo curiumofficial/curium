@@ -1,4 +1,4 @@
-// Copyright (c) 2018 The Phore developers
+// Copyright (c) 2019 The Phore Developers
 // Copyright (c) 2018 The Curium developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -70,7 +70,7 @@ void ConfigureMasternodePage::loadAlias(QString strAlias)
 
 void ConfigureMasternodePage::counter(int counter)
 {
-   ConfigureMasternodePage::setCounters(counter);
+   setCounters(counter);
 }
 
 
@@ -116,7 +116,7 @@ void ConfigureMasternodePage::saveCurrentRow()
 			break;
 		}
 	    
-	    QString MnAlias = ConfigureMasternodePage::getMnAliasCache();
+	    QString MnAlias = getMnAliasCache();
 		ConfigureMasternodePage::updateAlias(ui->aliasEdit->text().toStdString(), ui->vpsIpEdit->text().toStdString(), ui->privKeyEdit->text().toStdString(), ui->outputEdit->text().toStdString(), ui->outputIdEdit->text().toStdString(), MnAlias.toStdString());
 		break;
     }

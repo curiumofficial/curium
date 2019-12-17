@@ -1,3 +1,8 @@
+// Copyright (c) 2017 The PIVX developers
+// Copyright (c) 2019 The Phore Developers
+// Distributed under the MIT/X11 software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
 #ifndef MASTERNODELIST_H
 #define MASTERNODELIST_H
 
@@ -76,8 +81,6 @@ private Q_SLOTS:
     void on_startMissingButton_clicked();
 	void on_configureMasternodeButton_clicked();
 	void openEditConfigureMasternodePage(QString strAlias, QString strIP, QString strPrivKey, QString strTxHash, QString strOutputIndex, int count);
-    void on_getMNPrivKeyButton_clicked();
-	void on_getOutputsButton_clicked();
     void on_tableWidgetMyMasternodes_itemSelectionChanged();
     void on_UpdateButton_clicked();
 };

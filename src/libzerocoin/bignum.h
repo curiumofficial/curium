@@ -66,7 +66,6 @@ public:
         SetHexBool(str);
     }
     
-
     CBigNum(const CBigNum& b)
     {
         bn = BN_new();
@@ -423,7 +422,7 @@ public:
         CAutoBN_CTX pctx;
         CBigNum bnBase = nBase;
         CBigNum bn0 = 0;
-	CBigNum locBn = *this;
+	      CBigNum locBn = *this;
         std::string str;
         BN_set_negative(locBn.bn, false);
         CBigNum dv;

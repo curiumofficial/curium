@@ -71,7 +71,8 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     (600000, uint256("f62f6fbb0b1b901871de080a05cb6f64858028102ae58a20398421174db77f13"))
     (700000, uint256("87e7c895c50017f145b4fe50d3f31333523cad0389f8d3fb52958ef977ac7bcb"))
     (784600, uint256("aa9674333efbf557f3f15f852adde3880731dfb326ff73fe30df919d698e5d22"))
-    (791800, uint256("041973e61963048218f91c72fad5eacd6056c455bcef6d633f607f6edc6c3989"));
+    (791800, uint256("041973e61963048218f91c72fad5eacd6056c455bcef6d633f607f6edc6c3989"))
+    (849300, uint256("b5bc1303a62aacdd96aabc86342e9c4e1ce8c11548de6b2b15c1ec01fdfd6ec9"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -187,8 +188,8 @@ public:
         assert(hashGenesisBlock == uint256("0x20438ea808f386bca78de64fc78320312af41d0d828763a9f5dd444d8ba7b54c"));
         assert(genesis.hashMerkleRoot == uint256("0x8738140c726a5ee4eabd99024115280f825c57bae6decc2b14251b917152df4f"));
 
-        vSeeds.push_back(CDNSSeedData("dns0", "dns0.curiumofficial.com"));     // Primary DNS Seeder
-        vSeeds.push_back(CDNSSeedData("dns1", "dns1.curiumofficial.com"));    // Secondary DNS Seeder
+        vSeeds.push_back(CDNSSeedData("dns0", "dns0.curium.phore.io"));     // Primary DNS Seeder
+        vSeeds.push_back(CDNSSeedData("dns1", "dns1.curium.phore.io"));    // Secondary DNS Seeder
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 60);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
